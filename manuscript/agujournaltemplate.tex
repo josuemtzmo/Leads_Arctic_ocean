@@ -130,110 +130,49 @@ The Arctic sea-ice plays a crucial role in regulating Earth's climate by serving
 Leads vary in scale from a few meters to kilometers in width, and span distances of a few kilometers up to hundreds of kilometers \citep{Tschudi_obs_leads_1998}. Their formation mechanisms are diverse, ranging from mechanical to thermodynamic processes \citep{Rampal_nextsim_2016, Hutchings_model_lkf_2005}. Mechanically, sea ice deformation and fracturing are caused by winds and ocean currents \citep{Richter_pack_stress_2002}. Winds are thought to be the main forcing of the sea ice deformation, where persistent winds stress result in sea ice fracturing, and eventually leads \citep{Linow_lkf_2017, Hutter_scaling_lkf_2018}. Although ocean currents have a smaller contribution to the sea ice deformation compared to the wind forcing, ocean drag at the bottom of the ice acts to balance the wind-induced sea ice velocities \citep{Weiss_scale_2004}. Additionally, observations show that ocean currents may play a bigger role in dictating the fracturing patterns of sea ice in regions with strong currents and bath features \citep{Willmes_leads_currents_2023}. Alongside these mechanical forces, thermodynamic processes such as a rapid variation of the air or ocean temperature can result in the fracturing of sea ice \citep{Lewis_thermomechanics_1998}. Once a lead is formed, warm air temperatures can instigate localized melting maintaining the lead open. Conversely, during colder periods, rapid freezing facilitate the close a lead. The intricate interplay between these thermodynamic processes and dynamic forces dictates the evolution and persistence of leads.
 
 % \textbf{Describe believed importance in the fluxes and likely impact to WMT.}
-Leads are crucial since they act as gateways between the atmosphere and the ocean, exchanging heat, moisture, and gases \citep{Michaelis_lead_2022, Andreas_vapor_2002}. Depending on the season and the atmospheric forcing, this direct contact between the ocean water and atmosphere can result in locally intensified heat fluxes at the ocean-atmosphere interphase \citep{Marcq_flux_lead_2012,Maykut_heat_1986}, localized ice melt or growth, and modify the ocean dynamics \citep{Bourgault_flux_lkf_2020}. For example, in winter heat exchange from the ocean to the cold atmosphere, in addition to ice freezing within the leads, result in local convective processes in both the ocean and atmosphere \citep{Lupkes_leads_2008,McPhee_LKF_2005}. A change in the surface temperature and salinity due to the heat and salt flux at the ocean-ice -atmosphere interfaces transform locally the surface water masses \citep{Walin_WMT_1982}. Leads have a undeniable local impact in the ocean and it has been hypothesized that leads may play a significant role in the Arctic by modulating the stratification and water mass transformation \citep{}. However, the magnitude and influence of the LKFs compared to the surrounding ice pack in the Arctic basin is yet to be quantified.
+Leads are crucial since they act as gateways between the atmosphere and the ocean, exchanging heat, moisture, and gases \citep{Michaelis_lead_2022, Andreas_vapor_2002}. Depending on the season and the atmospheric forcing, this direct contact between the ocean water and atmosphere can result in locally intensified heat fluxes at the ocean-atmosphere interphase \citep{Marcq_flux_lead_2012,Maykut_heat_1986}, localized ice melt or growth, and modify the ocean dynamics \citep{Bourgault_flux_lkf_2020}. For example, in winter heat exchange from the ocean to the cold atmosphere, in addition to ice freezing within the leads, result in local convective processes in both the ocean and atmosphere \citep{Lupkes_leads_2008,McPhee_LKF_2005}. A change in the surface temperature and salinity due to the heat and salt flux at the ocean-ice -atmosphere interfaces transform locally the surface water masses \citep{Walin_WMT_1982}. Leads have a undeniable local impact in the ocean and it has been hypothesized that leads may play a significant role in the Arctic by modulating the stratification, altering ocean circulation and transformation of water masses \citep{Reiser_LKF_2020,Smith_polynyas_1990}. However, the magnitude and influence of the LKFs compared to the surrounding ice pack in the Arctic basin is yet to be quantified.
 
-% It is well known that traditional sea-ice models only reproduce lead-fraction and linear-kinematic-feature properties when run at very high resolution and/or when care is taken that the momentum equation solver converges (Girard et al., 2011; Wang et al., 2016; Spreen et al., 2017; Hutter et al., 2018).
+To investigate and quantify the impact of the LKFs in the Arctic ocean, we use a really high resolution pan-Arctic hindcast; SEDNA \citep{SEDNA_2023}. Then, we compute a mask of the linear kinematic features during the 2014 year, as well as the buoyancy fluxes and water mass transformation for the identified LKFs and compare them to the ice pack (See Methods for details of the calculations and numerical model).  
 
-
-% \textbf{Check references: (Wåhlström et al., 2019) (Liu et al., 2020). (Carmack et al., 2016)}
-
-% \textbf{Describe Effect of leads in the surrounding ice pack}
-% The presence of sea ice leads has a non-local impact, since they can alter the stability of the surrounding ice pack \citep{Bourgault_heat_flux_2020}. The exposure of ocean water to the Arctic atmosphere leads to localized ice growth, creating new ice and modifying the ice pack's overall structure (Rampal et al., 2009). Additionally, leads contribute to the dispersion and fragmentation of the ice cover, affecting its overall extent and concentration (Tschudi et al., 2016). The increased surface area of leads relative to the surrounding ice pack also influences radiative heat exchange, further impacting the rate of ice melt and overall ice-albedo feedback (Lindsay and Schweiger, 2015). Investigating the influence of leads on the ice pack's dynamics is crucial for understanding the sea ice patterns in the Arctic.
-
-% The Arctic region has long been characterized by its vast expanse of sea ice, playing a crucial role in regulating Earth's climate by serving as a natural insulator between the frigid Arctic atmosphere and the relatively warmer ocean below. Arctic sea ice acts as a thermal barrier, preventing excessive heat loss from the ocean and minimizing evaporation, thereby contributing to the maintenance of a stable polar environment (Serreze and Barry, 2011). However, in recent decades, the Arctic sea ice has experienced significant declines in extent and thickness, amplifying concerns over its role as a climate stabilizer. This paper aims to explore the multifaceted role of sea ice leads in the Arctic Ocean, focusing on their formation, climatology, and importance in facilitating fluxes between the atmosphere and ocean, as well as their impact on the surrounding ice pack.
-
-% One particularly feature of Arctic sea ice is the formation and persistence of sea ice leads—narrow cracks and openings in the ice cover that expose the ocean's surface to the atmosphere (Kwok et al., 2018; Tschudi et al., 2016). These leads play a pivotal role in the Arctic sea-ice dynamics and are belived to have far-reaching implications for the overall Arctic climate. 
-
-% The significance of sea ice leads lies in their potential to modify the water formation processes within the Arctic Ocean. Sea ice acts as a critical barrier, insulating the underlying ocean from the frigid Arctic atmosphere, restricting heat transfer and evaporation (Steele et al., 2008; Perovich et al., 2020). However, 
-
-% As the Arctic sea ice extent diminishes, the number and size of sea ice leads increase, opening up avenues for direct interactions between the ocean and atmosphere (Bates et al., 2018; Smedsrud et al., 2017). This allows for enhanced exchanges of heat, moisture, and gases, profoundly influencing the physical and chemical properties of the Arctic waters.
-
-% As the Arctic sea ice retreats, the formation and expansion of sea ice leads expose the relatively warmer ocean water to the cold Arctic air. 
-
-% This process leads to an increased rate of heat loss from the ocean to the atmosphere, significantly impacting regional and global climate patterns (Cavalieri and Parkinson, 2012; Serreze and Barry, 2011). Moreover, the interaction of sea ice leads with the atmosphere fosters the formation of clouds, influencing cloud cover, distribution, and properties, thereby affecting the Earth's radiation balance and contributing to the overall warming trend (Kay and Gettelman, 2009; Morrison et al., 2012).
-
-% In this paper, we delve into the relevance of sea ice leads in the Arctic Ocean and their influence on water formation processes. We aim to comprehensively explore the mechanisms behind the creation of sea ice leads, their seasonal variations, and their potential impact on the Arctic's hydrology and climate system. Additionally, we will investigate the intricate feedback loops that govern the interplay between sea ice leads, ocean circulation, and atmospheric dynamics, as well as the cascading effects on ecosystems and biogeochemical cycles.
-
-% Understanding the role of sea ice leads in modifying water formation is of utmost importance for predicting future climate scenarios, especially in the context of Arctic amplification and its potential global ramifications (Serreze and Stroeve, 2015; Holland et al., 2010). Moreover, the repercussions of altered water formation in the Arctic Ocean extend beyond the region itself, influencing the Earth's climate system as a whole. Therefore, this paper seeks to contribute to the growing body of knowledge on the Arctic's response to climate change, fostering a deeper comprehension of this delicate and vital component of our planet's environmental equilibrium.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% Water mass transformation in the Arctic plays a critical role in shaping the region's complex oceanic dynamics and has significant implications for sea ice distribution and evolution. 
-
-% In conclusion, sea ice leads play a vital role in the Arctic's climate system, acting as a gateway for exchanges between the atmosphere and ocean. Their formation, climatology, and impact on the surrounding ice pack are all interconnected components that need to be comprehensively studied to gain insights into the rapidly evolving Arctic environment. Understanding the dynamic behavior of sea ice leads is crucial for predicting the future trajectory of Arctic sea ice, climate, and its potential feedback on global climate change. By unraveling the complexities of sea ice leads, we can pave the way towards more informed strategies for mitigating the impacts of Arctic amplification on a global scale.
-
-\section{Methods}
-\subsection*{Model description}
-
-
-The study employs the NEMO numerical platform (release 4.0.5) to establish a 1/60$^\circ$ pan-Arctic ocean-sea ice configuration named SEDNA. The ocean core (NEMO-OCE) solves the primitive equations (PE) using finite differences on an Arakawa C-grid mesh, while the ocean is coupled to the SI3 sea-ice component (NEMO-SI3). The pan-Arctic domain covers the Bering Strait on the Pacific side and extends southward to 56$^\circ$N in the Subpolar North Atlantic gyre and to the Baltic Sea entrance. The ocean model incorporates a linear free surface, utilizes a 3rd order flux form scheme for momentum advection, and employs a 4th order Flux Corrected Transport (FCT) for tracer advection. Additionally, the sea-ice representation includes a 5-category model with the Elasto-Visco-Plastic (EVP) rheology activated and a land-fast capability to better simulate sea-ice behavior in specific areas.
-
-The NCAR bulk formula from Large \& Yeager (2009) to calculate air-sea fluxes and uses hourly ERA5 atmospheric data for near-surface variables. The three lateral boundaries are constrained with daily GLORYS12V1 Re-analysis data, and monthly freshwater fluxes from river discharges are combined with Greenland land ice melt data to supply SEDNA. The simulation extends over seven years (2009 to 2015) and starts from rest, utilizing initial conditions based on the World Ocean Atlas 2009 temperature/salinity and mean January 2009 ice state from PIOMAS re-analysis. Preliminary assessment against available observations and re-analyses data shows that the simulation reasonably captures key ocean and sea-ice characteristics.
-
-
-% The NEMO numerical platform (release 4.0.5) is used to setup a 1/60° pan-Arctic ocean-sea ice configuration named SEDNA [Talandier \& Lique 2023]. The ocean core [NEMO-OCE] solves the primitive equations (PE) using the finite differences method on an Arakawa C-grid mesh. The ocean is coupled to the SI3 sea-ice component [NEMO-SI3].
-% The pan-Arctic domain is limited by the Bering strait on the Pacific side and extends southward to 56°N in the Subpolar North Atlantic gyre and to the Baltic Sea entrance. For the bottom topography, the ETOPO 1 data [Amente et al. 2009] is interpolated onto the so called ORCA orthogonal curvilinear grid [Madec and Imbard (1996)]. This tripolar grid has two north poles on the Eurasian and North American continents leading to the finest grid spacing in the Canadian Archipelago (lower than 500m) while most of the Arctic basin has a 800m resolution. 150 vertical levels are set with an increasing resolution from 1m to 100m for surface layers and at the bottom respectively with values lower than 10m in the first 400m. A minimum of 10m depth modification is applied in very few areas and the partial bottom cells are allowed to get the best bathymetry profile.
-
-% The air-sea fluxes are computed using the NCAR bulk formulae from Large \& Yeager (2009) and relies on hourly near surface atmospheric state variables from ERA5 [Hersbach et al. 2020]. The three lateral boundaries are constrained with daily GLORYS12V1 Re-analysis data [Lellouche et al. 2012] interpolated on both horizontal and vertical to fit the SEDNA grid characteristics. Monthly freshwater fluxes from river discharges [Dai et al. (2009)] are combined to Greenland land ice melt data [Bamber et al. (2012] to supply SEDNA.
-
-% The model time step is 40 seconds and the ocean/sea-ice coupling is done at each time step. A linear free surface is activated; the momentum advection is ensured by an upstream biased 3rd order flux form scheme and tracers are advected using a 4th order Flux Corrected Transport (FCT) on the horizontal (2nd order over the vertical). A bi-Laplacian horizontal viscosity and Laplacian iso-neural diffusivity (both depending on the grid spacing) are used with respective weak values of 3.25e06 m4/s and 20 m2/s. The vertical mixing relies on the Turbulent Kinetic Energy (TKE) scheme and is associated to the internal tides induced mixing parameterisation [de Lavergne et al. 2020]. An Enhanced Vertical Diffusivity (EVD) mixing scheme is also used for convective processes with a 10 m2 s-1 maximum value.
-% The sea-ice is represented with 5-categories and the Elasto-Visco-Plastic (EVP) rheology is activated with an ice strength P* value of 2.5e+04 Nm-2. The atmosphere-ice drag depends on the ice concentration following Lupkes \& Gryanik (2015) formulation while a constant value of 1e-2 is set for the ocean-ice drag. The land-fast capability is used to better reproduce the sea-ice behaviour over areas such as the ones located on the Eurasian shelf as the melt pond representation as well. 
-
-% A single 7-year long experiment is performed starting in 2009 and extending to 2015. It starts from rest with an initial state  based on the World Ocean Atlas 2009 temperature/salinity [Locarnini et al. 2010, Antonov et al. 2010] and mean January 2009 ice state from PIOMAS re-analysis [Zhang \& Rothrock (2003)]. A first order assessment of few key ocean and sea-ice characteristics have been done showing that this simulation behave reasonably well against available observations and re-analyses data. 
-
-\subsection*{LKF identification}
-
-The LKF from SEDNA were identified by using the algorithm proposed by \citet{Hutter_identification_2019}. This method uses the total deformation rate defined as: 
-\begin{equation}
-    T_d = \left[\left(\underbrace{\frac{\partial u}{\partial x} +\frac{\partial v}{\partial y}}_{Divergence}\right)^2 + \underbrace{\left(\frac{\partial u}{\partial x} - \frac{\partial v}{\partial y}\right)^2+ \left(\frac{\partial u}{\partial y} + \frac{\partial v}{\partial x}\right)^2}_{Shear}\right]^{1/2},
-\end{equation}
-where $u$ and $v$ are the sea ice velocities. The deformation rate varies spatially depending on the background deformation and the sea ice properties \citep{}, where the largest deformation rates occur along the boundaries of ice flows where the LKF are found. Therefore, to identify the LKFs it is required to identify the local maxima using edge detection (DoG filter) in the deformation rate field. After the edge detection, using binary map we obtain a mask with the original width of identified LKF. This mask is then used to compute the statistics presented in this study. After this step, \citet{Hutter_identification_2019} reduce the LKFs width to a single pixel to then track the LKF over time. Since our study focus on the ocean-atmosphere interactions, we only use the identification algorithm to produce a mask of LKFs during 2014 for the Arctic, where we retain the original width computed from the deformation rate. This mask is then used to quantify and contrast the impact of LKFs compared to the ice-pack.
-
-\subsection*{Buoyancy flux and water mass transformation}
- 
-% Our LKF detection algorithm consists of three parts: (1) a preprocessing step that transforms the input deformation data into a binary map of pixels that mark LKFs by using different ﬁlter steps, (2) a detection routine that splits the network of LKF pixels in the binary map into the smallest possible segments, and (3) a reconnection instance that estimates the probability of different segments belonging to one feature and then connects all segments of a LKF. The general structure of the algorithm follows Linow and Dierking (2017), although individual parts have been modiﬁed substantially. The main enhancements of the algorithm are a parallel detection of segments with a stronger constraint on the curvature and the introduction of a probability-based reconnection. Further, the entire algorithm was rewritten in Python (Python Software Foundation, http://www.python.org, last access: 15 February 2019) to avoid license issues with the previous code that was based on the commercial software IDL.
-
-\begin{itemize}
-    \item Describe MLD definition
-    \item Describe buoyancy flux and decomposition between thermal and haline components.
-\end{itemize}
-
-\section{Results}
-
-\textbf{Figures:}
-\begin{enumerate}
-    \item Satellite and model image of LKF
-    \item Buoyancy flux on 2 different snapshots and LKF mask (Total deformation panel?).
-    \item Time-series of area cover + buoyancy fluxes. (Merge the 0-80% concentration, add panel with the ratio between fluxes)
-    \item Water mass transformation of the Pack Ice and the LKF.
-    \item Density composite for summer and winter? (Potential to affect interior)
-\end{enumerate}
+\subsection*{Observation vs Models}
 
 \begin{figure}
     \centering
     \includegraphics[width=0.9\textwidth]{./figures/Figure_1_SENTINE_SEDNA_LKF_conc.pdf}
-    \caption{Linear kinematic features from observations and high resolution model. a) True color from Sentinel 3 on the 12th of April 2022. b) Zoom of magenta area in panel a) showing the linear kinematic features on the 12th of April 2022. c) Mean ice concentration from SEDNA (800m resolution) on the 21st of April 2014. d) Zoom of magenta area in panel d) showing the linear kinematic features on the 21st of April 2014.}
+    \caption{Linear kinematic features from SEDNA. a) Linear kinematic mean frequency during winter between 2011 and 2015. b) Snapshot of the total deformation for the XX of XX. c) True color image from Sentinel 3 on the 12th of April 2022 for the magenta area in panel a. d) Mean ice concentration from SEDNA (800m resolution) on the 21st of April 2014. e) Total deformation used to identifies the linear kinematic features. f) Identified linear kinematic features on the 21st of April 2014.}
     \label{fig:fig1}
 \end{figure}
 
-\subsection{Observation vs Models}
+% \textbf{Figure 1}
+% \begin{itemize}
+%     \item Describe spatial pattern of features, for example in satellite we observe many floes of different scales that the model can not reproduce
+%     \item Describe that the model is a mean state over a day, thus it is likely smoother. 
+%     \item Highlight that model still reproduces features similar to those observed in the model. 
+%     \item The length-scales also appear to match (Should we do something to quantify this?)
+%     \item Add statistics of the LKF compare to other studies? 
+% \end{itemize}
 
-\textbf{Figure 1}
-\begin{itemize}
-    \item Describe spatial pattern of features, for example in satellite we observe many floes of different scales that the model can not reproduce
-    \item Describe that the model is a mean state over a day, thus it is likely smoother. 
-    \item Highlight that model still reproduces features similar to those observed in the model. 
-    \item The length-scales also appear to match (Should we do something to quantify this?)
-    \item Add statistics of the LKF compare to other studies? 
-\end{itemize}
+Climate models and high resolution sea ice models are unable to reproduce leads due to their small footprint in the Arctic \citep{Wang_leads_2016}. SEDNA is capable to overcome this limitation, due to its spatial resolution of $\sim 800m$ on average in the Arctic. The climatology of the winter lead probability is shown in Figure \ref{fig:fig1}a. There are several distinct spatial patterns that match those from observations \citep{Willmes_leads_currents_2023}. For example, we observe increased lead frequency in the shelves, along bathymetric features and in regions with large kinetic energy. Several hotspots can be identified along the sea shelves and in the Chukchi Sea, highlighting the model's ability to reproduce the LKF dynamics. 
+
+SEDNA is capable of reproducing the overall pattern of the observed winter lead distribution in the Arctic shelves, the Greenland Sea, Barents Sea, Kara Sea and Laptev Sea, however, observations show a prominent signature in the Beaufort Sea that is not captured in our simulation. A snapshot of the total deformation is shown in Figure \ref{fig:fig1}b, where the local maxima in the deformation correspond to the linear kinematic features identified by the algorithm described in the Methods section. A closer examination, focusing north of Greenland in panels c, d, e, and f of Figure \ref{fig:fig1} reveals similarities between the spatial pattern of typically observed leads on the 12th of April 2022 from a true color satellite image (Fig. \ref{fig:fig1}c) and the ice concentration of SEDNA for the 21st of April 2014. Note that the sea ice concentration in the identified leads shown in Fig.\ref{fig:fig1}e-f remains higher than 80\% concentration, this is a consequence of the visco-plastic nature of the sea ice model and the daily averaged output. Furthermore, in our simulation, but in fact in all numerical models using a visco-plastic rheology it has been observed that they do not reproduce the typical fracturing angles as in observations \citep{}. Despite this, the important similarities between the observations and model lead probability gives us confidence to estimate the impact of leads in the ocean.
+
+In situ observations have shown that LKF in winter can have heat fluxes up to two orders of magnitude larger than the surrounding ice covered ocean. Presumably impacting the buoyancy flux and the circulation of the Arctic Ocean. 
+Figure \ref{fig:fig2}a and e show snapshots of the buoyancy flux, where we can observe the typical patterns of the Arctic. In winter (Fig. \ref{fig:fig2}a) we observe an overall negative buoyancy flux consequence of the freezing of sea ice and thus brine rejection, meanwhile, in summer an overall positive buoyancy flux occurs due to the melting and freshening of the Arctic (Fig. \ref{fig:fig2}b).  Overall, in these two map we observe that inside the ice covered region (magenta contour), the fluxes are spatially homogeneous with exception of the MIZ and the LKFs. For the later features, we observe that linear kinematic features have larger buoyancy fluxes than their surroundings. 
+
+In figure \ref{fig:fig2}, we plot two transects on the 1st of January 2014 and 30th of June 2014 showing the heat flux (panels b, f), freshwater heat-equivalent flux (panels c and g), and ice thickness and buoyancy flux (panels d and h). Examining the 1st of January 2014, we observe a small heat flux where the LKFs (Fig.\ref{fig:fig2} b); blue shaded areas) do not impact the heat flux at the ocean-atmosphere interface. In contrast, the salt flux (Fig.\ref{fig:fig2}c) show two large peaks in the salt flux 
 
 
-\subsection{Impact of LKF in the ocean buoyancy}
+
+\textbf{Check in March.}
+
+\subsection*{Impact of LKF in the ocean buoyancy}
+
+
 
 \begin{figure}
     \centering
     \includegraphics[width=1\textwidth]{./figures/Figure_2_buoyancy_flux_maps.pdf}
-    \caption{Buoyancy flux and Ekman Velocity for two snapshots during winter and summer. a) Buoyancy flux in Winter the 1st of January 2014. b) Buoyancy flux in Summer the 15th of June 2014. c) Ekman velocity in winter the 1st of January 2014. d) Buoyancy flux in summer the 15th of June 2014}
+    \caption{Maps of buoyancy flux and transects of downward heat flux, freshwater heat-equivalent flux, ice thickness, and mixed layer depth for the 1st of January and 25th of June 2014. a) Buoyancy flux in Winter the 1st of January 2014. Transect on the 1st of January 2014 of b) downward heat flux, c) freshwater heat-equivalent flux, d) ice thickness and mixed layer depth. e) Buoyancy flux in Summer the 30th of June 2014. Transect on the 25th of June 2014 of b) downward heat flux, c) freshwater heat-equivalent flux, d) ice thickness (magenta) and buoyancy flux (green). Note that the transect location and orientation changes between the winter and summer dates. Magenta contour in panels a and e correspond to the 0\% concentration contour of sea ice. Vertical blue bars shows the mask of LKFs in the transect.}
     \label{fig:fig2}
 \end{figure}
 
@@ -250,7 +189,7 @@ where $u$ and $v$ are the sea ice velocities. The deformation rate varies spatia
 \begin{figure}[t]
     \centering
     \includegraphics[width=0.9\textwidth]{./figures/Figure_3_buoyancy_flux_components_ts.pdf}
-    \caption{Buoyancy flux and Ekman velocities normalized by the ice cover area of linear kinematic features, transitional ice zone (ice concentration 0-80\%), and pack ice (ice concentration $>$80\%).  }
+    \caption{Time-series during 2014 of the area cover, buoyancy fluxes and buoyancy flux components for linear kinematic features, transitional ice zone (ice concentration 0-80\%), and pack ice (ice concentration $>$80\%).}
     \label{fig:fig3}
 \end{figure}
 
@@ -270,7 +209,7 @@ where $u$ and $v$ are the sea ice velocities. The deformation rate varies spatia
 \begin{figure}[t]
     \centering
     \includegraphics[width=0.9\textwidth]{./figures/Figure_4_water_mass_transformation_hovmoller.pdf}
-    \caption{Hovmoller diagram of the water mass transformation (sv). Water mass transformation of for a)  the Arctic ocean,  b) pack ice, c) and linear kinematic features. Note the changes in the magnitude of the colorbar of each panel.}
+    \caption{Hovmoller diagram of the water mass transformation (Sv). Water mass transformation of for a)  the Arctic Ocean,  b) Pack Ice, c) linear kinematic features, and d) ratio of water mass transformation between the LKF and the Pack Ice. Note the magnitude change in the colorbar of panels a), b), and c).}
     \label{fig:fig4}
 \end{figure}
 
@@ -285,35 +224,42 @@ where $u$ and $v$ are the sea ice velocities. The deformation rate varies spatia
     \item Is it possible to estimate the effect of water masses transformation based on the outcrop of density contours in the Arctic? 
 \end{itemize}
 
-\subsection{Impact of LKF in the ocean interior}
-
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=0.9\textwidth]{./figures/Figure_5_vertical_structure.pdf}
-    \caption{Composite of density, temperature, and salinity normal to the identified linear kinematic features on the 1st of January and 15th of June 2014. a) Density in Winter the 1st of January 2014. b) Density in Summer the 15th of June 2014. c) Temperature in winter the 1st of January 2014. d) Temperature in summer the 15th of June 2014. e) Salinity in winter the 1st of January 2014. f) Salinity in summer the 15th of June 2014}
-    \label{fig:fig5}
-\end{figure}
-
-\textbf{Figure 5}
-\begin{itemize}
-    \item The composites shown important signature of buoyant and fresher water near adjacent to the LKF.
-    \item The lense of buoyant water appears to vary with the season, but more info is needed to conclude. 
-    \item The average response near the LKF appears to be the same independent to the season but with an intensification in summer (melting in general in LKFs?), more needs to be done to conclude. 
-    \item We observe other lenses of buoyant and fresher water, likely linked to past LKF events. 
-    \item Tilting of isopycnals near the LKF? 
-    \item Warmer water near the LKF? connection between the intermediate water and the surface through LKF? 
-    \item What is the role of mixing here? since the water near the LKF is really buoyant? 
-\end{itemize}
-
 \textbf{Should we do a schematic (Fig 1) as in Michaelis, J. \& Lüpkes, C. but for the ocean?}
 
 \section{Conclusions}
 
 \textbf{reference \citep{Bouchat_sea_ice_rheology_2022} to argue that it's ok to use this high resolution simulation since they seam to resolve properly the LKF.}
 
+\textbf{Although SEDNA reproduces well the LKF over most of the Arctic, leads missing in the Beaufort Sea could have important implications it the Arctic circulation, more research is needed here.}
 
 \section{Open Research}
 
+
+
+\section{Methods}
+\subsection*{Model description}
+
+Here we employ the NEMO numerical platform (release 4.0.5) to establish a 1/60$^\circ$ pan-Arctic ocean-sea ice configuration named SEDNA. The ocean core (NEMO-OCE) solves the primitive equations (PE) using finite differences on an Arakawa C-grid mesh, while the ocean is coupled to the SI3 sea-ice component (NEMO-SI3). The pan-Arctic domain covers the Bering Strait on the Pacific side and extends southward to 56$^\circ$N in the Subpolar North Atlantic gyre and to the Baltic Sea entrance. The ocean model incorporates a linear free surface, utilizes a 3rd order flux form scheme for momentum advection, and employs a 4th order Flux Corrected Transport (FCT) for tracer advection. Additionally, the sea-ice representation includes a 5-category model with the Elasto-Visco-Plastic (EVP) rheology activated and a land-fast capability to better simulate sea-ice behavior in specific areas.
+
+The NCAR bulk formula from Large \& Yeager (2009) to calculate air-sea fluxes and uses hourly ERA5 atmospheric data for near-surface variables. The three lateral boundaries are constrained with daily GLORYS12V1 Re-analysis data, and monthly freshwater fluxes from river discharges are combined with Greenland land ice melt data to supply SEDNA. The simulation extends over seven years (2009 to 2015) and starts from rest, utilizing initial conditions based on the World Ocean Atlas 2009 temperature/salinity and mean January 2009 ice state from PIOMAS re-analysis. Preliminary assessment against available observations and re-analyses data shows that the simulation reasonably captures key ocean and sea-ice characteristics.
+
+
+\subsection*{LKF identification}
+
+The LKF from SEDNA were identified by using the algorithm proposed by \citet{Hutter_identification_2019}. This method uses the total deformation rate defined as: 
+\begin{equation}
+    T_d = \left[\left(\underbrace{\frac{\partial u}{\partial x} +\frac{\partial v}{\partial y}}_{Divergence}\right)^2 + \underbrace{\left(\frac{\partial u}{\partial x} - \frac{\partial v}{\partial y}\right)^2+ \left(\frac{\partial u}{\partial y} + \frac{\partial v}{\partial x}\right)^2}_{Shear}\right]^{1/2},
+\end{equation}
+where $u$ and $v$ are the sea ice velocities. The deformation rate varies spatially depending on the background deformation and the sea ice properties \citep{}, where the largest deformation rates occur along the boundaries of ice flows where the LKF are found. Therefore, to identify the LKFs it is required to identify the local maxima using edge detection (DoG filter) in the deformation rate field. After the edge detection, using binary map we obtain a mask with the original width of identified LKF. This mask is then used to compute the statistics presented in this study. After this step, \citet{Hutter_identification_2019} reduce the LKFs width to a single pixel to then track the LKF over time. Since our study focus on the ocean-atmosphere interactions, we only use the identification algorithm to produce a mask of LKFs during 2014 for the Arctic, where we retain the original width computed from the deformation rate. This mask is then used to quantify and contrast the impact of LKFs compared to the ice-pack.
+
+\subsection*{Buoyancy flux and water mass transformation}
+ 
+% Our LKF detection algorithm consists of three parts: (1) a preprocessing step that transforms the input deformation data into a binary map of pixels that mark LKFs by using different ﬁlter steps, (2) a detection routine that splits the network of LKF pixels in the binary map into the smallest possible segments, and (3) a reconnection instance that estimates the probability of different segments belonging to one feature and then connects all segments of a LKF. The general structure of the algorithm follows Linow and Dierking (2017), although individual parts have been modiﬁed substantially. The main enhancements of the algorithm are a parallel detection of segments with a stronger constraint on the curvature and the introduction of a probability-based reconnection. Further, the entire algorithm was rewritten in Python (Python Software Foundation, http://www.python.org, last access: 15 February 2019) to avoid license issues with the previous code that was based on the commercial software IDL.
+
+\begin{itemize}
+    \item Describe MLD definition
+    \item Describe buoyancy flux and decomposition between thermal and haline components.
+\end{itemize}
 
 
 \acknowledgments
