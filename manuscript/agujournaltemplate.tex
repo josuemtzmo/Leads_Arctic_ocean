@@ -118,37 +118,35 @@
 
 \begin{abstract}
     The Arctic sea-ice, in particular the ice-pack, acts as an insulator between the atmosphere and the ocean below. Linear kinematic features (LKF), common in Arctic sea ice, facilitate exchanges of heat, salt, moisture and gases between the ocean and the atmosphere. Therefore, LKFs can influence heat exchanges, ice melt or growth, ocean dynamics, and the atmospheric boundary layer. The existing literature suggests that LKFs play a significant role in the heat budget of the surface of the ocean and likely impact water mass transformation within the Arctic. However, due to the lack of observations and high resolution models capable to resolve LKFs, an estimate of the impact of LKFs in the ocean has been elusive.  Here, we explore the magnitude and impact in the ocean surface caused by the LKFs using SEDNA, a really high-resolution pan-Arctic hindcast (1/60$^\circ$; NEMO + SI3 configuration). Despite LKFs accounting for less than $20\%$ of the sea-ice cover area, they can contribute up to 10\% more buoyancy than the ice-pack at the surface. Of the total surface water mass transformation in the ice covered Arctic, LKFs explain approximately 10\%. 
-    The present estimate indicates that while LKFs impact the magnitude of the WMT, they make a small contribution to Arctic Ocean dynamics since, the buoyancy flux and water mass transformation in the LKFs are similar to those of the surrounding ice-covered areas, contrary to previous hypotheses.
+    The present estimate indicates that while LKFs impact the magnitude of the WMT, they make a small contribution to Arctic Ocean dynamics since, the buoyancy flux and water mass transformation in the LKFs are similar to those underneath the surrounding floes, contrary to previous hypotheses.
 \end{abstract}
 
 \section{Introduction}
 % Paragraph topic: Discuss Sea ice, insulator properties, and LKF
 
-The Arctic sea-ice plays a crucial role in regulating Earth's climate by acting as a natural insulator between the atmosphere and the ocean below \citep{Wettlaufer_insulator_1997, Untersteiner_ice_insulator_1961}. This insulating property acts as a thermal barrier, limiting heat loss from the ocean to the atmosphere, minimizing evaporation, and maintaining the stability of the polar environment \citep{Ruffieux_pack_lead_1995}. A ubiquitous feature of Arctic sea ice is the formation and persistence of linear kinematic features (LKFs). LKFs are defined as the regions where the total deformation of sea ice reaches a local maxima (See methods for the definition of total deformation; \citealt{Hutter_identification_2019}). These features are characterized by sea ice shear and divergence that can result in an opening of the sea ice, and thus allow large flux exchanges between the ocean and the atmosphere \citep{Lupkes_leads_2008}. These features vary in width from a few meters to kilometers, with length-scale spanning distances of a few kilometers up to hundreds of kilometers, and generally last from a few hours up to a few days \citep{Linow_lkf_2017, Wernecke_Lead_2015, Tschudi_obs_leads_1998}. LKFs can be formed through the divergence or/and shear of the sea ice forced by winds and oceanic currents \citep{Rampal_nextsim_2016, Hutchings_model_lkf_2005, Richter_pack_stress_2002}. Winds are thought to be the main forcing of the sea ice deformation, where persistent winds stress result in the formation of LKFs \citep{Linow_lkf_2017, Hutter_scaling_lkf_2018}. Although ocean currents have a smaller contribution to the sea ice deformation compared to wind forcing, ocean drag at the bottom of the ice acts to balance the wind-induced sea ice velocities, stabilizing the sea ice cover \citep{Weiss_scale_2004}. Additionally, observations show that ocean currents may play a bigger role in dictating the fracturing patterns of sea ice, since regions with strong currents and bathymetric features are collocated with a larger occurrence of LKFs \citep{Willmes_leads_currents_2023}. 
+The Arctic sea-ice plays a crucial role in regulating Earth's climate by acting as a natural insulator between the atmosphere and the ocean below \citep{Wettlaufer_insulator_1997, Untersteiner_ice_insulator_1961}. This insulating property acts as a thermal barrier, limiting heat loss from the ocean to the atmosphere, minimizing evaporation, and maintaining the stability of the polar environment \citep{Ruffieux_pack_lead_1995}. A ubiquitous feature of Arctic sea ice is the formation and persistence of linear kinematic features (LKFs). LKFs are defined as the regions where the total deformation of sea ice reaches a local maxima (See methods for the definition of total deformation; \citealt{Hutter_identification_2019}). These features are characterized by sea ice shear and divergence that can result in an opening of the sea ice, and thus allow large flux exchanges between the ocean and the atmosphere \citep{Lupkes_leads_2008}. These features vary in width from a few meters to kilometers, with length-scale spanning distances of a few kilometers up to hundreds of kilometers, and generally last from a few hours up to a few days \citep{Linow_lkf_2017, Wernecke_Lead_2015, Tschudi_obs_leads_1998}. LKFs can be formed through the divergence or/and shear of the sea ice forced by winds and oceanic currents \citep{Rampal_nextsim_2016, Hutchings_model_lkf_2005, Richter_pack_stress_2002}. Winds are thought to be the main forcing of the sea ice deformation, where persistent winds stress result in the formation of LKFs \citep{Linow_lkf_2017, Hutter_scaling_lkf_2018}. Although ocean currents have a smaller contribution to the sea ice deformation compared to wind forcing, ocean drag at the bottom of the ice acts to balance the wind-induced sea ice velocities, stabilizing the sea ice cover \citep{Weiss_scale_2004}. Additionally, observations show that ocean currents may play a bigger role in dictating the fracturing patterns of sea ice, since regions with strong currents and bathymetric features are collocated with a larger occurrence of LKFs \citep{Willmes_leads_currents_2023}. \josue{Rephrased, is it clearer?}
 
 Once LKFs are formed, atmospheric forcing in conjunction with localized upwelling can result in important heat fluxes at the ocean surface ($\sim 400 W/m^2$; \citealp{McPhee_LKF_2005,Marcq_flux_lead_2012,Maykut_heat_1986}), instigating localized melting/freezing of sea-ice \citep{Albedyll_thickness_dis_2022}. Additionally, changes in buoyancy forcing due to brine rejection into the mixed layer can induce convection \citep{Smith_convection_1998}, leading to the generation of fronts, mixed layer turbulence, and eddy generation \citep{Reiser_LKF_2020, Smith_generation_2002}. Furthermore, changes in the buoyancy flux could result in the local transformation the surface water masses \citep{Pemberton_WMT_2015, Smith_polynyas_1990, Walin_WMT_1982}. 
-Although all the previous studies have shown that instances of LKFs can locally impact the ocean dynamics, the overall impact of LKFs to the ocean dynamics across the Arctic basin are yet to be quantified.
+Although all the previous studies have shown that instances of LKFs can locally impact the ocean dynamics, the overall impact of LKFs to the ocean dynamics across the Arctic basin are yet to be quantified. \josue{I rephrased, this should be clearer now.}
 
-In-situ observations have provided evidence that LKFs locally impact the ocean structure of the Arctic Ocean. However, the lack of observations limits an estimation of their integrated impact on the Arctic Ocean. Here, we present the first estimate of the impact of the LKFs in the Arctic Ocean, using a really high-resolution pan-Arctic hindcast, SEDNA \citep{SEDNA_2023}. Since the ice cover is dynamically and thermodynamically different in the marginal ice zone and the ice pack, we quantify the impact of LKFs for both regions using buoyancy fluxes and the water mass transformation framework (See Methods for details of the calculations and numerical model). Our analysis assesses the impact of LKFs in the  buoyancy flux and water mass transformation of the Arctic Ocean, providing insight for assessing the evolution of the Arctic ocean underneath a sea ice cover.
+In-situ observations have provided evidence that LKFs locally impact the ocean structure of the Arctic Ocean. However, the lack of observations limits an estimation of their integrated impact on the Arctic Ocean. Here, we present the first estimate of the impact of the LKFs in the Arctic Ocean, using a really high-resolution pan-Arctic hindcast, SEDNA \citep{SEDNA_2023}. Since the ice cover is dynamically and thermodynamically different in the marginal ice zone and the ice pack, we quantify the impact of LKFs for both regions using buoyancy fluxes and the water mass transformation framework (See Methods for details of the calculations and numerical model).
 
 \subsection*{LKF contribution to the ocean buoyancy}
 
 \begin{figure}
     \centering
     \includegraphics[width=0.9\textwidth]{./figures/Figure_1_SENTINE_SEDNA_LKF_conc_New_Color.pdf}
-    \caption{Linear kinematic features from SEDNA. a) Snapshot of the total deformation for the 21st of April 2014. b) Linear kinematic mean frequency between 2011 and 2015. c) True color image from Sentinel 3 on the 12th of April 2022 for the magenta area in panel a. d) Mean ice concentration from SEDNA on the 21st of April 2014. e) Total deformation used to identifies the linear kinematic features. f) Identified linear kinematic features on the 21st of April 2014.}
+    \caption{Linear kinematic features from SEDNA. a) Snapshot of the total deformation for the 21st of April 2014. b) Linear kinematic mean frequency between 2011 and 2015. c) True color image from Sentinel 3 on the 12th of April 2022 for the magenta area in panel a. d) Mean ice concentration from SEDNA on the 21st of April 2014. e) Total deformation used to identifies the linear kinematic features. f) Identified linear kinematic features on the 21st of April 2014.\textbf{I changed the colorbar, is it better?}}
     \label{fig:fig1}
 \end{figure}
 
-Climate models and high resolution sea ice models are unable to reproduce LKFs due to the lack of resolution to capture their spatial scale \citep{Wang_leads_2016}. SEDNA is capable of overcoming this limitation and capture most of the LKF width distribution ($>1km$; \citealt{Wernecke_Lead_2015}), since the model resolution is $\sim 800m$ on average across the Arctic. 
+Climate models and coupled models with resolutions lower than $4.5km$ are unable to reproduce many aspects of LKFs due to the lack of resolution to capture their spatial scale \citep{Wang_leads_2016}. SEDNA is capable of overcoming this limitation and capture most of the LKF width distribution ($>1km$; \citealt{Wernecke_Lead_2015}), since the model resolution is $\sim 800m$ on average across the Arctic. 
 A snapshot of the total deformation is shown in figure \ref{fig:fig1}a. A closer examination, focusing north of Greenland in panels c, d, e, and f of figure \ref{fig:fig1}, reveals similarities between the spatial pattern of typically observed LKFs on the 12th of April 2022 from a true color satellite image (Fig. \ref{fig:fig1}c) and the ice concentration of SEDNA for the 21st of April 2014. Note that the sea ice concentration in the identified LKFs shown in figure \ref{fig:fig1}f using the LKF identification algorithm proposed by \citet{Hutter_identification_2019} remains higher than 90\% concentration; this is a consequence of the visco-plastic nature of the sea ice model and the daily averaged output that smooths the presence of LKFs in the fields. 
-%Furthermore, in our simulation, but in fact, in all numerical models using a visco-plastic rheology, it has been observed that they do not reproduce the typical fracturing angles as in observations \citep{Hutter_SIREx_2022}. 
 Despite this, the similarities between the observations and model LKF probability allow us for the first time to estimate quantitatively the impact LKFs have on the Arctic ocean.
 
-The climatology of the LKF probability, i.e. the likelihood of a LKF occurring for any given day, is shown in figure \ref{fig:fig1}b. The mean probability of LKFs averaged over the Arctic is $\sim 19\%$ in SEDNA, comparable to observations using RADARSAT Geophysical Processor System and Thermal-Infrared Satellite Imagery \citep{Wernecke_Lead_2015,Willmes_leads_currents_2023}. Although observations use different identification methods compared to the one implemented in SEDNA \citep{Hutter_identification_2019}, there is resemblance between the spatial patterns of SEDNA and observations (Supplementary Fig. \ref{fig:S_fig1}). For example, we observe increased LKF frequency in the shelves, along bathymetric features, and in regions with large kinetic energy (Fig. \ref{fig:S_fig1}). Several hotspots of LKF occurrence can be identified along the sea shelves and in the Chukchi Sea, highlighting the model's ability to reproduce LKFs dynamics. SEDNA reproduces the patterns observed in the Arctic shelves, the Greenland Sea, Barents Sea, Kara Sea and Laptev Sea, but the prominent signature in the Beaufort Sea in observations is not captured in SEDNA. \textbf{@Camille, you asked for something more quantitative, between the obs and the model. Do you have any specific idea?} 
+The climatology of the LKF probability, i.e. the likelihood of a LKF occurring for any given day, is shown in figure \ref{fig:fig1}b. The mean probability of LKFs averaged over the Arctic is $\sim 19\%$ in SEDNA, comparable to observations using RADARSAT Geophysical Processor System and Thermal-Infrared Satellite Imagery \citep{Wernecke_Lead_2015,Willmes_leads_currents_2023}. Although observations use different identification methods compared to the one implemented in SEDNA \citep{Hutter_identification_2019}, there is resemblance between the spatial patterns of SEDNA and observations (Fig. \ref{fig:S_fig1}). \josue{I think it's better in the supplementery} For example, we observe increased LKF frequency in the shelves, along bathymetric features, and in regions with large kinetic energy (Fig. \ref{fig:S_fig1}). Several hotspots of LKF occurrence can be identified in the Chukchi Sea, highlighting the model's ability to reproduce LKFs dynamics. SEDNA reproduces the patterns observed in the Arctic shelves, the Greenland Sea, Barents Sea, Kara Sea and Laptev Sea, but the prominent signature in the Beaufort Sea in observations is not captured in SEDNA. \josue{@Camille, you asked for something more quantitative, between the obs and the model. Do you have any specific idea?} 
 
-In situ observations have shown that LKFs can have up to two orders of magnitude larger heat fluxes than the surrounding ice covered ocean \citep{McPhee_LKF_2005,Maykut_solar_1995}. Consequently, they could modify the fluxes at the ocean-atmosphere interface of the Arctic basin \citep{Olason_lead_2021}. A change in these fluxes could impact the buoyancy flux and the circulation of the Arctic Ocean. 
-Figure \ref{fig:fig2}a and b show two snapshots of the buoyancy flux, with a negative buoyancy flux in winter resulting from sea ice refreezing and brine rejection. Meanwhile, a positive buoyancy flux in summer is associated with sea ice melting and freshening of the Arctic surface (Fig. \ref{fig:fig2}b). Inside the ice covered region (magenta contour) in figure \ref{fig:fig2}, the fluxes are spatially homogeneous, except for the marginal ice zone and the LKFs, where the buoyancy fluxes are larger than those of the surrounding ice cover ocean, in agreement with previous studies. The flux across the Arctic for the LKF is $-2.46\times 10^{-8} m^2/s^3$ and $7.20\times 10^{-8} m^2/s^3$ for each date, respectively, compared to the $-2.42\times 10^{-8} m^2/s^3$ and $5.89\times 10^{-8} m^2/s^3$ of the surrounding ocean. In other words, in winter, the fluxes across the LKF and the surrounding ocean are comparable. However, in summer, the fluxes in the LKFs can be up to 20\% larger than those in the ice covered ocean.
+Figure \ref{fig:fig2}a and b show two snapshots of the buoyancy flux. In winter, a negative buoyancy flux results from sea ice refreezing and brine rejection. In summer, a positive buoyancy flux is associated with sea ice melting and freshening of the Arctic surface (Fig. \ref{fig:fig2}b). Inside the ice covered region (magenta contour) in figure \ref{fig:fig2}, the fluxes are spatially homogeneous, except for the marginal ice zone and the LKFs, where the buoyancy fluxes are larger than those underneath the surrounding floes, in agreement with previous studies. The flux across the Arctic for the LKF is $-2.46\times 10^{-8} m^2/s^3$ and $7.20\times 10^{-8} m^2/s^3$ for each date, respectively, compared to the $-2.42\times 10^{-8} m^2/s^3$ and $5.89\times 10^{-8} m^2/s^3$ underneath the surrounding floes. In other words, in winter, the fluxes across the LKF and the surrounding floes are comparable. However, in summer, the fluxes in the LKFs can be up to 20\% larger than those underneath floes.
 
 \begin{figure}
     \centering
@@ -158,27 +156,17 @@ Figure \ref{fig:fig2}a and b show two snapshots of the buoyancy flux, with a neg
     \label{fig:fig2}
 \end{figure}
 
-% \textbf{Figure 2}
-% \begin{itemize}
-%     \item Describe the sign of the buoyancy flux (Negave = denser water). 
-%     \item Describe that we can see important differences in the BF between the open ocean and the packed ice. 
-%     \item  Note some of the LKFs features observed in the buoyancy flux, for example large negative flux in the East Siverian Sea or Beaufort sea and the positive flux in the center of the Arctic.
-% \end{itemize}
-
 Two transects across the Beaufort Gyre for the 1st of January 2014 and 25th of June 2014.
 Examining the 1st of January 2014, we observe a small heat flux in the LKFs (Fig.\ref{fig:fig2} b), which does not impact the heat flux at the ocean-atmosphere interface since the ocean surface is at freezing point. In other words, the extra heat exchanged with the atmosphere is used by the sea ice model to grow sea ice instead of the ocean model, resulting in a heat flux close to zero at the ocean-atmosphere interface. 
-In contrast, the salt flux (Fig.\ref{fig:fig2}e) shows two positive peaks, each with twice the magnitude of the surrounding ice cover, collocated within the identified LKFs. This is due to an enhanced sea ice growth and brine rejection within the LKFs. 
+In contrast, the salt flux (Fig.\ref{fig:fig2}e) shows two positive peaks, each with twice the magnitude of the surrounding floes, collocated within the identified LKFs. This is due to an enhanced sea ice growth and brine rejection within the LKFs. 
 The salt flux and heat flux result in a negative buoyancy flux for this snapshot where the largest buoyancy loss occurs within the LKFs (Fig.\ref{fig:fig2} g). Additionally, within the LKFs there is a decrease in sea ice thickness of $25cm$. 
 On the 25th of June (Fig.\ref{fig:fig2}d), we observe an increase in the heat fluxes within some of the identified LKFs, reaching up to $\sim 25 W/m^2$. Meanwhile, the freshwater flux shows a local decrease within the LKFs, indicating a freshening of the surface due to sea ice melt. This change is captured by the positive buoyancy flux, decreasing the density at the surface (Fig.\ref{fig:fig2}f and h).  The enhanced sea ice melt in the LKFs results in a sea ice thickness decrease of more than $1m$ within the LKFs. It is important to note that some peaks in the buoyancy flux align with the edge of the detected LKFs, likely due to the enhanced refreezing or melting that occur at the edge of the LKFs. 
 Of all the identified LKFs, some exhibit significant ocean-atmosphere fluxes, while others have little to no imprint in the fluxes. LKFs without large ocean-atmosphere fluxes may be explained by the temporality of the sea ice break up (divergence), where later snapshots show an increase of fluxes at the location of identified LKFs. Alternatively, LKF generated through shear and convergence have a limited flux exchange with the atmosphere, but may have enhanced fluxes in the ocean interior due to isopycnal upwelling forced by the ice-ocean stress.
 
-Similar to observations, we identify fluxes that are larger in the LKFs than in the surrounding ice pack in both summer and winter. However, the freshwater heat-equivalent flux, attributable to melting and freezing, is significantly larger than the heat fluxes associated with the LKFs. In the next section, we explore impact LKFs have in the magnitude of the buoyancy fluxes and water mass transformation across the Arctic basin during 2014. This analysis is conducted separately for the marginal ice zone (MIZ; 0-80\% sea ice concentration), ice pack (80-100\% sea ice concentration) and the LKFs within each of these regions. 
+Similar to observations, we identify fluxes that are larger in the LKFs than in the ice pack floes in both summer and winter. However, the freshwater heat-equivalent flux, attributable to melting and freezing, is significantly larger than the heat fluxes associated with the LKFs. In the next section, we explore impact LKFs have in the magnitude of the buoyancy fluxes and water mass transformation across the Arctic basin during 2014. This analysis is conducted separately for the marginal ice zone (MIZ; 0-80\% sea ice concentration), ice pack (80-100\% sea ice concentration) and the LKFs within each of these regions. 
 
 
 \subsection*{Mean contribution of LKF in the Arctic}
-
-% \textbf{Describe that buoyancy thermal flux is linked to freezing, but it much smaller than the haline flux.}
-% We now consider the spatially averaged impact of LKFs on ocean buoyancy. 
 
 In the Arctic ice covered ocean, the averaged percentage area covered by four distinct masks representative of the sea ice covered Arctic Ocean during 2014 is as follows: 19\% for the MIZ, 81\% for the ice pack, 14\% for the LKFs in the ice pack, and 10\% for the LKFs in the MIZ. 
 The area covered by each mask exhibit a seasonal cycle (Fig. \ref{fig:fig3}a). During summer (June, July, and August), the percentage of the ice pack cover area decreases from approximately $90\%$ to $50\%$, while the MIZ increases from $10\%$ to approximately $50\%$. 
@@ -189,92 +177,54 @@ During winter in the MIZ, the mean buoyancy flux is -1.20$\times10^{-14} m^2/s^3
 In the MIZ, the buoyancy flux suggests a preferential refreezing of sea ice during winter and melting in summer (Fig.\ref{fig:fig3}b), since thermal component is the dominant term and negative during winter and the haline component is the dominant term and positive during summer (Fig.\ref{fig:fig3}c). 
 In the ice pack, the buoyancy flux also changes sign from winter to summer (Fig.\ref{fig:fig3}b), indicating a shift from ice formation in winter to ice melting in summer, primary driven by the haline buoyancy component. 
 In the ice pack, the mean winter buoyancy flux is -3.30$\times10^{-14} m^2/s^3$, with a haline component of -3.24$\times10^{-14} m^2/s^3$ and a thermal component of -0.06$\times10^{-14} m^2/s^3$. In summer, the mean buoyancy flux is 5.92$\times10^{-14} m^2/s^3$, with a haline component of 5.92$\times10^{-14} m^2/s^3$ and a negligible thermal component.
-In both regions, the buoyancy flux in the LKFs follow the overall seasonal cycle of the buoyancy fluxes of the surrounding sea ice covered ocean. However the winter LKFs in the MIZ and the summer LKFs in the ice pack exhibit larger buoyancy fluxes compared to those in the MIZ and ice pack, respectively. 
+In both regions, the buoyancy flux in the LKFs follow the overall seasonal cycle of the buoyancy fluxes underneath the sea ice floes. However the winter LKFs in the MIZ and the summer LKFs in the ice pack exhibit larger buoyancy fluxes compared to those in the MIZ and ice pack, respectively. 
 The mean winter buoyancy flux of the LKFs in the MIZ is 
 -1.98 $\times10^{-14} m^2/s^3$, representing a 40\% larger buoyancy flux in winter within the LKFs compared to those in the MIZ, suggesting enhanced freezing within the LKFs. 
 The mean summer buoyancy flux of LKFs in the ice pack is 7.26$\times10^{-14} m^2/s^3$, approximately 20\% more buoyancy flux in summer compared to the ice pack, indicating enhance melting with in the LKFs. 
 
-\textbf{@Camille: Should we add the following paragraph about MLD changes (See  Supplementary Fig \ref{fig:S_fig2})}
+\josue{@Camille: Should we add the following paragraph about MLD changes (See  Supplementary Fig \ref{fig:S_fig2})}
 As proposed by \citealt{McPhee_LKF_2005}, LKFs generated by shear can significantly influence in the ocean MLD, by upwelling the isopycnals. Thus, to comprehensively understand the impact of LKFs on the ocean, we investigate the mixed layer depth, referenced to the first ocean model level, for each of the ice covered regions (Supplementary Fig.\ref{fig:S_fig2}). The MLD in the MIZ reaches a maximum depth in winter of $130 m$ and a minimum MLD of $1.62 m$ in summer. The MLD of the MIZ LKF is comparable to that of the MIZ, reaching $127 m$ in winter and $1.67 m$ in summer. Meanwhile, the MLD in the ice pack and the ice pack LKFs are deeper in winter ($40.5 m$ and $47.7 m$, respectively) and shallower in summer ($1.9 m$ and $1.7 m$, respectively). The difference in MLD between the ice pack and ice pack LKF is significant and, on average, the MLD is $\sim 20\%$ shallower during winter in the ice pack LKFs. This results provides evidence that ice pack LKFs can impact MLD thickness through upwelling. 
 
-% Analogous to the ice pack, the buoyancy in the LKFs has a seasonal cycle and it shows a similar temporal evolution as the ice pack. Although LKFs cover less than 5\% of the total Arctic ice cover area, over certain periods of time the LKFs buoyancy flux can be 10\%-20\% larger than that of the ice pack.
-
-\begin{figure}[t]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.9\textwidth]{./figures/Figure_3_buoyancy_flux_components_ts.pdf}
     \caption{Time-series during 2014 of a) the area cover, b) buoyancy fluxes,  c) haline buoyancy flux component, and d) thermal buoyancy flux component  for linear kinematic features in the ice pack, the linear kinematic features in the marginal ice zone, the marginal ice zone (ice concentration 0-80\%), and the ice pack (ice concentration $>$80\%).}
     \label{fig:fig3}
 \end{figure}
 
-% \textbf{Figure 3}
-% \begin{itemize}
-%     \item TODO: Add a time-series of the ratio between the BF-pack/BF-LKF
-%     \item Describe that the Buoyancy flux high frequency variability.
-%     \item Important seasonal cycle, buoyant water in Summer, denser in Winter.
-%     \item Describe that area in LKFs is really small $< 5 %$. 
-%     \item Fluxes are mostly dominated by haline component
-%     \item Fluxes in LKFs are comparable to those in the Pack ice.
-%     \item Explain that despite the area being just a fraction, generally less than 10\% of the ice-covered Artic, the fluxes in LKFs explain the fluxes of the packed ice and their magnitude is comparable to the marginal ice zone. 
-% \end{itemize}
-%In agreement with previous studies \citep{}, the surface freshwater flux dominates Arctic water mass transformation. 
-
 To further quantify the role and impact of LKFs in the Arctic circulation, we use the water mass transformation framework (WMT; \citealp{Walin_WMT_1982}). This approach provides information on the formation of lighter or denser water due to changes in the surface fluxes. 
 In figure \ref{fig:fig4}a, the averaged WMT during 2014 is shown for the ice covered Arctic, the ice pack, the MIZ, and the LKFs for each of these areas. It is important to note that the ice covered Arctic is the sum of the ice pack and MIZ. 
-The yearly mean WMT in the ice pack is characterized by a broad region of strong positive transformation (losing buoyancy) in the density range of $23 < \gamma_n <27.5$, reaching a maximum of $\sim 2.1$ Sv. Additionally, there is a small negative transformation (gaining buoyancy) below $\gamma_n < 23$. 
-The yearly mean WMT in the ice pack LKFs also features a positive peak within the $24.5 < \gamma_n <27.5$ reaching up to 0.39 Sv. On average the WMT in the ice pack LKFs accounts for $\sim 10\%$ of the WMT of the ice pack. The MIZ mean WMT is mostly negative within the density range of $20 < \gamma_n < 27.5$ (gaining buoyancy), reaching a minimum of -1.2 Sv around $\gamma_n = 27$.  The MIZ LKFs WMT is also negative within the same range of densities, with a minimum of -0.6 Sv. On average, the WMT in the MIZ LKFs corresponds to $\sim 50\%$ of the WMT of the MIZ. 
+The yearly mean WMT in the ice pack is characterized by a broad region of strong positive transformation (losing buoyancy) in the density range of $23 < \rho <27.5$, reaching a maximum of $\sim 2.1$ Sv. Additionally, there is a small negative transformation (gaining buoyancy) below $\rho < 23$. 
+The yearly mean WMT in the ice pack LKFs also features a positive peak within the $24.5 < \rho <27.5$ reaching up to 0.39 Sv. On average the WMT in the ice pack LKFs accounts for $\sim 10\%$ of the WMT of the ice pack. The MIZ mean WMT is mostly negative within the density range of $20 < \rho < 27.5$ (gaining buoyancy), reaching a minimum of -1.2 Sv around $\rho = 27$.  The MIZ LKFs WMT is also negative within the same range of densities, with a minimum of -0.6 Sv. On average, the WMT in the MIZ LKFs corresponds to $\sim 50\%$ of the WMT of the MIZ. 
 
 A Hovmoller diagrams of the WMT for the ice covered Arctic, the ice pack, the MIZ, and LKFs in each of these regions are depicted in figure \ref{fig:fig4}.
 The ice covered WMT exhibit an important seasonal cycle with a mean positive WMT during winter of 1.37 Sv and mean negative WMT of -2.38 Sv during summer (\ref{fig:fig4} b). 
 The ice covered LKF WMT also shows a seasonality, where the WMT is 0.27 Sv in winter and -0.85 Sv in summer (\ref{fig:fig4} c). LKFs in the ice covered Arctic contribute approximately 23\% of the WMT throughout the year. 
 This contribution of LKFs can be decomposed into their contribution in the ice pack and the MIZ allowing us to better understand the evolution of the WMT. In winter, a positive transformation occurs (loss of buoyancy), due to brine rejection during sea ice growth. In summer, a negative transformation or a gain of buoyancy occurs due to the melting of sea ice. LKFs explain 10\% of the WMT in the ice pack, however, there is not a emergence of a pattern in the WMT ratios suggesting that LKFs transform different water masses than the water masses being transformed underneath the ice pack (\ref{fig:fig4} g). Second, the MIZ and the LKFs in this region present also a seasonal cycle, but the WMT is generally negative suggesting a gain of buoyancy due to melt of sea ice. LKFs in the MIZ explain approximately 50\% of the MIZ WMT, and similarly to the LKFs in the ice pack, no pattern emerges from the WMT rations that suggest a specific role of LKFs in the WMT compared to the WMT of the MIZ. 
 
-\textbf{@Camille: Should we add the following paragraph about water mass formation (See panel K in Fig \ref{fig:fig4})}
+\josue{@Camille: Should we add the following paragraph about water mass formation (See panel K in Fig \ref{fig:fig4})}
 
-In figure \ref{fig:fig4}k, the formation rate integrated in $0.5 kg/m^{3}$ density bins for the different ice covered masks, and the LKF within each area. The formation rate is the derivative of the mean WMT with respect to the density and it corresponds to the convergence of volume in density space. A negative formation in the upper ocean over a density range indicates that water must be upwelled from the ocean interior or destructed into a different water mass.  We note that the sign of the water mass formation for each region is consistent with the water mass formation of the surrounding ice covered regions. There is a notable destruction of water in the PDW ($27.41 kg/m^3 < \gamma_n < 27.81 kg/m^3$) dominated by the water mass formation in the MIZ and the MIZ LKFs. This is likely a consequence of ice freezing and melting making a dominant contribution to the destruction in the regions where the PDW outcrops within the MIZ. In contrast, AW ($27.81 kg/m^3 < \gamma_n $) and part of the $\text{PSW}_H$ ($26 kg/m^3 < \gamma_n < 27.41 kg/m^3$) formation occurs principally in the ice pack, with little contribution from the LKFs. 
-Finally, the formation/destruction of other water masses (e.g., $PSW_{ML}$ and lower branch of $\text{PSW}_H$) are dominated by the non-LKFs regions.
-
-\begin{figure}[t]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=1\textwidth]{./figures/Figure_4_water_mass_transformation_hovmoller_formation.pdf}
     \caption{Mean and daily Water mass transformation over 2014. a) Mean water mass transformation over 2014 for the ice covered, ice pack, MIZ and LKF in each region. Hovmoller diagram of the water mass transformation (Sv) for the b) ice covered, c) ice covered linear kinematic features and d) the ratio of water mass transformation between the LKFs and the ice covered region.
     Panels e), f), and g), and h), i), and j) follow the same structure as panels b), c) and d), but for the ice pack and MIZ regions, respectively.
-    k) Mean water mass formation in density bins of $0.5kg/m^3$ during 2014 for the same areas as in panel a). Note the magnitude change in the colorbar of panels a), b), and c). Shaded gray and white areas in panels a) and k) represent the water masses of the Arctic ocean: the mixed layer polar surface water ($PSW_{ML}$; $\gamma_n < 24.36 kg/m^3$), the halocline polar surface water ($PSW_{H}$; $24.36 kg/m^3 < \gamma_n < 27.41 kg/m^3$), the polar deep water ($PDW$; $27.41 kg/m^3 < \gamma_n < 27.81 kg/m^3$ ), and the Atlantic water ($AW$; $27.81 kg/m^3 < \gamma_n$).}
+    k) Mean water mass formation in density bins of $0.5kg/m^3$ during 2014 for the same areas as in panel a). Note the magnitude change in the colorbar of panels a), b), and c). Shaded gray and white areas in panels a) and k) represent the water masses of the Arctic ocean \citep{Pemberton_WMT_2015}: the mixed layer polar surface water ($PSW_{ML}$; $\rho < 24.36 kg/m^3$), the halocline polar surface water ($PSW_{H}$; $24.36 kg/m^3 < \rho < 27.41 kg/m^3$), the polar deep water ($PDW$; $27.41 kg/m^3 < \rho < 27.81 kg/m^3$ ), and the Atlantic water ($AW$; $27.81 kg/m^3 < \rho$).}
     \label{fig:fig4}
 \end{figure}
 
-% \textbf{Figure 4}
-% \begin{itemize}
-% %    \item TODO: Add units below colorbar.
-% %    \item TODO: Add mean over the year as a top panel.
-%     \item TODO: Map the mean transformation in SV based on the mean density of the Arctic? 
-%     \item Describe seasonal cycle of water mass transformation
-% %    \item Highlight the change in the magnitude 
-% %    \item The LKFs explain around 10\% of the Pack Ice WMT. 
-% %    \item During summer the transformation is towards buoyant water and in winter the transformation is towards denser water. 
-% %    \item Describe shift of water mass transformation during summer. 
-%     \item Is it possible to estimate the effect of water masses transformation based on the outcrop of density contours in the Arctic? 
-% \end{itemize}
-
-% \textbf{Should we do a schematic (Fig 1) as in Michaelis, J. \& Lüpkes, C. but for the ocean?}
+In figure \ref{fig:fig4}k, the formation rate integrated in $0.5 kg/m^{3}$ density bins for the different ice covered masks, and the LKF within each area. The formation rate is the derivative of the mean WMT with respect to the density and it corresponds to the convergence of volume in density space. A negative formation in the upper ocean over a density range indicates that water must be upwelled from the ocean interior or destructed into a different water mass.  We note that the sign of the water mass formation for each region is consistent with the water mass formation of the underneath the surrounding floes. There is a notable destruction of water in the PDW ($27.41 kg/m^3 < \rho < 27.81 kg/m^3$) dominated by the water mass formation in the MIZ and the MIZ LKFs. This is likely a consequence of ice freezing and melting making a dominant contribution to the destruction in the regions where the PDW outcrops within the MIZ. In contrast, AW ($27.81 kg/m^3 < \rho $) and part of the $\text{PSW}_H$ ($26 kg/m^3 < \rho < 27.41 kg/m^3$) formation occurs principally in the ice pack, with little contribution from the LKFs. 
+Finally, the formation/destruction of other water masses (e.g., $PSW_{ML}$ and lower branch of $\text{PSW}_H$) are dominated by the non-LKFs regions.
 
 \section{Conclusions}
 
 Linear kinematic features are ubiquitous in the sea ice covered oceans that allow exchanges between the ocean and the atmosphere. Generally, the importance of these fluxes at the ocean-atmosphere interface are considered to be of significant importance for the Arctic dynamics \citep{Maykut_solar_1995}. The present study assesses the impact of LKFs in the ocean surface by diagnosing the buoyancy fluxes using high-resolution hindcast (SEDNA). The LKF identification algorithm implemented in SEDNA allows us to reproduce the LKFs spatial distribution over most regions of the Arctic, with exception of the Beaufort Sea. Despite these regional differences, SEDNA can estimate the mean LKF probability, showcasing its capacity to capture the dynamics of these features. This high resolution simulation allows us to better understand the role of LKFs in shaping the Arctic ocean.
 
-Using SEDNA, a high-resolution pan-Arctic hindcast, we found that LKFs, although covering less than 20\% of the sea-ice, can contribute up to 10\% more buoyancy fluxes at the ocean surface than the ice-pack. They also account for approximately 20\% of the total surface water mass transformation in the ice covered Arctic. Contrary to previous hypotheses, our findings suggest that buoyancy forcing through LKFs has a smaller contribution to Arctic Ocean dynamics than initially thought. While their presence can induce localized changes in the density of surface waters due to brine rejection and ice melting, their spatial extent and duration are not sufficient to significantly alter the surface water masses. Furthermore, both the transformation and formation of water masses in the LKFs have the same sign, and they are comparable to those in the surrounding ice covered areas. Thus, there is no evidence that LKFs act differently or that they have a particular imprint in the Arctic ocean water masses.
+Using SEDNA, a high-resolution pan-Arctic hindcast, we found that LKFs, although covering less than 20\% of the sea-ice, can contribute up to 10\% more buoyancy fluxes at the ocean surface than the ice-pack. They also account for approximately 20\% of the total surface water mass transformation in the ice covered Arctic. Contrary to previous hypotheses, our findings suggest that buoyancy forcing through LKFs has a smaller contribution to Arctic Ocean dynamics than initially thought. While their presence can induce localized changes in the density of surface waters due to brine rejection and ice melting, their spatial extent and duration are not sufficient to significantly alter the surface water masses. Furthermore, both the transformation and formation of water masses in the LKFs have the same sign, and they are comparable to those underneath the surrounding ice floes. Thus, there is no evidence that LKFs act differently or that they have a particular imprint in the Arctic ocean water masses.
 
 We observe a lifting of the MLD in the ice pack LKFs, likely linked to the ice-ocean stress in LKFs generated by shear, as previously discussed by \citealt{McPhee_LKF_2005}. Although, the MLD thickness is $\sim 20\%$ shallower during winter in the ice pack LKFs, there is no evidence that LKFs experience a distinct response to the surface buoyancy fluxes. Thus, the remaining processes to be investigated are the impact of entrainment in the MLD within the LKFs, as well as the source of potential energy and generation of instabilities due to isopycnal tilting in the vicinity of LKFs.
 
-\textbf{@Camille, Is there any other point that we should discuss in the conclusions?}
-
-% \begin{itemize}
-%     \item Describe the SEDNA reproduces well LKFs.
-%     \item Talk about the main results, the small contribution in the large scale impact. 
-%     \item Paragraph on LKFs may be important only in the diverging LKF
-%     \item Talk about potentially some of the important local impacts of LKF
-% \end{itemize}
-
-\textbf{@Camille, No need to check the methods yet.}
+\josue{@Camille, Is there any other point that we should discuss in the conclusions?}
 
 \section{Methods}
 \subsection*{Model description}
@@ -290,31 +240,22 @@ The LKFs from SEDNA were identified by using the algorithm proposed by \citet{Hu
 \begin{equation}
     T_d = \left[\left(\underbrace{\frac{\partial u}{\partial x} +\frac{\partial v}{\partial y}}_{Divergence}\right)^2 + \underbrace{\left(\frac{\partial u}{\partial x} - \frac{\partial v}{\partial y}\right)^2+ \left(\frac{\partial u}{\partial y} + \frac{\partial v}{\partial x}\right)^2}_{Shear}\right]^{1/2},
 \end{equation}
-where $u$ and $v$ are the sea ice velocities. The deformation rate varies spatially depending on the background deformation and the sea ice properties \citep{}, where the largest deformation rates occur along the boundaries of ice flows where the LKFs are found. Therefore, to identify the LKFs it is required to identify the local maxima using edge detection (DoG filter) in the deformation rate field. After the edge detection, using binary map we obtain a mask with the original width of identified LKF. This mask is then used to compute the statistics presented in this study. After this step, \citet{Hutter_identification_2019} reduce the LKFs width to a single pixel to then track the LKFs over time. Since our study focus on the ocean-atmosphere interactions, we only use the identification algorithm to produce a mask of LKFs during 2014 for the Arctic, where we retain the original width computed from the deformation rate. This mask is then used to quantify and contrast the impact of LKFs compared to the ice-pack.
+where $u$ and $v$ are the sea ice velocities. The deformation rate varies spatially depending on the background deformation and the sea ice properties \citep{Reiser_LKF_2020}, where the largest deformation rates occur along the boundaries of ice flows where the LKFs are found. Therefore, to identify the LKFs, the local maxima is identified using a DoG filter in the deformation rate field. After this, a binary map is created with the mask of identified LKF. Note that after this step, \citet{Hutter_identification_2019} reduce the LKFs width to a line to then track the LKFs over time. Since our study focus on the ocean-atmosphere interactions, we only use the identification algorithm to produce a mask of LKFs during 2014 for the Arctic, where we retain the original width computed from the deformation rate. Finally, the LKF mask is then used to quantify and contrast the impact of LKFs compared to the ice covered Arctic, the ice-pack (ice concentration > 80\%) and the MIZ (0 - 80\% ice concentration).
 
 \subsection*{Buoyancy flux and water mass transformation}
  
-% Our LKFs detection algorithm consists of three parts: (1) a preprocessing step that transforms the input deformation data into a binary map of pixels that mark LKFs by using different ﬁlter steps, (2) a detection routine that splits the network of LKFs pixels in the binary map into the smallest possible segments, and (3) a reconnection instance that estimates the probability of different segments belonging to one feature and then connects all segments of a LKF. The general structure of the algorithm follows Linow and Dierking (2017), although individual parts have been modiﬁed substantially. The main enhancements of the algorithm are a parallel detection of segments with a stronger constraint on the curvature and the introduction of a probability-based reconnection. Further, the entire algorithm was rewritten in Python (Python Software Foundation, http://www.python.org, last access: 15 February 2019) to avoid license issues with the previous code that was based on the commercial software IDL.
+The Arctic ocean surface experiences large heat and freshwater fluxes, because during the formation of sea ice, salt is rejected and the surface cooled, and when ice melts, freshwater is returned to the ocean and the surface warmed. 
+These processes change significantly the surface buoyancy making the surface denser when salt is rejected and lighter when freshwater is added at the surface. This seasonal melt-freeze cycle changes buoyancy and transforms the density of the surface water masses (water mass transformation). \citet{Walin_WMT_1982} proposed the water mass transformation framework that quantifies the rate at which a given water mass is made lighter (negative transformation rate) or denser (positive) due to surface fluxes and mixing. 
 
-\begin{itemize}
-    \item Describe MLD definition
-    \item Describe buoyancy flux and decomposition between thermal and haline components.
-\end{itemize}
+The surface water mass transformation is computed as:
 
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=1\textwidth]{./figures/comparison_LKF_observations.pdf}
-    \caption{Linear kinematic mean frequency from a) SEDNA and b) Thermal-Infrared Satellite Imagery \citep{Willmes_leads_currents_2023} between 2011 and 2015 \textbf{TODO: Add contours of KE and topography}}
-    \label{fig:S_fig1}
-\end{figure}
+\begin{equation}
+    \Omega(\sigma_k,t) = \underbrace{- \frac{1}{\sigma_{k+1}-\sigma_k}\iint_A\left(\frac{\alpha Q_{net}}{\rho_0 C_p}\right)dA}_{Net\ surface\ heat\ flux} + \underbrace{\frac{1}{\sigma_{k+1}-\sigma_k}\iint_A\left(\frac{\beta F_{net} SSS }{\rho_0}\right)dA}_{Net\ surface\ freshwater\ flux}
+\end{equation}
 
+where $\sigma$ is potential density, $t$ is time, $Q_{net}$ is the net heat flux at the ocean surface, $C_p$ is the specific heat capacity of sea-water, $\beta$ is the haline contraction, $F_{net}$ is the net freshwater flux at the ocean surface and $SSS$ the sea surface salinity. The transformation rate $\omega$ was spatially decomposed into different sea-ice dynamics such as the ice covered, the pack ice, the MIZ, and the LKFs in each of these regions. 
+By separately diagnosing the density transformation that occurs in the LKFs and underneath the surrounding floes, we quantify the relative importance of the LKFs for each of these regions.
 
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=1\textwidth]{./figures/Figure_S2_TS_MLD.pdf}
-    \caption{Time-series during 2014 of the mean mixed layer depth for linear kinematic features in the ice pack, the linear kinematic features in the marginal ice zone, the marginal ice zone (ice concentration 0-80\%), and the ice pack (ice concentration >80\%).}
-    \label{fig:S_fig2}
-\end{figure}
 
 \section{Open Research}
 
@@ -322,5 +263,29 @@ where $u$ and $v$ are the sea ice velocities. The deformation rate varies spatia
 
 
 \bibliography{biblio}
+
+%%% Delete me %%%
+\pagebreak
+\section*{Appendix}
+
+\renewcommand{\thefigure}{S\arabic{figure}}
+\setcounter{figure}{0}
+%%% Delete me %%%
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{./figures/comparison_LKF_observations.pdf}
+    \caption{Linear kinematic mean frequency from a) SEDNA and b) Thermal-Infrared Satellite Imagery \citep{Willmes_leads_currents_2023} between 2011 and 2015 \textbf{TODO: Add contours of KE and topography}}
+    \label{fig:S_fig1}
+\end{figure}
+
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{./figures/Figure_S2_TS_MLD.pdf}
+    \caption{Time-series during 2014 of the mean mixed layer depth for linear kinematic features in the ice pack, the linear kinematic features in the marginal ice zone, the marginal ice zone (ice concentration 0-80\%), and the ice pack (ice concentration >80\%).}
+    \label{fig:S_fig2}
+\end{figure}
+
 
 \end{document}
