@@ -220,7 +220,7 @@ Note that using this sign convention, positive values in the buoyancy forcing de
 \begin{equation}
     \left<B_f (t)\right>  = \frac{\sum_x \sum_y \left( B_f(t,x,y) * Area(x,y) * Mask_{_R}(t,x,y)\right)}{\sum_x \sum_y * Area(x,y) * Mask(t,x,y)},
 \end{equation}
-where the $Area$ is the area of the grid cells, and the $Mask_{_R}$ can be the mask of MIZ, the Pack, the MIZ leads, the ice pack leads, and the ice cover that vary in space and time. Note that the divisor $Mask$ corresponds to the full ice covered area (including leads).
+where the $Area$ is the area of the grid cells, and the $Mask_{_R}$ can be the mask of MIZ, the Pack, the MIZ leads, the ice pack leads, and the ice cover that varies in space and time. Note that the divisor $Mask$ corresponds to the full ice covered area (including leads).
 
 \citet{Nurser_WMT_1999} and  \citet{Walin_WMT_1982} proposed the water mass transformation framework that quantifies the rate at which a given water mass is made lighter (negative transformation rate) or denser (positive) due to surface fluxes. The surface water mass transformation is computed as:
 
@@ -228,12 +228,7 @@ where the $Area$ is the area of the grid cells, and the $Mask_{_R}$ can be the m
     \Omega(\sigma_k) = - \frac{1}{\sigma_{k+1}-\sigma_k}\iint_AB_fdA,
 \end{equation}
 
-% \begin{equation}
-%     \Omega(\sigma_k) = \underbrace{- \frac{1}{\sigma_{k+1}-\sigma_k}\iint_A\left(\frac{\alpha Q_{net}}{\rho_0 C_p}\right)dA}_{Net\ surface\ heat\ flux} + \underbrace{\frac{1}{\sigma_{k+1}-\sigma_k}\iint_A\left(\frac{\beta F_{net} SSS }{\rho_0}\right)dA}_{Net\ surface\ freshwater\ flux},
-% \end{equation}
-
 where $\sigma$ is potential density and the indices $k$ represents the density bin number. The computation was performed with 172 density bins of $0.1 kg/m^3$ within the density range of $15.15 kg/m^3$ - $32.25 kg/m^3$. The transformation rate $\Omega$ is spatially decomposed into different sea-ice masks such as the ice covered, the pack ice, the MIZ, and the leads in each of these regions. 
-%By separately diagnosing the density transformation that occurs in the leads and underneath the surrounding floes, we quantify the relative importance of the leads for each of these regions. Additionally, this framework accounts for the area changes of the ice cover during the seasonal cycle, and excludes open ocean regions.
 
 \backmatter
 
@@ -245,7 +240,7 @@ All analyses and figures in this manuscript are reproducible via Jupyter noteboo
 \bmhead{Acknowledgements}
 
 We acknowledge funding from the ANR ImMEDIAT project (ANR-18-CE01-0010) and the MEDLEY project funded by the program JPI Ocean/JPI Climate (ANR-19-JPOC-0001) project. 
-The idealized simulations and their analysis were performed using the HPC facilities DATARMOR of ’Pôle de Calcul Intensif pour la Mer’ at Ifremer, Brest, France. We also acknowledge PRACE for awarding us access to Joliot-Curie at GENCI\makeatletter@CEA, France, where the SEDNA simulation has been performed.
+The idealized simulations and their analysis were performed using the HPC facilities DATARMOR of `Pôle de Calcul Intensif pour la Mer' at Ifremer, Brest, France. We also acknowledge PRACE for awarding us access to Joliot-Curie at GENCI\makeatletter@CEA, France, where the SEDNA simulation has been performed.
 
 %%===========================================================================================%%
 %% If you are submitting to one of the Nature Portfolio journals, using the eJP submission   %%
