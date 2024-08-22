@@ -210,7 +210,7 @@ where $\sigma$ is potential density and the indices $k$ represents the density b
 Leads can be easily visually identified when examining high resolution satellite observations (Fig. \ref{fig:fig1}f), yet it remains challenging to capture them in state-of-the-art models that often lack the resolution and/or the sea ice dynamics to simulate these features \cite{Bouchat_sea_ice_rheology_2022, Wang_leads_2016}. Here we analyze daily outputs from the SEDNA ocean-sea ice model, which has an average Arctic resolution of $\sim 800m$, sufficient to capture the observed lead width distribution ($>1km$; \citeA{Wernecke_Lead_2015}). 
 We start our analysis by detecting the leads in the model sea ice fields, using the detection algorithm of \citeA{Hutter_identification_2019} based on the sea ice deformation field (see Eq.\ref{eq:eq1}). Figure \ref{fig:fig1}a and c shows a snapshot of the sea ice deformation for the 21st of April 2014, from which we retrieve a mask of the leads (Fig. \ref{fig:fig1}e). Within the leads, the sea ice concentration can remain higher than 90\% (Fig. \ref{fig:fig1}d); this is a consequence of the continuous nature of the sea ice model and the daily averaged output that smooths the presence of leads in the fields.
 
-The SEDNA climatology of the lead probability (Fig. \ref{fig:S_fig1}a), i.e. the likelihood of leads occurring for any given day is $\sim 19\%$ in the ice-covered Arctic, comparable to previous observations \cite{Wernecke_Lead_2015,Willmes_leads_currents_2023}. Although observations use different identification methods compared to the one implemented in SEDNA \cite{Hutter_identification_2019}, there is resemblance between SEDNA and observations (Fig. \ref{fig:S_fig1}b), with similar lead probability over the shelves, along bathymetric features, and in regions where the ocean surface kinetic energy tends to be large (Fig. \ref{fig:S_fig1}c). Yet, SEDNA underestimates the observed lead probability in the Beaufort Sea. Regardless, the similarities between the observations and the model lead probability give us confidence to quantify for the first time the impact of leads on the surface buoyancy of the Arctic Ocean.
+The SEDNA climatology of the lead probability (Fig. S1a), i.e. the likelihood of leads occurring for any given day is $\sim 19\%$ in the ice-covered Arctic, comparable to previous observations \cite{Wernecke_Lead_2015,Willmes_leads_currents_2023}. Although observations use different identification methods compared to the one implemented in SEDNA \cite{Hutter_identification_2019}, there is resemblance between SEDNA and observations (Fig. S1b), with similar lead probability over the shelves, along bathymetric features, and in regions where the ocean surface kinetic energy tends to be large (Fig. S1c). Yet, SEDNA underestimates the observed lead probability in the Beaufort Sea. Regardless, the similarities between the observations and the model lead probability give us confidence to quantify for the first time the impact of leads on the surface buoyancy of the Arctic Ocean.
 
 Figure \ref{fig:fig2}a and b show two snapshots of the buoyancy flux at the ocean surface. A negative buoyancy flux results from a loss of heat to the atmosphere, sea ice refreezing, and brine rejection, while a positive buoyancy flux is associated with sea ice melting, freshening, and warming of the Arctic surface. Inside the ice-covered region, the fluxes are spatially homogeneous, except in the MIZ and within the leads, where the buoyancy fluxes are larger. The average buoyancy flux across the ice-covered Arctic (15\% - 100\% ice concentration) within the leads is $-2.2\times 10^{-8} m^2/s^3$ and $7.2\times 10^{-8} m^2/s^3$ for each date, compared to the $-2.4\times 10^{-8} m^2/s^3$ and $5.7\times 10^{-8} m^2/s^3$ excluding the leads. In other words, on the 1st of January, the total flux within the leads and outside of the leads are comparable. In contrast, on the 25th of June, the total buoyancy flux in the leads is up to 30\% larger than those over the ice cover region excluding leads.
 
@@ -237,7 +237,7 @@ The following analysis is conducted separately for four distinct masks represent
 The extent of each mask exhibits a seasonal cycle (Fig. \ref{fig:fig3}a). From winter (December, January, and February) to  summer (June, July, and August), the ice pack extent decreases from approximately $80\%$ to $60\%$, while the extent of the MIZ increases from $2\%$ to approximately $13\%$. 
 On one hand, the percentage of the ice pack leads extent peaks in winter at 16\% and decreases to a minimum extent of $13\%$ in summer. On the other hand, the extent of the MIZ leads covers $2\%$ in winter and around $13\%$ in summer, the same as the MIZ extent. 
 
-The contribution of the total buoyancy flux occurring within the leads and ice-covered regions is quantified by weighting the buoyancy flux of each of the sea ice cover masks by the total ice-covered area (Fig. \ref{fig:fig3}b; Eq.\ref{eq:eq3}; note that the size of each mask evolves in time). The mean buoyancy flux under the ice pack in winter (December-February) and summer (June-August) is $-1.8 \times10^{-8} m^2/s^3$  and $2.2 \times10^{-8} m^2/s^3$, respectively. The buoyancy flux underneath the ice pack changes signs during the seasonal cycle, suggesting a shift from ice formation in winter to ice melting in summer. Note that in the ice pack, the haline component of the buoyancy flux determines the buoyancy flux, while the heat contribution is negligible (see Fig.\ref{fig:S_fig2} for a quantification of the different contributions). Meanwhile, the mean buoyancy flux in the MIZ is negligible in winter and increases to $0.9 \times10^{-8}m^2/s^3$ in summer. The MIZ is predominantly associated with a positive buoyancy flux suggesting preferential melting in this region throughout the year (except for autumn). There, the haline component also determines the buoyancy flux (See Fig.\ref{fig:S_fig2}). In both, the MIZ leads and the ice pack leads, the buoyancy flux follows the same seasonality of the fluxes outside of the leads. Winter values are $-0.3 \times10^{-8}m^2/s^3$ and $-0.01 \times10^{-8}m^2/s^3$, while summer values reach $0.6 \times10^{-8}m^2/s^3$ and $0.9 \times10^{-8}m^2/s^3$ for the contribution of the leads in the ice pack and the MIZ, respectively.
+The contribution of the total buoyancy flux occurring within the leads and ice-covered regions is quantified by weighting the buoyancy flux of each of the sea ice cover masks by the total ice-covered area (Fig. \ref{fig:fig3}b; Eq.\ref{eq:eq3}; note that the size of each mask evolves in time). The mean buoyancy flux under the ice pack in winter (December-February) and summer (June-August) is $-1.8 \times10^{-8} m^2/s^3$  and $2.2 \times10^{-8} m^2/s^3$, respectively. The buoyancy flux underneath the ice pack changes signs during the seasonal cycle, suggesting a shift from ice formation in winter to ice melting in summer. Note that in the ice pack, the haline component of the buoyancy flux determines the buoyancy flux, while the heat contribution is negligible (see Fig.S2 for a quantification of the different contributions). Meanwhile, the mean buoyancy flux in the MIZ is negligible in winter and increases to $0.9 \times10^{-8}m^2/s^3$ in summer. The MIZ is predominantly associated with a positive buoyancy flux suggesting preferential melting in this region throughout the year (except for autumn). There, the haline component also determines the buoyancy flux (See Fig.S2). In both, the MIZ leads and the ice pack leads, the buoyancy flux follows the same seasonality of the fluxes outside of the leads. Winter values are $-0.3 \times10^{-8}m^2/s^3$ and $-0.01 \times10^{-8}m^2/s^3$, while summer values reach $0.6 \times10^{-8}m^2/s^3$ and $0.9 \times10^{-8}m^2/s^3$ for the contribution of the leads in the ice pack and the MIZ, respectively.
 Overall, leads explain between 20\% to 45\% of the ice-covered buoyancy fluxes (red dashed line in Fig \ref{fig:fig3}b), more than the area extent of all leads that ranges from 18\% in winter to 26\% in summer. Therefore, fluxes are larger within the leads relative to their area extent. 
 
 \begin{figure}
@@ -284,8 +284,8 @@ Therefore, resolving and/or parameterizing leads in climate models are likely to
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section*{Open Research Section}
-The SEDNA model configuration are described and publicly available at \url{https://zenodo.org/records/7656924}, \citeA{SEDNA_2023}.
-All analyses and figures in this manuscript are reproducible via Jupyter notebooks and instructions can be found in the GitHub repository \texttt{Leads\_Arctic\_ocean} via \url{https://github.com/josuemtzmo/Leads_Arctic_ocean}, \citeA{JOSUE_2024}.
+The SEDNA model configuration is described and publicly available via \citeA{SEDNA_2023}.
+All analyses and figures in this manuscript are reproducible via Jupyter notebooks and instructions found in the Zenodo archive \texttt{Leads\_Arctic\_ocean}, \citeA{JOSUE_2024}.
 
 \acknowledgments
 We acknowledge funding from the ANR ImMEDIAT project (ANR-18-CE01-0010) and the MEDLEY project funded by the program JPI Ocean/JPI Climate (ANR-19-JPOC-0001) project. 
@@ -321,27 +321,27 @@ The post-processing and data analysis were performed in DATARMOR of `Pôle de Ca
 % apacite uses < > for prenotes and [ ] for postnotes
 % DO NOT use other cite commands (e.g., \citeA, \cite, \citeyear, \nocite, \citeA, etc.).
 %
-\newpage
+% \newpage
 
-\appendix
-\section*{Supplementary Information}
+% \appendix
+% \section*{Supplementary Information}
 
-\renewcommand{\thefigure}{S\arabic{figure}}
-\setcounter{figure}{0}    
+% \renewcommand{\thefigure}{S\arabic{figure}}
+% \setcounter{figure}{0}    
 
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=1\textwidth]{./Figures/Figure_S1_comparison_LKF_observations_KE_bathy.pdf}
-  \caption{Comparison of winter lead frequency between a) Thermal-Infrared Satellite Imagery \cite{Willmes_leads_currents_2023} and b) SEDNA between 2011 and 2015. Panel c) shows the SEDNA mean kinetic energy between 2011 and 2015.}
-  \label{fig:S_fig1}
-\end{figure}
+% \begin{figure}[h]
+%   \centering
+%   \includegraphics[width=1\textwidth]{./Figures/Figure_S1_comparison_LKF_observations_KE_bathy.pdf}
+%   \caption{Comparison of winter lead frequency between a) Thermal-Infrared Satellite Imagery \cite{Willmes_leads_currents_2023} and b) SEDNA between 2011 and 2015. Panel c) shows the SEDNA mean kinetic energy between 2011 and 2015.}
+%   \label{fig:S_fig1}
+% \end{figure}
 
-\begin{figure}
-  \centering
-  \includegraphics[width=1\textwidth]{./Figures/Figure_S2_buoyancy_flux_components.pdf}
-  \caption{Time-series during 2014 of a) the freshwater component of the buoyancy flux and b) the heat component of the buoyancy flux for the ice pack, the MIZ, and the leads in the ice pack and in the MIZ. The MIZ is defined between ice concentration of 15-80\%, and the ice pack is defined where ice concentration $>80\%$.}
-  \label{fig:S_fig2}
-\end{figure}
+% \begin{figure}
+%   \centering
+%   \includegraphics[width=1\textwidth]{./Figures/Figure_S2_buoyancy_flux_components.pdf}
+%   \caption{Time-series during 2014 of a) the freshwater component of the buoyancy flux and b) the heat component of the buoyancy flux for the ice pack, the MIZ, and the leads in the ice pack and in the MIZ. The MIZ is defined between ice concentration of 15-80\%, and the ice pack is defined where ice concentration $>80\%$.}
+%   \label{fig:S_fig2}
+% \end{figure}
 
 \end{document}
 
@@ -484,3 +484,6 @@ The post-processing and data analysis were performed in DATARMOR of `Pôle de Ca
 %  \begin{equation}
 %  \end{equation}
 %  \end{linenomath*}
+
+
+
