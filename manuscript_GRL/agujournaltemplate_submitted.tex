@@ -1,0 +1,489 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% AGUJournalTemplate.tex: this template file is for articles formatted with LaTeX
+%
+% This file includes commands and instructions
+% given in the order necessary to produce a final output that will
+% satisfy AGU requirements, including customized APA reference formatting.
+%
+% You may copy this file and give it your
+% article name, and enter your text.
+%
+% guidelines and troubleshooting are here: 
+
+%% To submit your paper:
+\documentclass[draft]{agujournal2019}
+\usepackage{url} %this package should fix any errors with URLs in refs.
+\usepackage{lineno}
+\usepackage[inline]{trackchanges} %for better track changes. finalnew option will compile document with changes incorporated.
+\usepackage{soul}
+% \usepackage{hyperref}
+% \usepackage{natbib}
+\linenumbers
+%%%%%%%
+% As of 2018 we recommend use of the TrackChanges package to mark revisions.
+% The trackchanges package adds five new LaTeX commands:
+%
+%  \note[editor]{The note}
+%  \annote[editor]{Text to annotate}{The note}
+%  \add[editor]{Text to add}
+%  \remove[editor]{Text to remove}
+%  \change[editor]{Text to remove}{Text to add}
+%
+% complete documentation is here: http://trackchanges.sourceforge.net/
+%%%%%%%
+
+% \draftfalse
+
+%% Enter journal name below.
+%% Choose from this list of Journals:
+%
+% JGR: Atmospheres
+% JGR: Biogeosciences
+% JGR: Earth Surface
+% JGR: Oceans
+% JGR: Planets
+% JGR: Solid Earth
+% JGR: Space Physics
+% Global Biogeochemical Cycles
+% Geophysical Research Letters
+% Paleoceanography and Paleoclimatology
+% Radio Science
+% Reviews of Geophysics
+% Tectonics
+% Space Weather
+% Water Resources Research
+% Geochemistry, Geophysics, Geosystems
+% Journal of Advances in Modeling Earth Systems (JAMES)
+% Earth's Future
+% Earth and Space Science
+% Geohealth
+%
+% ie, \journalname{Water Resources Research}
+
+\journalname{Geophysical Research Letters}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  TITLE
+%
+% (A title should be specific, informative, and brief. Use
+% abbreviations only if they are defined in the abstract. Titles that
+% start with general keywords then specific terms are optimized in
+% searches)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Example: \title{This is a test title}
+
+\title{Is the surface forcing through sea ice leads transferred to the Arctic Ocean interior?}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  AUTHORS AND AFFILIATIONS
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\authors{Josu\'e Mart\'inez-Moreno\affil{1}, Camille Lique\affil{1}, Claude Talandier\affil{1}}
+
+
+\affiliation{1}{Univ Brest, CNRS, Ifremer, IRD, Laboratoire d'Oc\'eanographie Physique et Spatiale (LOPS), Institut Universitaire Européen de la Mer, Plouzan\'e, Bretagne, France}
+
+\correspondingauthor{Josu\'e Mart\'inez-Moreno}{josue.martinezmoreno@univ-brest.fr}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% KEY POINTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  List up to three key points (at least one is required)
+%  Key Points summarize the main points and conclusions of the article
+%  Each must be 140 characters or fewer with no special characters or punctuation and must be complete sentences
+
+% Example:
+% \begin{keypoints}
+% \item	List up to three key points (at least one is required)
+% \item	Key Points summarize the main points and conclusions of the article
+% \item	Each must be 140 characters or fewer with no special characters or punctuation and must be complete sentences
+% \end{keypoints}
+
+\begin{keypoints}
+\item A high-resolution simulation allows us to estimate the integrated impact of leads in the Arctic Ocean.
+\item Leads make up a quarter of the sea ice cover and buoyancy fluxes through leads are larger than those outside of the leads.
+\item Leads account for a quarter of the surface water mass transformation in the Arctic Ocean, proportional to their area coverage.
+\end{keypoints}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  ABSTRACT and PLAIN LANGUAGE SUMMARY
+%
+% A good Abstract will begin with a short description of the problem
+% being addressed, briefly describe the new data or analyses, then
+% briefly states the main conclusion(s) and how they are supported and
+% uncertainties.
+
+% The Plain Language Summary should be written for a broad audience,
+% including journalists and the science-interested public, that will not have 
+% a background in your field.
+%
+% A Plain Language Summary is required in GRL, JGR: Planets, JGR: Biogeosciences,
+% JGR: Oceans, G-Cubed, Reviews of Geophysics, and JAMES.
+% see http://sharingscience.agu.org/creating-plain-language-summary/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% \begin{abstract} starts the second page
+
+\begin{abstract}
+      The Arctic sea ice, in particular the ice pack, acts as an insulator between the atmosphere and the ocean. Leads, commonly found in the Arctic, facilitate ocean-atmosphere flux exchanges. Local observations have captured heat fluxes through some leads one order of magnitude larger than those outside of the leads, leading to the speculation that air-sea exchanges through leads contribute significantly to the Arctic Ocean surface buoyancy forcing.
+      Here, we quantify the magnitude and impact on the ocean surface of the leads using SEDNA, a subkilometer pan-Arctic hindcast. Leads account for 22\% of the sea ice cover surface, and within them, there is approximately 25\% of the total surface water mass transformation. In other words, the water mass transformation in leads is similar to those underneath the surrounding ice-covered oceans. Thus, the present estimate indicates that leads have a small contribution to Arctic Ocean dynamics, contrary to previous hypotheses.
+\end{abstract}
+
+\section*{Plain Language Summary}
+Arctic sea ice acts as a barrier between the air and the ocean, but openings in the ice, called leads, allow for exchanges of heat, salt, moisture, and gases. These leads can significantly increase the amount of heat passing between the ocean and the atmosphere. However, it has been challenging to measure the impact of leads on the ocean because of limited observations and high-resolution models. Using a high-resolution model called SEDNA, we studied the effects of leads across the Arctic. We found that leads cover 22\% of the sea ice and explain around 25\% of the surface density changes within the ice-covered Arctic. This means the impact of leads on the Arctic Ocean is explained by their area extent in the Arctic. Our main results suggest that leads have a smaller effect on Arctic Ocean dynamics than previously thought.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  BODY TEXT
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+
+The Arctic sea ice regulates Earth's climate by acting as a natural insulator between the atmosphere and the ocean \cite{Wettlaufer_insulator_1997, Untersteiner_ice_insulator_1961}. A ubiquitous feature of Arctic sea ice is the formation and persistence of leads. Leads occur across the polar regions, both in the marginal ice zone (MIZ; $15-80\%$ sea ice concentration) and the ice pack ($>80\%$ sea ice concentration). Within the MIZ, leads are primarily formed by the advection of sea ice, while in the ice pack, leads form through the deformation of the sea ice and are commonly referred to in the literature as ``linear kinematic features" (LKF). 
+The primary forcing of the sea ice advection and deformation is the wind \cite{Linow_lkf_2017, Hutter_scaling_lkf_2018}, with a smaller contribution from ocean currents \cite{Willmes_leads_currents_2023}.
+Leads result in openings of the sea ice cover \cite{Rampal_nextsim_2016, Hutchings_model_lkf_2005, Richter_pack_stress_2002} with spatial scales of meters to kilometers in width and a few kilometers up to hundreds of kilometers in length, and temporal scales ranging from a few hours up to a few days \cite{Linow_lkf_2017, Wernecke_Lead_2015, Tschudi_obs_leads_1998}. Thus, they can locally impact the ocean surface forcing in the ice-covered oceans \cite{Lupkes_leads_2008}.
+
+Once leads are formed, atmospheric forcing in conjunction with localized upwelling or downwelling occurring in the ocean surface layer can result in important heat fluxes at the ocean surface ($\mathcal{O} \sim 100 W/m^2$; \citeA{Bourgault_flux_lkf_2020,Marcq_flux_lead_2012,McPhee_LKF_2005,Maykut_heat_1986}), instigating localized melting or freezing of sea ice \cite{Albedyll_thickness_dis_2022}. For example, \citeA{Boutin_rheology_2023} estimated that in the ice pack 35\% of the total sea ice growth occurs within the leads during winter. The Arctic Ocean is a $\beta$-ocean, i.e. its stratification is mainly controlled by salinity, which in turn is largely determined by ice-ocean interactions (sea ice growth and melt). Thus, leads experiencing an increase in buoyancy forcing due to brine rejection can induce convection \cite{Smith_convection_1998}, weaken the mixed layer stratification, and generate fronts, mixed layer turbulence, and eddies \cite{Reiser_LKF_2020, Smith_generation_2002}. Meanwhile, in leads experiencing melting, there will be an increase of the mixed layer stratification and a stabilization of the ocean surface layer. These changes in the buoyancy flux translate into a local transformation of the surface water masses that could be critical for the functioning of the Arctic Ocean circulation \cite{Lenn_mixing_2022, Pemberton_WMT_2015, Smith_polynyas_1990}. 
+Previous studies have shown that instances of leads impact locally the ocean surface and the properties of the Arctic Ocean mixed layer. Nonetheless, the integrated contribution of leads to the large-scale buoyancy forcing at the Arctic Ocean surface has not been quantified yet.
+
+Here, we present the first estimate of the contribution of the buoyancy forcing and water mass transformation within leads in the Arctic Ocean, using the output of a seven year long pan-Arctic hindcast run at a subkilometer resolution (SEDNA, \citeA{SEDNA_2023}). Our main objectives are: (1) to assess the impact of leads on the surface buoyancy forcing and (2) to contrast the surface-forced water mass transformation within the leads and those of the ice cover excluding leads.
+
+\section{Methods}
+\subsection{Model description}
+
+SEDNA is a 1/60$^\circ$ pan-Arctic ocean-sea ice configuration based on the NEMO numerical platform (release 4.0.5; \citeA{NEMO_man}) including the SI3 sea ice component \citeA{SI3_man}. The pan-Arctic domain covers the Bering Strait on the Pacific side and extends southward to 56$^\circ$N in the Subpolar North Atlantic and to the Baltic Sea entrance. The ocean model solves the primitive equations using finite differences on an Arakawa C-grid. The ocean model incorporates a linear free surface, utilizes a 3rd order flux form scheme for momentum advection, and employs a 4th order Flux Corrected Transport (FCT) for tracer advection. Additionally, the sea ice model uses an Elasto-Visco-Plastic (EVP) rheology with a 5-categories sea ice thickness distribution and a landfast ice parameterization to better simulate sea ice behavior above shelves. The NCAR bulk formula from \citeA{Large_global_2009} is used to calculate air-sea fluxes based on the hourly ERA5 atmospheric data for near-surface variables \cite{Hersbach_ERA5_2020}. The three lateral boundaries are constrained with daily GLORYS12V1 Re-analysis data \cite{GLORYS12}. Monthly freshwater fluxes from river discharges are combined with Greenland land ice melt data \cite{HuEA_rivers_2019}. The simulation extends over seven years (2009 to 2015) and starts from rest, utilizing initial conditions based on the World Ocean Atlas 2009 temperature/salinity and mean January 2009 ice state from PIOMAS re-analysis \cite{Locarnini_data_2010, PIOMAS}. A weak restoring toward the World Ocean Atlas climatological sea surface salinity is applied, but only over the ice-free regions. The results presented hereafter correspond to the daily mean outputs during 2014 to allow the ocean surface to equilibrate after 6 years of spin-up. %Preliminary assessment against available observations and re-analyses data shows that the simulation reasonably captures key ocean and sea ice characteristics.
+
+\subsection{Identification of leads}
+
+The leads from SEDNA are identified by using the algorithm proposed by \citeA{Hutter_identification_2019} applied to the daily mean sea ice outputs. This method uses the total deformation rate defined as: 
+\begin{equation}
+    T_d = \left[\left(\underbrace{\frac{\partial u}{\partial x} +\frac{\partial v}{\partial y}}_{Divergence}\right)^2 + \underbrace{\left(\frac{\partial u}{\partial x} - \frac{\partial v}{\partial y}\right)^2+ \left(\frac{\partial u}{\partial y} + \frac{\partial v}{\partial x}\right)^2}_{Shear}\right]^{1/2},
+    \label{eq:eq1}
+\end{equation}
+where $u$ and $v$ are the sea ice velocities. The deformation rate varies spatially depending on the background deformation and the sea ice properties \cite{Reiser_LKF_2020}, and the largest deformation rates occur along the boundaries of ice floes where the leads are found. Therefore, to identify the leads, the local maxima are identified using a difference of Gaussian filter (DoG filter) of the deformation rate field. After this, a binary map is created with the mask of the identified lead. Note that after this step, \citeA{Hutter_identification_2019} reduces the width of the leads to a line, and then tracks the leads over time. Since our study focuses on ocean-atmosphere interactions, we only use the identification algorithm to produce a mask of leads during 2014 for the Arctic, but we retain the original lead width computed from the deformation rate. Finally, the lead mask is then used to quantify and contrast the impact of leads compared to the ice-covered Arctic, the ice-pack (ice concentration $> 80\%$), and the MIZ (15 - 80\% ice concentration).
+
+\subsection{Buoyancy flux and water mass transformation}
+
+Heat fluxes (from shortwave radiation, longwave radiation, latent heat, and sensible heat) and freshwater fluxes (from evaporation, precipitation, runoff, and sea ice melt/growth) at the ocean surface result in a buoyancy forcing capable of changing the density of the ocean surface. Here, the buoyancy flux is computed as:
+
+\begin{equation}
+    B_f = \underbrace{\frac{g \alpha Q_{net}}{\rho_0 C_p}}_{Heat\ Contribution} - \underbrace{\frac{g \beta F_{net} SSS }{\rho_0}}_{Freshwater\ Contribution},
+    \label{eq:eq2}
+\end{equation}
+
+where $Q_{net}$ the net heat flux at the sea surface, $\alpha$ the thermal expansion coefficient, $SSS$ the sea surface salinity, $F_{net}$ the net freshwater flux, $\beta$ the haline contraction coefficient, $g = 9.81 m/s^2$, and the ocean density $\rho_0 = 1026 kg/m^3$. 
+Note that using this sign convention, a positive buoyancy forcing decreases the surface density making the ocean surface more buoyant (stable) and a negative buoyancy forcing increases the surface density. The area-weighted buoyancy ($ \left<\right>$) fluxes are computed following:
+\begin{equation}
+    \left<B_f (t)\right>  = \frac{\sum_x \sum_y \left( B_f(t,x,y) * Area(x,y) * Mask_{_R}(t,x,y)\right)}{\sum_x \sum_y Area(x,y) * Mask(t,x,y)},
+    \label{eq:eq3}
+\end{equation}
+where the $Area$ is the area of the grid cells, and the $Mask_{_R}$ is the mask of the MIZ, the Pack, the MIZ leads, the ice pack leads, and the ice cover that varies in space and time. Note that the divisor $Mask$ corresponds to the full ice-covered area (including leads).
+
+\citeA{Walin_WMT_1982} and \citeA{Nurser_WMT_1999} proposed a surface-forced water mass transformation framework that provides information on the transport of water through the surface density contours due to surface buoyancy forcing that results in the formation of lighter or denser water at the surface. Thus, the WMT relates the surface buoyancy forcing and the surface density field to the properties of the ocean interior. A negative transformation rate corresponds to a water mass becoming lighter, and a positive transformation rate corresponds to a water mass becoming denser. The water mass transformation (WMT) is computed as:
+
+\begin{equation}
+    \Omega(\sigma_k) = - \frac{1}{\sigma_{k+1}-\sigma_k}\int\int_AB_fdA,
+    \label{eq:eq4}
+\end{equation}
+
+where $\sigma$ is potential density and the indices $k$ represents the density bin number. The computation was performed with 172 density bins of $0.1 kg/m^3$ within the density range of $15.15 kg/m^3$ - $32.25 kg/m^3$. The transformation rate $\Omega$ is spatially decomposed into different sea ice masks that are the ice-covered, the pack ice, the MIZ, and the leads in each of these regions. 
+
+\section{Buoyancy forcing in leads}\label{sec2}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.95\textwidth]{./Figures/Figure_1_SENTINE_SEDNA_LKF_conc_New_Color.pdf}
+    \caption{a) Snapshot of total deformation for the 21st of April 2014 from SEDNA. b) Mean lead probability for daily snapshots of leads identified between 2011 and 2015 from SEDNA. Zoom of the magenta box of panel a for the c) total deformation to identify leads, d) ice concentration, and f) identified mask of leads. e) True color image from Sentinel 3 on the 12th of April 2022 for the magenta area in panel a. Note that the true color image is not associated with any colorbar.}
+    \label{fig:fig1}
+\end{figure}
+
+Leads can be easily visually identified when examining high resolution satellite observations (Fig. \ref{fig:fig1}f), yet it remains challenging to capture them in state-of-the-art models that often lack the resolution and/or the sea ice dynamics to simulate these features \cite{Bouchat_sea_ice_rheology_2022, Wang_leads_2016}. Here we analyze daily outputs from the SEDNA ocean-sea ice model, which has an average Arctic resolution of $\sim 800m$, sufficient to capture the observed lead width distribution ($>1km$; \citeA{Wernecke_Lead_2015}). 
+We start our analysis by detecting the leads in the model sea ice fields, using the detection algorithm of \citeA{Hutter_identification_2019} based on the sea ice deformation field (see Eq.\ref{eq:eq1}). Figure \ref{fig:fig1}a and c shows a snapshot of the sea ice deformation for the 21st of April 2014, from which we retrieve a mask of the leads (Fig. \ref{fig:fig1}e). Within the leads, the sea ice concentration can remain higher than 90\% (Fig. \ref{fig:fig1}d); this is a consequence of the continuous nature of the sea ice model and the daily averaged output that smooths the presence of leads in the fields.
+
+The SEDNA climatology of the lead probability (Fig. S1a), i.e. the likelihood of leads occurring for any given day is $\sim 19\%$ in the ice-covered Arctic, comparable to previous observations \cite{Wernecke_Lead_2015,Willmes_leads_currents_2023}. Although observations use different identification methods compared to the one implemented in SEDNA \cite{Hutter_identification_2019}, there is resemblance between SEDNA and observations (Fig. S1b), with similar lead probability over the shelves, along bathymetric features, and in regions where the ocean surface kinetic energy tends to be large (Fig. S1c). Yet, SEDNA underestimates the observed lead probability in the Beaufort Sea. Regardless, the similarities between the observations and the model lead probability give us confidence to quantify for the first time the impact of leads on the surface buoyancy of the Arctic Ocean.
+
+Figure \ref{fig:fig2}a and b show two snapshots of the buoyancy flux at the ocean surface. A negative buoyancy flux results from a loss of heat to the atmosphere, sea ice refreezing, and brine rejection, while a positive buoyancy flux is associated with sea ice melting, freshening, and warming of the Arctic surface. Inside the ice-covered region, the fluxes are spatially homogeneous, except in the MIZ and within the leads, where the buoyancy fluxes are larger. The average buoyancy flux across the ice-covered Arctic (15\% - 100\% ice concentration) within the leads is $-2.2\times 10^{-8} m^2/s^3$ and $7.2\times 10^{-8} m^2/s^3$ for each date, compared to the $-2.4\times 10^{-8} m^2/s^3$ and $5.7\times 10^{-8} m^2/s^3$ excluding the leads. In other words, on the 1st of January, the total flux within the leads and outside of the leads are comparable. In contrast, on the 25th of June, the total buoyancy flux in the leads is up to 30\% larger than those over the ice cover region excluding leads.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\textwidth]{./Figures/Figure_2_buoyancy_flux_maps_vertical_V2_15p.pdf}
+    \caption{Maps of buoyancy flux on (a) the 1st of January 2014 and (b) the 25th of June 2014. 
+    Transect on the 1st of January 2014 of c) ice thickness, e) downward heat flux, g) freshwater flux (positive upward), and i) buoyancy flux (heat flux minus freshwater flux). Transect on the 25th of June 2014 of d) ice thickness, f) downward heat flux, h) freshwater flux (positive upward), and j) buoyancy flux. Note that positive buoyancy fluxes correspond to buoyancy loss, while negative buoyancy fluxes correspond to buoyancy gain by the ocean. The transect location and orientation changes between the winter and summer dates. Magenta contour in panels a and b corresponds to the 15\% concentration contour of sea ice. Vertical blue bars show the mask of leads in the transect. \textbf{Add extra panel of total deformation and components.}}
+    \label{fig:fig2}
+\end{figure}
+
+Examining a transect in the Canadian Basin on the 1st of January 2014, we detect two leads (vertical blue bars) associated with a significant decrease in sea ice thickness of $\sim 25cm$, suggesting an opening of the sea ice cover (Fig.\ref{fig:fig2} c).
+This transect exhibits small heat flux at the ocean surface and within the identified leads (Fig.\ref{fig:fig2} e). This is because the ocean surface is at freezing point and the heat exchanged with the atmosphere is used to form sea ice rather than cooling the ocean.
+The freshwater flux (Fig.\ref{fig:fig2}g) exhibits two prominent positive peaks located within the identified leads. Both peaks are twice the magnitude of the fluxes outside the leads, highlighting enhanced sea ice growth and brine rejection within the leads. 
+The total buoyancy flux is negative for this snapshot, with the largest buoyancy loss occurring within the leads (Fig.\ref{fig:fig2} i).
+On the 25th of June (Fig.\ref{fig:fig2}d), we detect several leads, but only some show a decrease of the sea ice thickness of more than $1m$ (Fig.\ref{fig:fig2} h). These specific leads also experience an increase in heat fluxes, reaching up to $\sim 25 W/m^2$ (Fig.\ref{fig:fig2}f) and a local decrease of the freshwater flux, indicating a freshening of the surface due to sea ice melt. This change is captured by the net positive buoyancy flux, i.e. a decrease in the density at the surface (Fig.\ref{fig:fig2}j).
+Of all the identified leads, some exhibit significant fluxes at the ocean surface, while others have little to no imprint in the thickness and fluxes. For some, this is explained by the timing of the sea ice break up, as subsequent snapshots show an increase of fluxes at the location of these identified leads (not shown). Alternatively, previous studies have shown that in leads generated through shear, there is a limited buoyancy exchange with the atmosphere, but may still enhance fluxes in the ocean due to isopycnal upwelling or downwelling forced by the atmosphere-ocean stress within the leads \cite{Bourgault_flux_lkf_2020}.
+
+Similar to observations, we identify buoyancy fluxes that are larger within the leads than outside of them for these summer and winter days. In the next section, we explore the spatially averaged contribution of leads to the surface buoyancy fluxes and the integrated influence on the water mass transformation across the Arctic Basin during 2014. 
+
+\section{Integrated contribution of leads to the Arctic buoyancy}\label{sec3}
+
+The following analysis is conducted separately for four distinct masks representing regions with leads and regions excluding leads for the MIZ and the ice pack. On average over 2014, these masks account for 6\% for the MIZ, 72\% for the ice pack, 6\% for the leads in the MIZ, and 16\% for the leads in the ice pack. Thus the part covered by leads is on average $\sim 22\%$ of the total sea ice-covered Arctic, consistent with previous model assessments \cite{Wang_leads_2016}. 
+The extent of each mask exhibits a seasonal cycle (Fig. \ref{fig:fig3}a). From winter (December, January, and February) to  summer (June, July, and August), the ice pack extent decreases from approximately $80\%$ to $60\%$, while the extent of the MIZ increases from $2\%$ to approximately $13\%$. 
+On one hand, the percentage of the ice pack leads extent peaks in winter at 16\% and decreases to a minimum extent of $13\%$ in summer. On the other hand, the extent of the MIZ leads covers $2\%$ in winter and around $13\%$ in summer, the same as the MIZ extent. 
+
+The contribution of the total buoyancy flux occurring within the leads and ice-covered regions is quantified by weighting the buoyancy flux of each of the sea ice cover masks by the total ice-covered area (Fig. \ref{fig:fig3}b; Eq.\ref{eq:eq3}; note that the size of each mask evolves in time). The mean buoyancy flux under the ice pack in winter (December-February) and summer (June-August) is $-1.8 \times10^{-8} m^2/s^3$  and $2.2 \times10^{-8} m^2/s^3$, respectively. The buoyancy flux underneath the ice pack changes signs during the seasonal cycle, suggesting a shift from ice formation in winter to ice melting in summer. Note that in the ice pack, the haline component of the buoyancy flux determines the buoyancy flux, while the heat contribution is negligible (see Fig.S2 for a quantification of the different contributions). Meanwhile, the mean buoyancy flux in the MIZ is negligible in winter and increases to $0.9 \times10^{-8}m^2/s^3$ in summer. The MIZ is predominantly associated with a positive buoyancy flux suggesting preferential melting in this region throughout the year (except for autumn). There, the haline component also determines the buoyancy flux (See Fig.S2). In both, the MIZ leads and the ice pack leads, the buoyancy flux follows the same seasonality of the fluxes outside of the leads. Winter values are $-0.3 \times10^{-8}m^2/s^3$ and $-0.01 \times10^{-8}m^2/s^3$, while summer values reach $0.6 \times10^{-8}m^2/s^3$ and $0.9 \times10^{-8}m^2/s^3$ for the contribution of the leads in the ice pack and the MIZ, respectively.
+Overall, leads explain between 20\% to 45\% of the ice-covered buoyancy fluxes (red dashed line in Fig \ref{fig:fig3}b), more than the area extent of all leads that ranges from 18\% in winter to 26\% in summer. Therefore, fluxes are larger within the leads relative to their area extent. 
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\textwidth]{./Figures/Figure_3_buoyancy_flux_ts_only_total.pdf}
+    \caption{Time series during 2014 of a) the percentage of ice cover extent and b) the total buoyancy fluxes for the total ice-covered, the ice pack, the MIZ, and the leads in the ice pack and the MIZ. The MIZ is defined between ice concentration of 15-80\%, the ice pack is defined where ice concentration $>80\%$, and the total ice-covered is defined as the sum of the MIZ and ice pack.}
+    \label{fig:fig3}
+\end{figure}
+
+The role and impact leads have on the surface water masses of the Arctic can be quantified by using the surface water mass transformation framework (Eq. \ref{eq:eq4}; \citeA{Walin_WMT_1982}). 
+Figure \ref{fig:fig4}a shows the averaged WMT during 2014 for the total ice-covered Arctic, the ice pack, the MIZ, and the parts of these regions covered by leads. The definitions of the water masses depicted in figure \ref{fig:fig4}a follow roughly those proposed by \citeA{Pemberton_WMT_2015} and \citeA{Lansard_water_mass_2012}.
+The yearly mean WMT in the ice pack is characterized by a broad region of strong positive transformation (losing buoyancy) corresponding approximately to the halocline polar surface water ($PSW_{H}$; $24.4 kg/m^3 < \rho < 27.4 kg/m^3$) reaching a maximum of $\sim 1.8 Sv$, consistent with previous estimates of the surface Arctic WMT \cite{Pemberton_WMT_2015}.
+The yearly mean WMT in the ice pack leads also features a positive peak within the $PSW_{H}$ density class reaching up to $0.4 Sv$. On average during 2014, the WMT in the ice pack leads is $\sim 20\%$ of the WMT in the ice pack (without leads). The mean MIZ WMT is mostly negative within the density range of $20 kg/m^3 < \rho < 27.5 kg/m^3$ (gaining buoyancy), reaching a minimum of $-0.4 Sv$ around $\rho = 27 kg/m^3$. The MIZ leads WMT is also negative within the same range of densities, with a minimum of $-0.4 Sv$. Thus, the MIZ leads WMT is comparable to those in the MIZ excluding leads. 
+Hovm\"oller diagrams of the daily WMT estimates over 2014 for the four masks are also depicted in figure \ref{fig:fig4}.
+The mean WMT underneath the ice pack varies from 1.1 Sv in winter to -1.0 Sv in summer, while the WMT in the leads in the ice pack is 0.2 Sv in winter and -0.26 Sv in summer. In other words, the WMT in the ice pack leads ranges from 20 to 25\% of the WMT occurring in the pack (Fig. \ref{fig:fig4}d). It is interesting to note that the patterns across the density classes of the WMT for the leads and the surrounding regions excluding leads are similar (Figs. \ref{fig:fig4}b and c). This suggests that there is no specific water mass that is transformed preferentially with the leads. Rather, our results suggest that the water masses transformed within the leads and outside of them have similar properties. 
+The WMT in MIZ leads and those in the MIZ have comparable magnitudes over the year (Fig. \ref{fig:fig4} g). Yet, similarly to the leads in the ice pack, there is no evidence that leads in the MIZ could transform preferentially specific water masses compared to the remaining MIZ. 
+Adding the contribution of the WMT in all the leads in the Arctic (those in the MIZ and the ice pack), we estimate $\sim 25\%$ of the WMT happens in leads, which is comparable to the surface covered by these leads in the Arctic ($\sim 22\%$).
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=1\textwidth]{./Figures/Figure_4_water_mass_transformation_hovmoller_V2_MIZ15_80p.pdf}
+    \caption{a) Mean water mass transformation over 2014 for the total ice-covered, ice pack, MIZ, and leads in each region. Hovm\"oller diagram of the water mass transformation (Sv) for b) the ice pack, c) the ice pack leads, and d) the ratio of water mass transformation between the leads and the ice pack region.
+    Panels e), f), and g) follow the same structure as panels b), c), and d), but for the MIZ, MIZ leads, and the ratio between them.
+    Shaded gray and white areas in panel a) represent approximately the water masses of the Arctic Ocean according to \citeA{Pemberton_WMT_2015} and \citeA{Lansard_water_mass_2012}: the mixed layer polar surface water ($PSW_{ML};\ \rho < 24.4 kg/m^3$), the halocline polar surface water ($PSW_{H};\ 24.4 kg/m^3 < \rho < 27.4 kg/m^3$), the polar deep water ($PDW;\ 27.4 kg/m^3 < \rho < 27.8 kg/m^3$), and the Atlantic water ($AW;\ 27.8 kg/m^3 < \rho$).}
+    \label{fig:fig4}
+\end{figure}
+
+\section{Conclusions}
+
+The present study assesses the impact of leads on the ocean surface by diagnosing the buoyancy fluxes using a very high-resolution hindcast (SEDNA). 
+SEDNA captures the intermittency of the leads and the lead properties. Leads cover $\sim 22\%$ of the sea ice-covered Arctic, and in the ice pack, leads can contribute more buoyancy flux compared to the fluxes outside the leads. Despite these larger buoyancy fluxes, leads only account for approximately $\sim 25\%$ of the total surface water mass transformation in the ice-covered Arctic, which is roughly equivalent to their surface coverage. Thus, contrary to previous hypotheses based largely on local and intermittent observations (e.g. \citeA{McPhee_LKF_2005, Morison_leads_1998}), our findings suggest that leads have a small contribution to the transformation of surface water masses in the Arctic Ocean. While their presence can induce localized changes in the density of surface waters due to brine rejection and ice melting, 
+the transformation of water masses in the leads has the same sign and magnitude as those underneath the surrounding ice-covered regions. Thus, no evidence was found that leads impact in a distinct way the Arctic Ocean water masses in SEDNA compared to outside the leads in the ice-covered ocean.
+
+Here we solely focus on the surface forced WMT, but we acknowledge that leads could further impact properties at the surface and interior of the ocean by enhancing mixing within leads, inducing upwelling of isopycnals through Ekman pumping \cite{McPhee_LKF_2005}, modifying entrainment in the mixed layer within the leads, providing a source of potential energy, and generating mixed layer instabilities due to isopycnal tilting in the vicinity of leads. The use of a continuous sea ice model that results in leads with high ice thickness and concentrations likely underestimates the exchanges between the ocean and the atmosphere. Therefore, future studies using floe-resolving models that allow more ``realistic leads" with direct exchanges between the ocean and the atmosphere may result in larger fluxes through the leads increasing their potential impact in the water mass transformation and ocean mixed layer.
+
+Leads have an important local effect in the atmosphere and the sea ice fluxes \cite{Marcq_flux_lead_2012, Lupkes_leads_2008, Wettlaufer_insulator_1997, Smith_polynyas_1990}, but a limited imprint on the ocean surface and interior properties. Our results suggest that the presence of leads is not the first order mechanism controlling the water mass transformation forced at the surface, thus leads have a minor impact on the stratification and surface layer dynamics of the Arctic Ocean.
+Therefore, resolving and/or parameterizing leads in climate models are likely to only marginally improve the misrepresentation of the stratification and water masses found in Arctic climate models \cite{Wang_ompi_2024,Ilicak_core_2016}. Finally, the probability of leads occurring in the ice pack has been projected to increase as the Arctic sea ice transitions towards thinner, younger, and more mobile sea ice \cite{Boutin_rheology_2023, IPCC_arctic_2022}. Our analysis is only performed over one year and the future impact of more abundant leads is not represented in our simulation. Thus, dedicated studies are required to better estimate the surface buoyancy forcing within leads in the context of an evolving Arctic Ocean.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% DATA SECTION and ACKNOWLEDGMENTS
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Open Research Section}
+The SEDNA model configuration is described and publicly available via \citeA{SEDNA_2023}.
+All analyses and figures in this manuscript can be reproduced using the Jupyter notebooks and instructions provided in the Zenodo archive \texttt{Leads\_Arctic\_ocean}, \citeA{JOSUE_2024}.
+
+\acknowledgments
+We acknowledge funding from the ANR ImMEDIAT project (ANR-18-CE01-0010) and the MEDLEY project funded by the program JPI Ocean/JPI Climate (ANR-19-JPOC-0001) project. 
+The post-processing and data analysis were performed in DATARMOR of `Pôle de Calcul Intensif pour la Mer' at Ifremer, Brest, France. We also acknowledge PRACE for awarding us access to Joliot-Curie at GENCI\makeatletter@CEA, France, where the SEDNA simulation has been performed.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% REFERENCES and BIBLIOGRAPHY
+%
+% \bibliography{<name of your .bib file>} don't specify the file extension
+% don't specify bibliographystyle
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\bibliography{biblio}
+
+%Reference citation instructions and examples:
+%
+% Please use ONLY \cite and \citeA for reference citations.
+% \cite for parenthetical references
+% ...as shown in recent studies (Simpson et al., 2019)
+% \citeA for in-text citations
+% ...Simpson et al. (2019) have shown...
+%
+%
+%...as shown by \citeA{jskilby}.
+%...as shown by \citeA{lewin76}, \citeA{carson86}, \citeA{bartoldy02}, and \citeA{rinaldi03}.
+%...has been shown \cite{jskilbye}.
+%...has been shown \cite{lewin76,carson86,bartoldy02,rinaldi03}.
+%... \cite <i.e.>[]{lewin76,carson86,bartoldy02,rinaldi03}.
+%...has been shown by \cite <e.g.,>[and others]{lewin76}.
+%
+% apacite uses < > for prenotes and [ ] for postnotes
+% DO NOT use other cite commands (e.g., \citeA, \cite, \citeyear, \nocite, \citeA, etc.).
+%
+% \newpage
+
+% \appendix
+% \section*{Supplementary Information}
+
+% \renewcommand{\thefigure}{S\arabic{figure}}
+% \setcounter{figure}{0}    
+
+% \begin{figure}[h]
+%   \centering
+%   \includegraphics[width=1\textwidth]{./Figures/Figure_S1_comparison_LKF_observations_KE_bathy.pdf}
+%   \caption{Comparison of winter lead frequency between a) Thermal-Infrared Satellite Imagery \cite{Willmes_leads_currents_2023} and b) SEDNA between 2011 and 2015. Panel c) shows the SEDNA mean kinetic energy between 2011 and 2015.}
+%   \label{fig:S_fig1}
+% \end{figure}
+
+% \begin{figure}
+%   \centering
+%   \includegraphics[width=1\textwidth]{./Figures/Figure_S2_buoyancy_flux_components.pdf}
+%   \caption{Time-series during 2014 of a) the freshwater component of the buoyancy flux and b) the heat component of the buoyancy flux for the ice pack, the MIZ, and the leads in the ice pack and in the MIZ. The MIZ is defined between ice concentration of 15-80\%, and the ice pack is defined where ice concentration $>80\%$.}
+%   \label{fig:S_fig2}
+% \end{figure}
+
+\end{document}
+
+% More Information and Advice:
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  SECTION HEADS
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Capitalize the first letter of each word (except for
+% prepositions, conjunctions, and articles that are
+% three or fewer letters).
+
+% AGU follows standard outline style; therefore, there cannot be a section 1 without
+% a section 2, or a section 2.3.1 without a section 2.3.2.
+% Please make sure your section numbers are balanced.
+% ---------------
+% Level 1 head
+%
+% Use the \section{} command to identify level 1 heads;
+% type the appropriate head wording between the curly
+% brackets, as shown below.
+%
+%An example:
+%\section{Level 1 Head: Introduction}
+%
+% ---------------
+% Level 2 head
+%
+% Use the \subsection{} command to identify level 2 heads.
+%An example:
+%\subsection{Level 2 Head}
+%
+% ---------------
+% Level 3 head
+%
+% Use the \subsubsection{} command to identify level 3 heads
+%An example:
+%\subsubsection{Level 3 Head}
+%
+%---------------
+% Level 4 head
+%
+% Use the \subsubsubsection{} command to identify level 3 heads
+% An example:
+%\subsubsubsection{Level 4 Head} An example.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  IN-TEXT LISTS
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Do not use bulleted lists; enumerated lists are okay.
+% \begin{enumerate}
+% \item
+% \item
+% \item
+% \end{enumerate}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  EQUATIONS
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Single-line equations are centered.
+% Equation arrays will appear left-aligned.
+
+% Math coded inside display math mode \[ ...\]
+%  will not be numbered, e.g.,:
+%  \[ x^2=y^2 + z^2\]
+
+%  Math coded inside \begin{equation} and \end{equation} will
+%  be automatically numbered, e.g.,:
+%  \begin{equation}
+%  x^2=y^2 + z^2
+%  \end{equation}
+
+
+% % To create multiline equations, use the
+% % \begin{eqnarray} and \end{eqnarray} environment
+% % as demonstrated below.
+% \begin{eqnarray}
+%   x_{1} & = & (x - x_{0}) \cos \Theta \nonumber \\
+%         && + (y - y_{0}) \sin \Theta  \nonumber \\
+%   y_{1} & = & -(x - x_{0}) \sin \Theta \nonumber \\
+%         && + (y - y_{0}) \cos \Theta.
+% \end{eqnarray}
+
+%If you don't want an equation number, use the star form:
+%\begin{eqnarray*}...\end{eqnarray*}
+
+% Break each line at a sign of operation
+% (+, -, etc.) if possible, with the sign of operation
+% on the new line.
+
+% Indent second and subsequent lines to align with
+% the first character following the equal sign on the
+% first line.
+
+% Use an \hspace{} command to insert horizontal space
+% into your equation if necessary. Place an appropriate
+% unit of measure between the curly braces, e.g.
+% \hspace{1in}; you may have to experiment to achieve
+% the correct amount of space.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  EQUATION NUMBERING: COUNTER
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% You may change equation numbering by resetting
+% the equation counter or by explicitly numbering
+% an equation.
+
+% To explicitly number an equation, type \eqnum{}
+% (with the desired number between the brackets)
+% after the \begin{equation} or \begin{eqnarray}
+% command.  The \eqnum{} command will affect only
+% the equation it appears with; LaTeX will number
+% any equations appearing later in the manuscript
+% according to the equation counter.
+%
+
+% If you have a multiline equation that needs only
+% one equation number, use a \nonumber command in
+% front of the double backslashes (\\) as shown in
+% the multiline equation above.
+
+% If you are using line numbers, remember to surround
+% equations with \begin{linenomath*}...\end{linenomath*}
+
+%  To add line numbers to lines in equations:
+%  \begin{linenomath*}
+%  \begin{equation}
+%  \end{equation}
+%  \end{linenomath*}
+
+
+
