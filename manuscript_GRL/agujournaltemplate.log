@@ -1,0 +1,2196 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.4)  30 SEP 2025 10:16
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/josnez/BAS/papers/LKF_ocean_effect/manuscript_GRL/agujournaltemplate
+(/Users/josnez/BAS/papers/LKF_ocean_effect/manuscript_GRL/agujournaltemplate.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-07-20>
+(./agujournal2019.cls
+Document Class: agujournal2019 01/14/2019
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen148
+\Gin@req@width=\dimen149
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2025/05/13 line numbers on paragraphs v5.5
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count275
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+\linenopenalty=\count276
+\output=\toks18
+\linenoprevgraf=\count277
+\linenumbersep=\dimen150
+\linenumberwidth=\dimen151
+\c@linenumber=\count278
+\c@pagewiselinenumber=\count279
+\c@LN@truepage=\count280
+\c@internallinenumber=\count281
+\c@internallinenumbers=\count282
+\quotelinenumbersep=\dimen152
+\bframerule=\dimen153
+\bframesep=\dimen154
+\bframebox=\box53
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip49
+\RaggedLeftLeftskip=\skip50
+\RaggedRightLeftskip=\skip51
+\CenteringRightskip=\skip52
+\RaggedLeftRightskip=\skip53
+\RaggedRightRightskip=\skip54
+\CenteringParfillskip=\skip55
+\RaggedLeftParfillskip=\skip56
+\RaggedRightParfillskip=\skip57
+\JustifyingParfillskip=\skip58
+\CenteringParindent=\skip59
+\RaggedLeftParindent=\skip60
+\RaggedRightParindent=\skip61
+\JustifyingParindent=\skip62
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2025/01/14 v2.16e rotated objects in LaTeX
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count283
+\rotFPtop=\skip63
+\rotFPbot=\skip64
+\rot@float@box=\box54
+\rot@mess@toks=\toks19
+)
+\draftskip=\count284
+\c@section=\count285
+\c@subsection=\count286
+\c@subsubsection=\count287
+\c@paragraph=\count288
+\c@subparagraph=\count289
+\c@figure=\count290
+\c@table=\count291
+\abovecaptionskip=\skip65
+\belowcaptionskip=\skip66
+\c@appendnum=\count292
+\bibindent=\dimen155
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/apacite/apacite.sty
+Package: apacite 2013/07/21 v6.03 APA citation
+\c@BibCnt=\count293
+\bibleftmargin=\skip67
+\bibindent=\skip68
+\bibparsep=\skip69
+\bibitemsep=\skip70
+\biblabelsep=\skip71
+)) (./trackchanges.sty
+Package: trackchanges 2009/04/22 v0.7.0 TrackChanges file 
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count294
+\calc@Bcount=\count295
+\calc@Adimen=\dimen156
+\calc@Bdimen=\dimen157
+\calc@Askip=\skip72
+\calc@Bskip=\skip73
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count296
+\calc@Cskip=\skip74
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/soul/soul.sty
+Package: soul 2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/soul/soul-ori.sty
+Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
+\SOUL@word=\toks20
+\SOUL@lasttoken=\toks21
+\SOUL@syllable=\toks22
+\SOUL@cmds=\toks23
+\SOUL@buffer=\toks24
+\SOUL@token=\toks25
+\SOUL@syllgoal=\dimen158
+\SOUL@syllwidth=\dimen159
+\SOUL@charkern=\dimen160
+\SOUL@hyphkern=\dimen161
+\SOUL@dimen=\dimen162
+\SOUL@dimeni=\dimen163
+\SOUL@minus=\count297
+\SOUL@comma=\count298
+\SOUL@apo=\count299
+\SOUL@grave=\count300
+\SOUL@spaceskip=\skip75
+\SOUL@ttwidth=\dimen164
+\SOUL@uldp=\dimen165
+\SOUL@ulht=\dimen166
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))) (/usr/local/texlive/2025/texmf-dist/tex/latex/morefloats/morefloats.sty
+Package: morefloats 2025/01/28 v1.1a Raise limit of unprocessed floats (HMM)
+Package morefloats Info: Maximum number of possible floats asked for: 36
+(morefloats)             (i.e. 18 more floats).
+(morefloats)             LaTeX might run out of memory before this
+(morefloats)             (in which case it will notify you).
+)
+\c@userid=\count301
+\c@changenumber=\count302
+\c@storefootnote=\count303
+\c@numeditors=\count304
+\c@maxeditors=\count305
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count306
+) (./agujournaltemplate.aux)
+\openout1 = `agujournaltemplate.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+ (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count307
+\scratchdimen=\dimen167
+\scratchbox=\box55
+\nofMPsegments=\count308
+\nofMParguments=\count309
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count310
+\MPscratchDim=\dimen168
+\MPnumerator=\count311
+\makeMPintoPDFobject=\count312
+\everyMPtoPDFconversion=\toks27
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)) (/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+\c@maskedRefs=\count313
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/apacite/english.apc
+File: english.apc 2013/07/21 v6.03 apacite language file
+LaTeX Info: Redefining \BPBI on input line 129.
+LaTeX Info: Redefining \BHBI on input line 130.
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 87.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 87.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 90.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 90.
+
+Overfull \hbox (22.15457pt too wide) in paragraph at lines 111--112
+[]\OT1/cmr/m/n/10 A high res-o-lu-tion sim-u-la-tion al-lows us to ex-trap-o-late the large-scale im-pact of leads 
+ []
+
+
+Overfull \hbox (8.15443pt too wide) in paragraph at lines 112--113
+[]\OT1/cmr/m/n/10 Leads make up a quar-ter of the sea-ice cover and are re-spon-si-ble for a quar-ter of 
+ []
+
+
+Overfull \hbox (11.07121pt too wide) in paragraph at lines 113--114
+[]\OT1/cmr/m/n/10 Leads have a rel-a-tively small con-tri-bu-tion to over-all Arc-tic Ocean dy-nam-ics, pro- 
+ []
+
+
+
+[1{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (22.4878pt too wide) in paragraph at lines 137--139
+\OT1/cmr/m/n/10 The Arc-tic sea ice, in par-tic-u-lar the ice pack, acts as an in-su-la-tor be-tween the at-mo-sphere 
+ []
+
+
+Overfull \hbox (14.12677pt too wide) in paragraph at lines 137--139
+\OT1/cmr/m/n/10 and the ocean be-low. Leads, com-mon in Arc-tic sea ice, fa-cil-i-tate ex-changes of heat, salt, 
+ []
+
+
+Overfull \hbox (19.01567pt too wide) in paragraph at lines 137--139
+\OT1/cmr/m/n/10 mois-ture, and gases be-tween the ocean and the at-mo-sphere. Lo-cal ob-ser-va-tions have cap- 
+ []
+
+
+Overfull \hbox (2.5157pt too wide) in paragraph at lines 137--139
+\OT1/cmr/m/n/10 tured heat fluxes through some leads at least an or-der of mag-ni-tude larger than those 
+ []
+
+
+Overfull \hbox (15.23795pt too wide) in paragraph at lines 137--139
+\OT1/cmr/m/n/10 out-side of the leads, lead-ing to the spec-u-la-tion that air-sea ex-changes through leads may 
+ []
+
+
+Overfull \hbox (6.4879pt too wide) in paragraph at lines 137--139
+\OT1/cmr/m/n/10 con-tribute sig-nif-i-cantly to the Arc-tic Ocean sur-face buoy-ancy forc-ing. How-ever, due to 
+ []
+
+
+Overfull \hbox (3.93239pt too wide) in paragraph at lines 137--139
+\OT1/cmr/m/n/10 the lack of ob-ser-va-tions and high-resolution mod-els ca-pa-ble of re-solv-ing leads, an es-ti- 
+ []
+
+
+Overfull \hbox (9.07129pt too wide) in paragraph at lines 137--139
+\OT1/cmr/m/n/10 mate of the im-pact of leads on the ocean buoy-ancy forc-ing and wa-ter mass trans-for-ma- 
+ []
+
+
+Overfull \hbox (19.54349pt too wide) in paragraph at lines 137--139
+\OT1/cmr/m/n/10 tion has been elu-sive. Here, we quan-tify the sea-sonal mag-ni-tude and im-pact on the ocean 
+ []
+
+
+Overfull \hbox (4.58513pt too wide) in paragraph at lines 137--139
+\OT1/cmr/m/n/10 sur-face caused by the leads us-ing SEDNA, a sub-kilo-me-ter pan-Arctic hind-cast (1/60$[]$; 
+ []
+
+
+Overfull \hbox (21.71013pt too wide) in paragraph at lines 137--139
+\OT1/cmr/m/n/10 NEMO model). Leads ac-count for 22% of the sea-ice cover ex-tent, and within them, there 
+ []
+
+
+Overfull \hbox (15.82137pt too wide) in paragraph at lines 137--139
+\OT1/cmr/m/n/10 is ap-prox-i-mately 25% of the to-tal sur-face wa-ter mass trans-for-ma-tion. The buoy-ancy flux 
+ []
+
+
+Overfull \hbox (3.23792pt too wide) in paragraph at lines 137--139
+\OT1/cmr/m/n/10 and wa-ter mass trans-for-ma-tion in leads are sim-i-lar to those un-der-neath the sur-round- 
+ []
+
+
+Overfull \hbox (3.90454pt too wide) in paragraph at lines 137--139
+\OT1/cmr/m/n/10 ing ice-covered oceans and the per-cent-age of wa-ter mass trans-for-ma-tion through leads 
+ []
+
+
+Overfull \hbox (17.84892pt too wide) in paragraph at lines 137--139
+\OT1/cmr/m/n/10 matches their area cov-er-age. Thus, the present es-ti-mate in-di-cates that leads have a small 
+ []
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 141.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 141.
+
+
+Overfull \hbox (10.32108pt too wide) in paragraph at lines 142--143
+[]\OT1/cmr/m/n/10 Arctic sea ice acts as a bar-rier be-tween the air and the ocean, but open-ings in the 
+ []
+
+
+Overfull \hbox (8.40448pt too wide) in paragraph at lines 142--143
+\OT1/cmr/m/n/10 ice, called leads, al-low for ex-changes of heat, salt, mois-ture, and gases. These leads can 
+ []
+
+
+Overfull \hbox (15.73792pt too wide) in paragraph at lines 142--143
+\OT1/cmr/m/n/10 sig-nif-i-cantly in-crease the amount of heat pass-ing be-tween the ocean and the at-mo-sphere. 
+ []
+
+
+Overfull \hbox (4.01561pt too wide) in paragraph at lines 142--143
+\OT1/cmr/m/n/10 How-ever, it has been chal-leng-ing to mea-sure the im-pact of leads on the ocean be-cause 
+ []
+
+
+Overfull \hbox (10.76578pt too wide) in paragraph at lines 142--143
+\OT1/cmr/m/n/10 of lim-ited ob-ser-va-tions and the need for de-tailed mod-els. Us-ing a high-resolution model 
+ []
+
+
+Overfull \hbox (25.26558pt too wide) in paragraph at lines 142--143
+\OT1/cmr/m/n/10 called SEDNA, we stud-ied the ef-fects of leads across the Arc-tic. We found that leads cover 
+ []
+
+
+Overfull \hbox (13.82121pt too wide) in paragraph at lines 142--143
+\OT1/cmr/m/n/10 22% of the sea ice and con-tribute to about 25% of changes in sur-face wa-ter. This means 
+ []
+
+
+Overfull \hbox (13.21008pt too wide) in paragraph at lines 142--143
+\OT1/cmr/m/n/10 the im-pact of leads on the Arc-tic Ocean is in line with their cov-er-age area. Our find-ings 
+ []
+
+
+Overfull \hbox (27.76575pt too wide) in paragraph at lines 142--143
+\OT1/cmr/m/n/10 sug-gest that leads have a smaller ef-fect on Arc-tic Ocean dy-nam-ics than pre-vi-ously thought.  
+ []
+
+
+Overfull \hbox (0.51556pt too wide) in paragraph at lines 151--154
+[]\OT1/cmr/m/n/10 The Arc-tic sea ice reg-u-lates Earth's cli-mate by act-ing as a nat-u-ral in-su-la-tor be- 
+ []
+
+
+Overfull \hbox (22.84901pt too wide) in paragraph at lines 151--154
+\OT1/cmr/m/n/10 tween the at-mo-sphere and the ocean []Wettlaufer et al.[], 1997; Un-ter-steiner, 1961). A ubiq- 
+ []
+
+
+Overfull \hbox (29.26563pt too wide) in paragraph at lines 151--154
+\OT1/cmr/m/n/10 ui-tous fea-ture of Arc-tic sea ice is the for-ma-tion and per-sis-tence of leads. Leads oc-cur across 
+ []
+
+
+Overfull \hbox (3.40456pt too wide) in paragraph at lines 151--154
+\OT1/cmr/m/n/10 formed by the ad-vec-tion of sea ice, while in the ice pack, leads form through de-for-ma- 
+ []
+
+
+Overfull \hbox (3.2101pt too wide) in paragraph at lines 151--154
+\OT1/cmr/m/n/10 tion of the sea ice and are com-monly re-ferred to in lit-er-a-ture as ``lin-ear kine-matic fea- 
+ []
+
+
+Overfull \hbox (11.82129pt too wide) in paragraph at lines 151--154
+\OT1/cmr/m/n/10 tures" (LKF). The pri-mary forc-ing of the sea ice ad-vec-tion and de-for-ma-tion is the wind 
+ []
+
+
+Overfull \hbox (2.82132pt too wide) in paragraph at lines 151--154
+[]\OT1/cmr/m/n/10 Linow & Dierk-ing, 2017; Hut-ter et al.[], 2018), with a smaller con-tri-bu-tion from ocean 
+ []
+
+
+Overfull \hbox (0.84894pt too wide) in paragraph at lines 151--154
+\OT1/cmr/m/n/10 cur-rents []Willmes et al.[], 2023). Leads re-sult in open-ings of the sea ice cover []Rampal 
+ []
+
+
+Overfull \hbox (15.79343pt too wide) in paragraph at lines 151--154
+\OT1/cmr/m/n/10 et al.[], 2016; Hutch-ings et al.[], 2005; Richter-Menge et al.[], 2002) with spa-tial scales of me- 
+ []
+
+
+Overfull \hbox (11.37682pt too wide) in paragraph at lines 151--154
+\OT1/cmr/m/n/10 ters to kilo-me-ters in width and a few kilo-me-ters up to hun-dreds of kilo-me-ters in length, 
+ []
+
+
+Overfull \hbox (16.87686pt too wide) in paragraph at lines 151--154
+\OT1/cmr/m/n/10 and tem-po-ral scales rang-ing from a few hours up to a few days []Linow & Dierk-ing, 2017; 
+ []
+
+
+Overfull \hbox (2.8212pt too wide) in paragraph at lines 151--154
+\OT1/cmr/m/n/10 Wer-necke & Kaleschke, 2015; Tschudi et al.[], 1998). Thus, they can lo-cally im-pact the 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[2]
+Overfull \hbox (14.07124pt too wide) in paragraph at lines 155--157
+[]\OT1/cmr/m/n/10 Once leads are formed, at-mo-spheric forc-ing in con-junc-tion with lo-cal-ized up-welling 
+ []
+
+
+Overfull \hbox (7.7101pt too wide) in paragraph at lines 155--157
+\OT1/cmr/m/n/10 or down-welling oc-cur-ring in the sur-face layer can re-sult in im-por-tant heat fluxes at the 
+ []
+
+
+Overfull \hbox (16.60406pt too wide) in paragraph at lines 155--157
+\OT1/cmr/m/n/10 ocean sur-face ($\OMS/cmsy/m/n/10 O ^^X \OT1/cmr/m/n/10 100\OML/cmm/m/it/10 W=m[]$\OT1/cmr/m/n/10 ; []Bourgault et al.[] (2020); Marcq and Weiss (2012); McPhee 
+ []
+
+
+Overfull \hbox (39.46031pt too wide) in paragraph at lines 155--157
+\OT1/cmr/m/n/10 et al.[] (2005); Maykut (1986)), in-sti-gat-ing lo-cal-ized melt-ing or freez-ing of sea ice []von Albedyll 
+ []
+
+
+Overfull \hbox (5.54353pt too wide) in paragraph at lines 155--157
+\OT1/cmr/m/n/10 et al.[], 2022). For ex-am-ple, []Boutin et al.[] (2023) es-ti-mated that 35% of the to-tal sea ice 
+ []
+
+
+Overfull \hbox (24.57112pt too wide) in paragraph at lines 155--157
+\OT1/cmr/m/n/10 growth dur-ing win-ter oc-curs within the leads in the ice pack. The Arc-tic ice-covered ocean 
+ []
+
+
+Overfull \hbox (6.3386pt too wide) in paragraph at lines 155--157
+\OT1/cmr/m/n/10 is a $\OML/cmm/m/it/10 ^^L$\OT1/cmr/m/n/10 -ocean, i.e. the ocean strat-i-fi-ca-tion is mainly con-trolled by salin-ity, which in turn 
+ []
+
+
+Overfull \hbox (1.62671pt too wide) in paragraph at lines 155--157
+\OT1/cmr/m/n/10 is largely de-ter-mined by ice-ocean in-ter-ac-tions (sea-ice growth and melt). Thus, leads 
+ []
+
+
+Overfull \hbox (4.76564pt too wide) in paragraph at lines 155--157
+\OT1/cmr/m/n/10 ex-pe-ri-enc-ing an in-crease in buoy-ancy forc-ing due to brine re-jec-tion can in-duce con-vec- 
+ []
+
+
+Overfull \hbox (3.82127pt too wide) in paragraph at lines 155--157
+\OT1/cmr/m/n/10 tion []D. C. Smith & Mori-son, 1998), weaken the mixed layer strat-i-fi-ca-tion, and gen-er- 
+ []
+
+
+Overfull \hbox (0.12674pt too wide) in paragraph at lines 155--157
+\OT1/cmr/m/n/10 ate fronts, mixed layer tur-bu-lence, and ed-dies []Reiser et al.[], 2020; D. C. Smith et al.[], 
+ []
+
+
+Overfull \hbox (12.9046pt too wide) in paragraph at lines 155--157
+\OT1/cmr/m/n/10 2002). Mean-while, leads ex-pe-ri-enc-ing melt-ing will in-crease the mixed layer strat-i-fi-ca-tion 
+ []
+
+
+Overfull \hbox (9.65454pt too wide) in paragraph at lines 155--157
+\OT1/cmr/m/n/10 and sta-bi-lize the ocean sur-face layer. These changes in the buoy-ancy flux trans-late into 
+ []
+
+
+Overfull \hbox (8.07126pt too wide) in paragraph at lines 155--157
+\OT1/cmr/m/n/10 lo-cal trans-for-ma-tion of the sur-face wa-ter masses that could be crit-i-cal for the func-tion- 
+ []
+
+
+Overfull \hbox (22.5713pt too wide) in paragraph at lines 155--157
+\OT1/cmr/m/n/10 ing of the Arc-tic Ocean cir-cu-la-tion []Lenn et al.[], 2022; Pem-ber-ton et al.[], 2015; S. D. Smith 
+ []
+
+
+Overfull \hbox (21.7935pt too wide) in paragraph at lines 155--157
+\OT1/cmr/m/n/10 et al.[], 1990). Pre-vi-ous stud-ies have shown that in-stances of leads im-pact lo-cally the ocean 
+ []
+
+
+Overfull \hbox (10.23785pt too wide) in paragraph at lines 155--157
+\OT1/cmr/m/n/10 sur-face and the prop-er-ties of the Arc-tic Ocean mixed layer. Nonethe-less, the in-te-grated 
+ []
+
+
+Overfull \hbox (13.82123pt too wide) in paragraph at lines 155--157
+\OT1/cmr/m/n/10 con-tri-bu-tion of leads to the large-scale buoy-ancy forc-ing at the Arc-tic Ocean sur-face has 
+ []
+
+
+Overfull \hbox (12.21007pt too wide) in paragraph at lines 158--159
+[]\OT1/cmr/m/n/10 Here, we present the first es-ti-mate of the con-tri-bu-tion of the buoy-ancy forc-ing and 
+ []
+
+
+Overfull \hbox (22.599pt too wide) in paragraph at lines 158--159
+\OT1/cmr/m/n/10 wa-ter mass trans-for-ma-tion within leads in the Arc-tic Ocean, us-ing the last year of a seven 
+ []
+
+
+Overfull \hbox (9.90463pt too wide) in paragraph at lines 158--159
+\OT1/cmr/m/n/10 year long pan-Arctic hind-cast run at a sub-kilo-me-ter res-o-lu-tion (SEDNA, []Talandier and 
+ []
+
+
+Overfull \hbox (8.59897pt too wide) in paragraph at lines 158--159
+\OT1/cmr/m/n/10 Lique (2023); see Meth-ods for more de-tails). Our main ob-jec-tives are to: (1) as-sess the 
+ []
+
+
+Overfull \hbox (10.32123pt too wide) in paragraph at lines 158--159
+\OT1/cmr/m/n/10 im-pact of leads in the sur-face buoy-ancy forc-ing and (2) con-trast the sur-face wa-ter mass 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[3]
+Overfull \hbox (12.97395pt too wide) in paragraph at lines 163--164
+[]\OT1/cmr/m/n/10 SEDNA is a 1/60$[]$ pan-Arctic ocean-sea ice con-fig-u-ra-tion based on the NEMO nu- 
+ []
+
+
+Overfull \hbox (13.65456pt too wide) in paragraph at lines 163--164
+\OT1/cmr/m/n/10 mer-i-cal plat-form (re-lease 4.0.5; []Madec et al.[] (2022)) and cou-pled to the SI3 sea-ice com- 
+ []
+
+
+Overfull \hbox (5.97404pt too wide) in paragraph at lines 163--164
+\OT1/cmr/m/n/10 po-nent (NEMO-SI3; []NEMO Sea Ice Work-ing Group (2022)). The ocean core (NEMO- 
+ []
+
+
+Overfull \hbox (9.82121pt too wide) in paragraph at lines 163--164
+\OT1/cmr/m/n/10 OPA) solves the prim-i-tive equa-tions us-ing fi-nite dif-fer-ences on an Arakawa C-grid. The 
+ []
+
+
+Overfull \hbox (3.54343pt too wide) in paragraph at lines 163--164
+\OT1/cmr/m/n/10 pan-Arctic do-main cov-ers the Bering Strait on the Pa-cific side and ex-tends south-ward 
+ []
+
+
+Overfull \hbox (19.11296pt too wide) in paragraph at lines 163--164
+\OT1/cmr/m/n/10 to 56$[]$N in the Sub-po-lar North At-lantic and to the Baltic Sea en-trance. The ocean model 
+ []
+
+
+Overfull \hbox (3.68233pt too wide) in paragraph at lines 163--164
+\OT1/cmr/m/n/10 in-cor-po-rates a lin-ear free sur-face, uti-lizes a 3rd or-der flux form scheme for mo-men-tum 
+ []
+
+
+Overfull \hbox (4.65456pt too wide) in paragraph at lines 163--164
+\OT1/cmr/m/n/10 ad-vec-tion, and em-ploys a 4th or-der Flux Cor-rected Trans-port (FCT) for tracer ad-vec- 
+ []
+
+
+Overfull \hbox (0.32118pt too wide) in paragraph at lines 163--164
+\OT1/cmr/m/n/10 tion. Ad-di-tion-ally, the sea-ice rep-re-sen-ta-tion uses an Elasto-Visco-Plastic (EVP) rhe- 
+ []
+
+
+Overfull \hbox (8.62677pt too wide) in paragraph at lines 163--164
+\OT1/cmr/m/n/10 ol-ogy with a 5-categories sea ice thick-ness dis-tri-bu-tion and a land-fast ice pa-ram-e-ter-i-za- 
+ []
+
+
+Overfull \hbox (1.48785pt too wide) in paragraph at lines 163--164
+[]\OT1/cmr/m/n/10 Large and Yea-ger (2009) is used to cal-cu-late air-sea fluxes based on the hourly ERA5 
+ []
+
+
+Overfull \hbox (33.07129pt too wide) in paragraph at lines 163--164
+\OT1/cmr/m/n/10 at-mo-spheric data for near-surface vari-ables []Hersbach et al.[], 2020). The three lat-eral bound- 
+ []
+
+
+Overfull \hbox (24.94627pt too wide) in paragraph at lines 163--164
+\OT1/cmr/m/n/10 aries are con-strained with daily GLO-RYS12V1 Re-analysis data []Jean-Michel et al.[], 2021). 
+ []
+
+
+Overfull \hbox (4.25174pt too wide) in paragraph at lines 163--164
+\OT1/cmr/m/n/10 Monthly fresh-wa-ter fluxes from river dis-charges are com-bined with Green-land land ice 
+ []
+
+
+Overfull \hbox (14.01573pt too wide) in paragraph at lines 163--164
+\OT1/cmr/m/n/10 melt data []Hu et al.[], 2019). The sim-u-la-tion ex-tends over seven years (2009 to 2015) and 
+ []
+
+
+Overfull \hbox (5.0157pt too wide) in paragraph at lines 163--164
+\OT1/cmr/m/n/10 starts from rest, uti-liz-ing ini-tial con-di-tions based on the World Ocean At-las 2009 tem- 
+ []
+
+
+Overfull \hbox (13.1547pt too wide) in paragraph at lines 163--164
+\OT1/cmr/m/n/10 per-a-ture/salinity and mean Jan-uary 2009 ice state from PI-OMAS re-analysis []Locarnini 
+ []
+
+
+Overfull \hbox (3.51567pt too wide) in paragraph at lines 163--164
+\OT1/cmr/m/n/10 et al.[], 2010; Zhang & Rothrock, 2003). A weak restor-ing to-ward the World Ocean At- 
+ []
+
+
+Overfull \hbox (6.93234pt too wide) in paragraph at lines 167--168
+[]\OT1/cmr/m/n/10 The leads from SEDNA are iden-ti-fied by us-ing the al-go-rithm pro-posed by []Hutter 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[4]
+Overfull \hbox (5.30728pt too wide) in paragraph at lines 170--172
+\OT1/cmr/m/n/10 where $\OML/cmm/m/it/10 u$ \OT1/cmr/m/n/10 and $\OML/cmm/m/it/10 v$ \OT1/cmr/m/n/10 are the sea ice ve-loc-i-ties. The de-for-ma-tion rate varies spa-tially de-pend- 
+ []
+
+
+Overfull \hbox (17.54346pt too wide) in paragraph at lines 170--172
+\OT1/cmr/m/n/10 ing on the back-ground de-for-ma-tion and the sea ice prop-er-ties []Reiser et al.[], 2020), where 
+ []
+
+
+Overfull \hbox (11.71008pt too wide) in paragraph at lines 170--172
+\OT1/cmr/m/n/10 the largest de-for-ma-tion rates oc-cur along the bound-aries of ice floes where the leads are 
+ []
+
+
+Overfull \hbox (8.71017pt too wide) in paragraph at lines 170--172
+\OT1/cmr/m/n/10 found. There-fore, to iden-tify the leads, the lo-cal max-ima is iden-ti-fied us-ing a dif-fer-ence 
+ []
+
+
+Overfull \hbox (8.01573pt too wide) in paragraph at lines 170--172
+\OT1/cmr/m/n/10 of Gaus-sian fil-ter (DoG fil-ter) of the de-for-ma-tion rate field. Af-ter this, a bi-nary map is 
+ []
+
+
+Overfull \hbox (6.21013pt too wide) in paragraph at lines 170--172
+\OT1/cmr/m/n/10 cre-ated with the mask of iden-ti-fied lead. Note that af-ter this step, []Hutter et al.[] (2019) 
+ []
+
+
+Overfull \hbox (2.07115pt too wide) in paragraph at lines 170--172
+\OT1/cmr/m/n/10 re-duce the leads width to a line to then track the leads over time. Since our study fo- 
+ []
+
+
+Overfull \hbox (7.71011pt too wide) in paragraph at lines 170--172
+\OT1/cmr/m/n/10 cuses on the ocean-atmosphere in-ter-ac-tions, we only use the iden-ti-fi-ca-tion al-go-rithm to 
+ []
+
+
+Overfull \hbox (21.01572pt too wide) in paragraph at lines 170--172
+\OT1/cmr/m/n/10 pro-duce a mask of leads dur-ing 2014 for the Arc-tic, thus we re-tain the orig-i-nal lead width 
+ []
+
+
+Overfull \hbox (17.46027pt too wide) in paragraph at lines 170--172
+\OT1/cmr/m/n/10 com-puted from the de-for-ma-tion rate. Fi-nally, the lead mask is then used to quan-tify and 
+ []
+
+
+Overfull \hbox (3.95998pt too wide) in paragraph at lines 170--172
+\OT1/cmr/m/n/10 con-trast the im-pact of leads com-pared to the ice cov-ered Arc-tic, the ice-pack (ice con- 
+ []
+
+
+Overfull \hbox (19.71014pt too wide) in paragraph at lines 175--176
+[]\OT1/cmr/m/n/10 Heat fluxes (short-wave ra-di-a-tion, long-wave ra-di-a-tion, la-tent heat, and sen-si-ble heat) 
+ []
+
+
+Overfull \hbox (16.29355pt too wide) in paragraph at lines 175--176
+\OT1/cmr/m/n/10 and fresh-wa-ter fluxes (evap-o-ra-tion, pre-cip-i-ta-tion, runoff, and sea ice melt/growth) at the 
+ []
+
+
+Overfull \hbox (8.1546pt too wide) in paragraph at lines 175--176
+\OT1/cmr/m/n/10 ocean sur-face re-sult in a buoy-ancy forc-ing ca-pa-ble of chang-ing the den-sity of the ocean 
+ []
+
+
+Overfull \hbox (18.7523pt too wide) in paragraph at lines 181--183
+[]\OT1/cmr/m/n/10 where $\OML/cmm/m/it/10 Q[]$ \OT1/cmr/m/n/10 the net heat flux at the sea sur-face, $\OML/cmm/m/it/10 $ \OT1/cmr/m/n/10 the ther-mal ex-pan-sion co-ef-fi-cient, 
+ []
+
+
+Overfull \hbox (13.5238pt too wide) in paragraph at lines 181--183
+\OML/cmm/m/it/10 SSS$ \OT1/cmr/m/n/10 the sea sur-face salin-ity, $\OML/cmm/m/it/10 F[]$ \OT1/cmr/m/n/10 the net fresh-wa-ter flux that in-cludes evap-o-ra-tion, pre- 
+ []
+
+
+Overfull \hbox (5.33867pt too wide) in paragraph at lines 181--183
+\OT1/cmr/m/n/10 cip-i-ta-tion, runoff, and freez-ing mi-nus melt-ing flux, $\OML/cmm/m/it/10 ^^L$ \OT1/cmr/m/n/10 the ha-line con-trac-tion co-ef-fi-cient, 
+ []
+
+
+Overfull \hbox (0.61388pt too wide) in paragraph at lines 181--183
+\OML/cmm/m/it/10 g \OT1/cmr/m/n/10 = 9\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 81\OML/cmm/m/it/10 m=s[]$\OT1/cmr/m/n/10 , and the ocean den-sity $\OML/cmm/m/it/10 ^^Z[] \OT1/cmr/m/n/10 = 1026\OML/cmm/m/it/10 kg=m[]$\OT1/cmr/m/n/10 . Note that us-ing this sign con- 
+ []
+
+
+Overfull \hbox (11.87683pt too wide) in paragraph at lines 181--183
+\OT1/cmr/m/n/10 ven-tion, pos-i-tive val-ues in the buoy-ancy forc-ing de-crease the sur-face den-sity mak-ing the 
+ []
+
+
+Overfull \hbox (20.57121pt too wide) in paragraph at lines 181--183
+\OT1/cmr/m/n/10 ocean sur-face more buoy-ant (sta-ble) and neg-a-tive val-ues in-crease the sur-face den-sity. The 
+ []
+
+
+
+[5]
+Overfull \hbox (1.12613pt too wide) in paragraph at lines 186--188
+\OT1/cmr/m/n/10 where the $\OML/cmm/m/it/10 Area$ \OT1/cmr/m/n/10 is the area of the grid cells, and the $\OML/cmm/m/it/10 Mask[]$ \OT1/cmr/m/n/10 can be the mask of MIZ, 
+ []
+
+
+Overfull \hbox (3.32109pt too wide) in paragraph at lines 186--188
+\OT1/cmr/m/n/10 the Pack, the MIZ leads, the ice pack leads, and the ice cover that varies in space and 
+ []
+
+
+Overfull \hbox (28.44043pt too wide) in paragraph at lines 186--188
+\OT1/cmr/m/n/10 time. Note that the di-vi-sor $\OML/cmm/m/it/10 Mask$ \OT1/cmr/m/n/10 cor-re-sponds to the full ice cov-ered area (in-clud-ing leads).  
+ []
+
+
+Overfull \hbox (27.37685pt too wide) in paragraph at lines 189--190
+[][]\OT1/cmr/m/n/10 Nurser et al.[] (1999) and []Walin (1982) pro-posed the wa-ter mass trans-for-ma-tion frame- 
+ []
+
+
+Overfull \hbox (19.98785pt too wide) in paragraph at lines 189--190
+\OT1/cmr/m/n/10 work that quan-ti-fies the rate at which a given wa-ter mass is made lighter (neg-a-tive trans- 
+ []
+
+
+Overfull \hbox (13.84897pt too wide) in paragraph at lines 189--190
+\OT1/cmr/m/n/10 for-ma-tion rate) or denser (pos-i-tive) due to sur-face fluxes. The sur-face wa-ter mass trans- 
+ []
+
+
+Overfull \hbox (5.88705pt too wide) in paragraph at lines 195--196
+[]\OT1/cmr/m/n/10 where $\OML/cmm/m/it/10 ^^[$ \OT1/cmr/m/n/10 is po-ten-tial den-sity and the in-dices $\OML/cmm/m/it/10 k$ \OT1/cmr/m/n/10 rep-re-sents the den-sity bin num-ber. 
+ []
+
+
+Overfull \hbox (5.15349pt too wide) in paragraph at lines 195--196
+\OT1/cmr/m/n/10 The com-pu-ta-tion was per-formed with 172 den-sity bins of $0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 kg=m[]$ \OT1/cmr/m/n/10 within the den-sity 
+ []
+
+
+Overfull \hbox (8.56905pt too wide) in paragraph at lines 195--196
+\OT1/cmr/m/n/10 range of $15\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 15\OML/cmm/m/it/10 kg=m[]$ \OT1/cmr/m/n/10 - $32\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 25\OML/cmm/m/it/10 kg=m[]$\OT1/cmr/m/n/10 . The trans-for-ma-tion rate $
+$ is spa-tially de-com-posed 
+ []
+
+
+Overfull \hbox (12.45995pt too wide) in paragraph at lines 195--196
+\OT1/cmr/m/n/10 into dif-fer-ent sea-ice masks such as the ice cov-ered, the pack ice, the MIZ, and the leads 
+ []
+
+<./Figures/Figure_1_SENTINE_SEDNA_LKF_conc_New_Color.pdf, id=34, 466.11015pt x 435.5805pt>
+File: ./Figures/Figure_1_SENTINE_SEDNA_LKF_conc_New_Color.pdf Graphic file (type pdf)
+<use ./Figures/Figure_1_SENTINE_SEDNA_LKF_conc_New_Color.pdf>
+Package pdftex.def Info: ./Figures/Figure_1_SENTINE_SEDNA_LKF_conc_New_Color.pdf  used on input line 201.
+(pdftex.def)             Requested size: 377.60951pt x 352.88474pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+[]\OT1/cmr/bx/n/9 Figure  1. \OT1/cmr/m/n/9 a) Snap-shot of to-tal de-for-ma-tion for the 21st of April 2014 from SEDNA. b) Mean
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\OT1/cmr/m/n/9 lead prob-a-bil-ity for daily snap-shots of leads iden-ti-fied be-tween 2011 and 2015 from SEDNA.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\OT1/cmr/m/n/9 Zoom of the ma-genta box of panel a for the c) to-tal de-for-ma-tion to iden-tify leads, d) ice con-cen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\OT1/cmr/m/n/9 tra-tion, and f) iden-ti-fied mask of leads on the 21st of April 2014 in SEDNA. e) True color im-age
+ []
+
+
+Overfull \hbox (12.62682pt too wide) in paragraph at lines 206--208
+[]\OT1/cmr/m/n/10 Leads can be eas-ily vi-su-ally iden-ti-fied when ex-am-in-ing high res-o-lu-tion satel-lite ob- 
+ []
+
+
+Overfull \hbox (20.5713pt too wide) in paragraph at lines 206--208
+\OT1/cmr/m/n/10 ser-va-tions (Fig-ure 1[]f), yet it re-mains chal-leng-ing to cap-ture them in state-of-the-art mod- 
+ []
+
+
+Overfull \hbox (10.3212pt too wide) in paragraph at lines 206--208
+\OT1/cmr/m/n/10 els that of-ten lack the res-o-lu-tion and/or the sea ice dy-nam-ics to sim-u-late these fea-tures 
+ []
+
+
+Overfull \hbox (23.71022pt too wide) in paragraph at lines 206--208
+[]\OT1/cmr/m/n/10 Bouchat et al.[], 2022; Wang et al.[], 2016). Here we an-a-lyze daily out-puts from the SEDNA 
+ []
+
+
+Overfull \hbox (15.87901pt too wide) in paragraph at lines 206--208
+\OT1/cmr/m/n/10 ocean-sea ice model, which has an av-er-age Arc-tic res-o-lu-tion of $\OMS/cmsy/m/n/10 ^^X \OT1/cmr/m/n/10 800\OML/cmm/m/it/10 m$\OT1/cmr/m/n/10 , suf-fi-cient to cap- 
+ []
+
+
+Overfull \hbox (13.31656pt too wide) in paragraph at lines 206--208
+\OT1/cmr/m/n/10 ture the ob-served lead width dis-tri-bu-tion ($\OML/cmm/m/it/10 > \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 km$\OT1/cmr/m/n/10 ; []Wernecke and Kaleschke (2015)). We 
+ []
+
+
+Overfull \hbox (7.51563pt too wide) in paragraph at lines 206--208
+\OT1/cmr/m/n/10 start our anal-y-sis by de-tect-ing the leads in the model sea ice fields, us-ing the de-tec-tion 
+ []
+
+
+Overfull \hbox (7.37683pt too wide) in paragraph at lines 206--208
+\OT1/cmr/m/n/10 al-go-rithm of []Hutter et al.[] (2019), that iden-ti-fies leads based on the sea ice de-for-ma-tion 
+ []
+
+
+Overfull \hbox (12.68233pt too wide) in paragraph at lines 206--208
+\OT1/cmr/m/n/10 field (see meth-ods). Fig-ure 1[]a and c shows a snap-shot of the sea ice de-for-ma-tion for the 
+ []
+
+
+Overfull \hbox (6.12679pt too wide) in paragraph at lines 206--208
+\OT1/cmr/m/n/10 21st of April 2014, from which we re-trieve a mask of the leads (Fig-ure 1[]e). Within the 
+ []
+
+
+Overfull \hbox (15.48784pt too wide) in paragraph at lines 206--208
+\OT1/cmr/m/n/10 leads, the sea ice con-cen-tra-tion can re-main higher than 90%; this is a con-se-quence of the 
+ []
+
+
+Overfull \hbox (8.73796pt too wide) in paragraph at lines 206--208
+\OT1/cmr/m/n/10 con-tin-u-ous na-ture of the sea ice model and the daily av-er-aged out-put that smooths the 
+ []
+
+
+
+[6]
+
+[7 <./Figures/Figure_1_SENTINE_SEDNA_LKF_conc_New_Color.pdf>]
+Overfull \hbox (9.23795pt too wide) in paragraph at lines 209--210
+[]\OT1/cmr/m/n/10 The SEDNA cli-ma-tol-ogy of the lead prob-a-bil-ity, i.e. the like-li-hood of leads oc-cur- 
+ []
+
+
+Overfull \hbox (0.46007pt too wide) in paragraph at lines 209--210
+\OT1/cmr/m/n/10 ring for any given day, is shown in fig-ure 1[]b. The av-er-age over the Arc-tic amounts to 
+ []
+
+
+Overfull \hbox (6.07118pt too wide) in paragraph at lines 209--210
+\OMS/cmsy/m/n/10 ^^X \OT1/cmr/m/n/10 19%$, com-pa-ra-ble to pre-vi-ous ob-ser-va-tions []Wernecke & Kaleschke, 2015; Willmes et 
+ []
+
+
+Overfull \hbox (4.59912pt too wide) in paragraph at lines 209--210
+\OT1/cmr/m/n/10 al.[], 2023). Al-though ob-ser-va-tions use dif-fer-ent iden-ti-fi-ca-tion meth-ods com-pared to the 
+ []
+
+
+Overfull \hbox (13.9323pt too wide) in paragraph at lines 209--210
+\OT1/cmr/m/n/10 one im-ple-mented in SEDNA []Hutter et al.[], 2019), there is re-sem-blance be-tween SEDNA 
+ []
+
+
+Overfull \hbox (6.76578pt too wide) in paragraph at lines 209--210
+\OT1/cmr/m/n/10 and ob-ser-va-tions (Fig. S5[]), with sim-i-lar lead prob-a-bil-ity over the shelves, along bathy- 
+ []
+
+
+Overfull \hbox (12.84904pt too wide) in paragraph at lines 209--210
+\OT1/cmr/m/n/10 met-ric fea-tures, and in re-gions with large ki-netic en-ergy (Fig. S5[]b). SEDNA re-pro-duces 
+ []
+
+
+Overfull \hbox (23.6546pt too wide) in paragraph at lines 209--210
+\OT1/cmr/m/n/10 the over-all spa-tial pat-terns of lead prob-a-bil-ity ob-served in the Arc-tic, ex-cept for the Beau- 
+ []
+
+
+Overfull \hbox (12.12677pt too wide) in paragraph at lines 209--210
+\OT1/cmr/m/n/10 fort Sea. Re-gard-less, the sim-i-lar-i-ties be-tween the ob-ser-va-tions and the model lead prob- 
+ []
+
+
+Overfull \hbox (1.82123pt too wide) in paragraph at lines 209--210
+\OT1/cmr/m/n/10 a-bil-ity give us con-fi-dence to quan-tify for the first time the im-pact of leads on the sur- 
+ []
+
+
+Overfull \hbox (8.48787pt too wide) in paragraph at lines 211--212
+[]\OT1/cmr/m/n/10 Figure 2[]a and b show two snap-shots of the buoy-ancy flux at the ocean sur-face. A 
+ []
+
+
+Overfull \hbox (3.09897pt too wide) in paragraph at lines 211--212
+\OT1/cmr/m/n/10 neg-a-tive buoy-ancy flux re-sults from a loss of heat to the at-mo-sphere sea ice re-freez-ing 
+ []
+
+
+Overfull \hbox (26.09903pt too wide) in paragraph at lines 211--212
+\OT1/cmr/m/n/10 and brine re-jec-tion, while a pos-i-tive buoy-ancy flux is as-so-ci-ated with sea ice melt-ing, fresh- 
+ []
+
+
+Overfull \hbox (1.57114pt too wide) in paragraph at lines 211--212
+\OT1/cmr/m/n/10 en-ing, and warm-ing of the Arc-tic sur-face. In-side the ice-covered re-gion, the fluxes are 
+ []
+
+
+Overfull \hbox (12.59903pt too wide) in paragraph at lines 211--212
+\OT1/cmr/m/n/10 spa-tially ho-mo-ge-neous, ex-cept for the marginal ice zone and within the leads, where the 
+ []
+
+
+Overfull \hbox (18.8212pt too wide) in paragraph at lines 211--212
+\OT1/cmr/m/n/10 buoy-ancy fluxes are larger. The av-er-age buoy-ancy flux across the ice cov-ered Arc-tic (15% 
+ []
+
+
+Overfull \hbox (3.43233pt too wide) in paragraph at lines 211--212
+\OT1/cmr/m/n/10 leads. In other words, on the 1st of Jan-uary (win-ter), the to-tal fluxes within the leads 
+ []
+
+
+Overfull \hbox (11.71013pt too wide) in paragraph at lines 211--212
+\OT1/cmr/m/n/10 and those out-side of the leads are com-pa-ra-ble. How-ever, on the 25th of June (sum-mer), 
+ []
+
+
+Overfull \hbox (11.01555pt too wide) in paragraph at lines 211--212
+\OT1/cmr/m/n/10 the av-er-age fluxes in the leads can be up to 30% larger than those over the ice cover re- 
+ []
+
+<./Figures/Figure_2_buoyancy_flux_maps_vertical_V2.pdf, id=146, 433.80193pt x 452.03229pt>
+File: ./Figures/Figure_2_buoyancy_flux_maps_vertical_V2.pdf Graphic file (type pdf)
+<use ./Figures/Figure_2_buoyancy_flux_maps_vertical_V2.pdf>
+Package pdftex.def Info: ./Figures/Figure_2_buoyancy_flux_maps_vertical_V2.pdf  used on input line 215.
+(pdftex.def)             Requested size: 397.48499pt x 414.20557pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--217
+[]\OT1/cmr/bx/n/9 Figure  2. \OT1/cmr/m/n/9 Maps of buoy-ancy flux and tran-sects for the 1st of Jan-uary and 25th of June 2014.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--217
+\OT1/cmr/m/n/9 a) Map of buoy-ancy flux on the 1st of Jan-uary 2014. Tran-sect on the 1st of Jan-uary 2014 of c)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--217
+\OT1/cmr/m/n/9 ice thick-ness, e) down-ward heat flux, g) fresh-wa-ter flux (pos-i-tive up-ward), and i) buoy-ancy flux
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--217
+\OT1/cmr/m/n/9 (heat flux mi-nus fresh-wa-ter flux). b) Map of buoy-ancy flux on the 25th of June 2014. Tran-sect
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--217
+\OT1/cmr/m/n/9 on the 25th of June 2014 of d) ice thick-ness, f) down-ward heat flux, h) fresh-wa-ter flux (pos-i-tive
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--217
+\OT1/cmr/m/n/9 up-ward), and j) buoy-ancy flux. Note that pos-i-tive buoy-ancy fluxes cor-re-spond to buoy-ancy loss,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--217
+\OT1/cmr/m/n/9 while neg-a-tive buoy-ancy fluxes cor-re-spond to buoy-ancy gain by the ocean. The tran-sect lo-ca-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--217
+\OT1/cmr/m/n/9 and ori-en-ta-tion changes be-tween the win-ter and sum-mer dates. Ma-genta con-tour in pan-els a and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--217
+\OT1/cmr/m/n/9 b cor-re-sponds to the 15% con-cen-tra-tion con-tour of sea ice. Ver-ti-cal blue bars show the mask of
+ []
+
+
+Overfull \hbox (0.59901pt too wide) in paragraph at lines 221--227
+[]\OT1/cmr/m/n/10 Examining a tran-sect in the Cana-dian Basin on the 1st of Jan-uary 2014, we de- 
+ []
+
+
+Overfull \hbox (0.87663pt too wide) in paragraph at lines 221--227
+\OT1/cmr/m/n/10 tect two leads (ver-ti-cal blue bars) with a sig-nif-i-cant de-crease in sea ice thick-ness of $\OMS/cmsy/m/n/10 ^^X 
+ []
+
+
+Overfull \hbox (8.26222pt too wide) in paragraph at lines 221--227
+\OT1/cmr/m/n/10 25\OML/cmm/m/it/10 cm$\OT1/cmr/m/n/10 , sug-gest-ing an open-ing of the sea ice cover (Fig.2[] c). This tran-sect ex-hibits small 
+ []
+
+
+Overfull \hbox (16.01569pt too wide) in paragraph at lines 221--227
+\OT1/cmr/m/n/10 heat flux at the ocean sur-face and within the iden-ti-fied leads (Fig.2[] e) be-cause the ocean 
+ []
+
+
+Overfull \hbox (11.62677pt too wide) in paragraph at lines 221--227
+\OT1/cmr/m/n/10 sur-face is at freez-ing point and the heat ex-changed with the at-mo-sphere is used to form 
+ []
+
+
+Overfull \hbox (6.96011pt too wide) in paragraph at lines 221--227
+\OT1/cmr/m/n/10 sea ice rather than cool-ing the ocean. The fresh-wa-ter flux (Fig.2[]g) ex-hibits two promi- 
+ []
+
+
+Overfull \hbox (3.57123pt too wide) in paragraph at lines 221--227
+\OT1/cmr/m/n/10 nent pos-i-tive peaks lo-cated within the iden-ti-fied leads. Both peaks are twice the mag- 
+ []
+
+
+Overfull \hbox (0.12679pt too wide) in paragraph at lines 221--227
+\OT1/cmr/m/n/10 ni-tude of the fluxes out-side the leads, high-light-ing en-hanced sea ice growth and brine 
+ []
+
+
+Overfull \hbox (1.57127pt too wide) in paragraph at lines 221--227
+\OT1/cmr/m/n/10 re-jec-tion within the leads. The to-tal buoy-ancy flux is neg-a-tive for this snap-shot, with 
+ []
+
+
+Overfull \hbox (30.57137pt too wide) in paragraph at lines 221--227
+\OT1/cmr/m/n/10 the largest buoy-ancy loss oc-cur-ring within the leads (Fig.2[] i). On the 25th of June (Fig.2[]d), 
+ []
+
+
+Overfull \hbox (6.20993pt too wide) in paragraph at lines 221--227
+\OT1/cmr/m/n/10 we de-tect sev-eral leads, but only some show a de-crease of the sea ice thick-ness of more 
+ []
+
+
+Overfull \hbox (13.62904pt too wide) in paragraph at lines 221--227
+\OT1/cmr/m/n/10 than $1\OML/cmm/m/it/10 m$ \OT1/cmr/m/n/10 (Fig.2[] h). These spe-cific leads also ex-pe-ri-ence an in-crease in heat fluxes, reach- 
+ []
+
+
+Overfull \hbox (0.61522pt too wide) in paragraph at lines 221--227
+\OT1/cmr/m/n/10 ing up to $\OMS/cmsy/m/n/10 ^^X \OT1/cmr/m/n/10 25\OML/cmm/m/it/10 W=m[]$ \OT1/cmr/m/n/10 (Fig.2[]f) and a lo-cal de-crease of the fresh-wa-ter flux, in-di-cat-ing a 
+ []
+
+
+Overfull \hbox (2.76556pt too wide) in paragraph at lines 221--227
+\OT1/cmr/m/n/10 fresh-en-ing of the sur-face due to sea ice melt. This change is cap-tured by the net pos-i- 
+ []
+
+
+Overfull \hbox (1.87685pt too wide) in paragraph at lines 221--227
+\OT1/cmr/m/n/10 tive buoy-ancy flux, de-creas-ing the den-sity at the sur-face (Fig.2[]j). Of all the iden-ti-fied 
+ []
+
+
+Overfull \hbox (8.57121pt too wide) in paragraph at lines 221--227
+\OT1/cmr/m/n/10 leads, some ex-hibit sig-nif-i-cant fluxes at the ocean sur-face, while oth-ers have lit-tle to no 
+ []
+
+
+Overfull \hbox (8.21013pt too wide) in paragraph at lines 221--227
+\OT1/cmr/m/n/10 im-print in the thick-ness and fluxes. This may be ex-plained by the tim-ing of the sea ice 
+ []
+
+
+Overfull \hbox (22.68231pt too wide) in paragraph at lines 221--227
+\OT1/cmr/m/n/10 break up, as sub-se-quent snap-shots show an in-crease of fluxes at the lo-ca-tion of these iden- 
+ []
+
+
+Overfull \hbox (15.04347pt too wide) in paragraph at lines 221--227
+\OT1/cmr/m/n/10 ti-fied leads (not shown). Al-ter-na-tively, pre-vi-ous stud-ies have shown that leads gen-er-ated 
+ []
+
+
+Overfull \hbox (12.0435pt too wide) in paragraph at lines 221--227
+\OT1/cmr/m/n/10 through shear have a lim-ited buoy-ancy ex-change with the at-mo-sphere, but may still en- 
+ []
+
+
+Overfull \hbox (41.7657pt too wide) in paragraph at lines 221--227
+\OT1/cmr/m/n/10 hance fluxes in the ocean due to isopy-c-nal up-welling or down-welling forced by the atmosphere- 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[8]
+
+[9 <./Figures/Figure_2_buoyancy_flux_maps_vertical_V2.pdf>]
+Overfull \hbox (17.54347pt too wide) in paragraph at lines 228--229
+[]\OT1/cmr/m/n/10 Similar to ob-ser-va-tions, we iden-tify fluxes that are larger within the leads than out- 
+ []
+
+
+Overfull \hbox (12.23781pt too wide) in paragraph at lines 228--229
+\OT1/cmr/m/n/10 side of them for these sum-mer and win-ter days. In the next sec-tion, we ex-plore the spa- 
+ []
+
+
+Overfull \hbox (3.73796pt too wide) in paragraph at lines 228--229
+\OT1/cmr/m/n/10 tially av-er-aged con-tri-bu-tion of leads to the sur-face buoy-ancy fluxes and the in-te-grated 
+ []
+
+
+Overfull \hbox (1.65451pt too wide) in paragraph at lines 232--235
+[]\OT1/cmr/m/n/10 The fol-low-ing anal-y-sis is con-ducted sep-a-rately for four dis-tinct masks rep-re-sent- 
+ []
+
+
+Overfull \hbox (11.82121pt too wide) in paragraph at lines 232--235
+\OT1/cmr/m/n/10 ing re-gions with leads and re-gions ex-clud-ing leads for the MIZ and the ice pack. On av- 
+ []
+
+
+Overfull \hbox (6.01564pt too wide) in paragraph at lines 232--235
+\OT1/cmr/m/n/10 er-age over 2014, these masks ac-count for 6% for the MIZ, 72% for the ice pack, 6% for 
+ []
+
+
+Overfull \hbox (3.15446pt too wide) in paragraph at lines 232--235
+\OT1/cmr/m/n/10 the leads in the MIZ, and 16% for the leads in the ice pack. Thus the part cov-ered by 
+ []
+
+
+Overfull \hbox (5.15453pt too wide) in paragraph at lines 232--235
+\OT1/cmr/m/n/10 sess-ments []Wang et al.[], 2016). The ex-tent of each mask ex-hibits a sea-sonal cy-cle (Fig. 
+ []
+
+
+Overfull \hbox (5.09906pt too wide) in paragraph at lines 232--235
+\OT1/cmr/m/n/10 3[]a). From win-ter (De-cem-ber, Jan-uary, and Febru-ary) to sum-mer (June, July, and Au- 
+ []
+
+
+Overfull \hbox (2.87679pt too wide) in paragraph at lines 232--235
+\OT1/cmr/m/n/10 gust), the ice pack ex-tent de-creases from ap-prox-i-mately $80%$ to $60%$, while the ex-tent 
+ []
+
+
+Overfull \hbox (1.18239pt too wide) in paragraph at lines 232--235
+\OT1/cmr/m/n/10 of the MIZ in-creases from $2%$ to ap-prox-i-mately $13%$. On one hand, the per-cent-age of 
+ []
+
+
+Overfull \hbox (8.73785pt too wide) in paragraph at lines 232--235
+\OT1/cmr/m/n/10 the ice pack leads ex-tent peaks in win-ter at 16% and de-creases to a min-i-mum ex-tent of 
+ []
+
+
+Overfull \hbox (18.18233pt too wide) in paragraph at lines 232--235
+\OT1/cmr/m/n/10 13% in sum-mer. On the other hand, the ex-tent of the MIZ leads cov-ers $2%$ in win-ter and 
+ []
+
+
+Overfull \hbox (14.54347pt too wide) in paragraph at lines 236--238
+[]\OT1/cmr/m/n/10 The con-tri-bu-tion of the to-tal buoy-ancy flux oc-cur-ring within the leads and ice cov- 
+ []
+
+
+Overfull \hbox (25.76564pt too wide) in paragraph at lines 236--238
+\OT1/cmr/m/n/10 ered re-gions is quan-ti-fied by weight-ing the buoy-ancy flux of each of the sea ice cover masks 
+ []
+
+
+Overfull \hbox (7.71007pt too wide) in paragraph at lines 236--238
+\OT1/cmr/m/n/10 by the to-tal ice cov-ered area (Fig. 3[]b; note that the size of each mask evolves in time). 
+ []
+
+
+Overfull \hbox (1.98787pt too wide) in paragraph at lines 236--238
+\OT1/cmr/m/n/10 The mean buoy-ancy flux un-der the ice pack in win-ter (December-February) and sum- 
+ []
+
+
+Overfull \hbox (0.29343pt too wide) in paragraph at lines 236--238
+\OT1/cmr/m/n/10 ancy flux un-der-neath the ice pack changes signs dur-ing the sea-sonal cy-cle, sug-gest-ing 
+ []
+
+
+Overfull \hbox (13.68236pt too wide) in paragraph at lines 236--238
+\OT1/cmr/m/n/10 a shift from ice for-ma-tion in win-ter to ice melt-ing in sum-mer. Note that in the ice pack, 
+ []
+
+
+Overfull \hbox (14.0991pt too wide) in paragraph at lines 236--238
+\OT1/cmr/m/n/10 the ha-line com-po-nent of the buoy-ancy flux de-ter-mines the buoy-ancy flux, while the heat 
+ []
+
+
+Overfull \hbox (7.01575pt too wide) in paragraph at lines 236--238
+\OT1/cmr/m/n/10 con-tri-bu-tion is neg-li-gi-ble (See Fig.S6[]). Mean-while, the mean buoy-ancy flux in the MIZ 
+ []
+
+
+Overfull \hbox (0.35825pt too wide) in paragraph at lines 236--238
+\OT1/cmr/m/n/10 is neg-li-gi-ble in win-ter and in-creases to $0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 9 \OMS/cmsy/m/n/10 ^^B \OT1/cmr/m/n/10 10[]\OML/cmm/m/it/10 m[]=s[]$ \OT1/cmr/m/n/10 in sum-mer. The MIZ has pre- 
+ []
+
+
+Overfull \hbox (14.01585pt too wide) in paragraph at lines 236--238
+\OT1/cmr/m/n/10 dom-i-nantly a pos-i-tive buoy-ancy flux sug-gest-ing pref-er-en-tial melt-ing through-out the year 
+ []
+
+
+Overfull \hbox (8.62688pt too wide) in paragraph at lines 236--238
+\OT1/cmr/m/n/10 (ex-cept for au-tumn), and the ha-line com-po-nent also de-ter-mines the buoy-ancy flux (See 
+ []
+
+
+Overfull \hbox (24.65462pt too wide) in paragraph at lines 236--238
+\OT1/cmr/m/n/10 Fig.S6[]). In both, the MIZ leads and the ice pack leads, the buoy-ancy flux fol-lows the same 
+ []
+
+
+Overfull \hbox (2.30281pt too wide) in paragraph at lines 236--238
+\OT1/cmr/m/n/10 sea-son-al-ity of the fluxes out-side of the leads. Win-ter val-ues are $\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 3 \OMS/cmsy/m/n/10 ^^B \OT1/cmr/m/n/10 10[]\OML/cmm/m/it/10 m[]=s[]$ \OT1/cmr/m/n/10 and 
+ []
+
+
+Overfull \hbox (15.68233pt too wide) in paragraph at lines 236--238
+\OT1/cmr/m/n/10 for the con-tri-bu-tion of the leads in the ice pack and the MIZ, re-spec-tively. Over-all, leads 
+ []
+
+
+Overfull \hbox (6.82123pt too wide) in paragraph at lines 236--238
+\OT1/cmr/m/n/10 ex-plain be-tween 20% to 45% of the ice cov-ered buoy-ancy fluxes (red dashed line in Fig 
+ []
+
+
+Overfull \hbox (22.65462pt too wide) in paragraph at lines 236--238
+\OT1/cmr/m/n/10 3[]b), more than the area ex-tent of all leads that ranges from 18% in win-ter to 26% in sum- 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[10]
+<./Figures/Figure_3_buoyancy_flux_ts_only_total.pdf, id=216, 614.44559pt x 506.52864pt>
+File: ./Figures/Figure_3_buoyancy_flux_ts_only_total.pdf Graphic file (type pdf)
+<use ./Figures/Figure_3_buoyancy_flux_ts_only_total.pdf>
+Package pdftex.def Info: ./Figures/Figure_3_buoyancy_flux_ts_only_total.pdf  used on input line 241.
+(pdftex.def)             Requested size: 397.48499pt x 327.67073pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 242.
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--242
+[]\OT1/cmr/bx/n/9 Figure  3. \OT1/cmr/m/n/9 Time se-ries dur-ing 2014 of a) the per-cent-age of ice cover ex-tent and b) the to-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--242
+\OT1/cmr/m/n/9 buoy-ancy fluxes for the to-tal ice cov-ered, the ice pack, the MIZ, and the leads in the ice pack and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--242
+\OT1/cmr/m/n/9 the MIZ. The MIZ is de-fined be-tween ice con-cen-tra-tion of 15-80%, the ice pack is de-fined where
+ []
+
+
+Overfull \hbox (4.23773pt too wide) in paragraph at lines 246--254
+[]\OT1/cmr/m/n/10 The role and im-pact leads have on the sur-face wa-ter masses of the Arc-tic can be 
+ []
+
+
+Overfull \hbox (12.01569pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 quan-ti-fied by us-ing the sur-face wa-ter mass trans-for-ma-tion frame-work (WMT; see meth- 
+ []
+
+
+Overfull \hbox (10.26578pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 ods sec-tion; []Walin (1982)). This ap-proach pro-vides in-for-ma-tion on the trans-port of wa- 
+ []
+
+
+Overfull \hbox (9.82124pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 ter through the sur-face den-sity con-tours due to sur-face buoy-ancy forc-ing that re-sults in 
+ []
+
+
+Overfull \hbox (11.46002pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 the for-ma-tion of lighter or denser wa-ter at the sur-face. Thus, the WMT re-lates the sur- 
+ []
+
+
+Overfull \hbox (3.73788pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 face buoy-ancy forc-ing and the sur-face den-sity field to the prop-er-ties of the ocean in-te- 
+ []
+
+
+Overfull \hbox (3.65451pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 rior. Fig-ure 4[]a shows the av-er-aged WMT dur-ing 2014 for the to-tal ice cov-ered Arc-tic, 
+ []
+
+
+Overfull \hbox (4.65446pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 the ice pack, the MIZ, and the parts of these re-gions cov-ered by leads. The def-i-ni-tions 
+ []
+
+
+Overfull \hbox (4.01567pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 of the wa-ter masses de-picted in fig-ure 4[]a fol-low roughly those pro-posed by []Pemberton 
+ []
+
+
+Overfull \hbox (7.9601pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 et al.[] (2015) and []Lansard et al.[] (2012). The yearly mean WMT in the ice pack is char- 
+ []
+
+
+Overfull \hbox (2.23798pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 ac-ter-ized by a broad re-gion of strong pos-i-tive trans-for-ma-tion (los-ing buoy-ancy) cor-re- 
+ []
+
+
+Overfull \hbox (10.7033pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 spond-ing ap-prox-i-mately to the halo-cline po-lar sur-face wa-ter ($\OML/cmm/m/it/10 PSW[]$\OT1/cmr/m/n/10 ; $24\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 kg=m[] < ^^Z < 
+ []
+
+
+Overfull \hbox (6.28995pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 27\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 kg=m[]$\OT1/cmr/m/n/10 ) reach-ing a max-i-mum of $\OMS/cmsy/m/n/10 ^^X \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 8\OML/cmm/m/it/10 Sv$\OT1/cmr/m/n/10 , con-sis-tent with pre-vi-ous es-ti-mates of the 
+ []
+
+
+Overfull \hbox (5.71007pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 sur-face Arc-tic WMT []Pemberton et al.[], 2015). The yearly mean WMT in the ice pack 
+ []
+
+
+Overfull \hbox (13.47644pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 leads also fea-tures a pos-i-tive peak within the $\OML/cmm/m/it/10 PSW[]$ \OT1/cmr/m/n/10 den-sity class reach-ing up to $0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 Sv$\OT1/cmr/m/n/10 . 
+ []
+
+
+Overfull \hbox (2.79335pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 On av-er-age dur-ing 2014, the WMT in the ice pack leads is $\OMS/cmsy/m/n/10 ^^X \OT1/cmr/m/n/10 20%$ of the WMT in the 
+ []
+
+
+Overfull \hbox (27.04347pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 ice pack (with-out leads). The mean MIZ WMT is mostly neg-a-tive within the den-sity range 
+ []
+
+
+Overfull \hbox (19.26447pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 of $20\OML/cmm/m/it/10 kg=m[] < ^^Z < \OT1/cmr/m/n/10 27\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 kg=m[]$ \OT1/cmr/m/n/10 (gain-ing buoy-ancy), reach-ing a min-i-mum of $\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 Sv$ \OT1/cmr/m/n/10 around 
+ []
+
+
+Overfull \hbox (7.34663pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 ties, with a min-i-mum of $\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 Sv$\OT1/cmr/m/n/10 . Thus, the MIZ leads WMT is com-pa-ra-ble to those in 
+ []
+
+
+Overfull \hbox (14.62685pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 the MIZ ex-clud-ing leads. Hovm^^?oller di-a-grams of the daily WMT es-ti-mates over 2014 for 
+ []
+
+
+Overfull \hbox (13.21008pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 the four masks are de-picted in fig-ure 4[]. The mean WMT un-der-neath the ice pack varies 
+ []
+
+
+Overfull \hbox (12.26564pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 from 1.1 Sv in win-ter to -1.0 Sv in sum-mer, while the WMT in the leads in the ice pack 
+ []
+
+
+Overfull \hbox (2.07117pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 is 0.2 Sv in win-ter and -0.26 Sv in sum-mer. In other words, the WMT in the ice pack 
+ []
+
+
+Overfull \hbox (0.29344pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 leads ranges from 20 to 25% of the WMT oc-cur-ring in the pack (Fig. 4[]d). It is in-ter- 
+ []
+
+
+Overfull \hbox (13.76561pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 est-ing to note that the pat-terns across the den-sity classes of the WMT for the leads and 
+ []
+
+
+Overfull \hbox (17.46014pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 the sur-round-ing re-gions ex-clud-ing leads are sim-i-lar (fig-ures 4[]b and c). This sug-gests that 
+ []
+
+
+Overfull \hbox (13.34895pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 there is no spe-cific wa-ter mass that is trans-formed pref-er-en-tially with the leads. Rather, 
+ []
+
+
+Overfull \hbox (1.9323pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 our re-sults sug-gest that the wa-ter masses trans-formed within the leads and out-side of 
+ []
+
+
+Overfull \hbox (14.87672pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 them have sim-i-lar prop-er-ties. The WMT in MIZ leads and those in the MIZ WMT have 
+ []
+
+
+Overfull \hbox (7.1546pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 com-pa-ra-ble mag-ni-tudes over the year (Fig. 4[] g). Sim-i-larly to the leads in the ice pack, 
+ []
+
+
+Overfull \hbox (6.62672pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 there is no ev-i-dence that leads in the MIZ could trans-form pref-er-en-tially spe-cific wa-ter 
+ []
+
+
+Overfull \hbox (13.71016pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 masses com-pared to the re-main-ing MIZ. Adding the con-tri-bu-tion of the WMT in all the 
+ []
+
+
+Overfull \hbox (15.87663pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 leads in the Arc-tic (those in the MIZ and the ice pack), we es-ti-mate $\OMS/cmsy/m/n/10 ^^X \OT1/cmr/m/n/10 25%$ of the WMT 
+ []
+
+
+Overfull \hbox (19.23782pt too wide) in paragraph at lines 246--254
+\OT1/cmr/m/n/10 hap-pens in leads, and this is com-pa-ra-ble to the sur-face cov-ered by these leads in the Arc- 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[11]
+
+[12 <./Figures/Figure_3_buoyancy_flux_ts_only_total.pdf>]
+<./Figures/Figure_4_water_mass_transformation_hovmoller_V2_MIZ15_80p.pdf, id=284, 519.21744pt x 497.49728pt>
+File: ./Figures/Figure_4_water_mass_transformation_hovmoller_V2_MIZ15_80p.pdf Graphic file (type pdf)
+<use ./Figures/Figure_4_water_mass_transformation_hovmoller_V2_MIZ15_80p.pdf>
+Package pdftex.def Info: ./Figures/Figure_4_water_mass_transformation_hovmoller_V2_MIZ15_80p.pdf  used on input line 257.
+(pdftex.def)             Requested size: 397.48499pt x 380.87263pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--260
+[]\OT1/cmr/bx/n/9 Figure  4. \OT1/cmr/m/n/9 Mean and daily Wa-ter Mass Trans-for-ma-tion (WMT) over 2014. a) Mean wa-ter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--260
+\OT1/cmr/m/n/9 mass trans-for-ma-tion over 2014 for the to-tal ice cov-ered, ice pack, MIZ, and leads in each re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--260
+\OT1/cmr/m/n/9 gion. Hovm^^?oller di-a-gram of the wa-ter mass trans-for-ma-tion (Sv) for b) the ice pack, c) the ice
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--260
+\OT1/cmr/m/n/9 pack leads, and d) the ra-tio of wa-ter mass trans-for-ma-tion be-tween the leads and the ice pack
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--260
+\OT1/cmr/m/n/9 re-gion. Pan-els e), f), and g) fol-low the same struc-ture as pan-els b), c), and d), but for the MIZ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--260
+\OT1/cmr/m/n/9 MIZ leads, and the ra-tio be-tween them. Shaded gray and white ar-eas in panel a) rep-re-sent ap-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--260
+\OT1/cmr/m/n/9 prox-i-mately the wa-ter masses of the Arc-tic Ocean ac-cord-ing to []Pemberton et al.[] (2015) and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--260
+[]\OT1/cmr/m/n/9 Lansard et al.[] (2012): the mixed layer po-lar sur-face wa-ter ($\OML/cmm/m/it/9 PSW[]\OT1/cmr/m/n/9 ;  \OML/cmm/m/it/9 ^^Z < \OT1/cmr/m/n/9 24\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 4\OML/cmm/m/it/9 kg=m[]$\OT1/cmr/m/n/9 ), the
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 260--260
+\OT1/cmr/m/n/9 halo-cline po-lar sur-face wa-ter ($\OML/cmm/m/it/9 PSW[]\OT1/cmr/m/n/9 ;  24\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 4\OML/cmm/m/it/9 kg=m[] < ^^Z < \OT1/cmr/m/n/9 27\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 4\OML/cmm/m/it/9 kg=m[]$\OT1/cmr/m/n/9 ), the po-lar deep wa-ter
+ []
+
+
+Overfull \hbox (0.2933pt too wide) in paragraph at lines 266--269
+[]\OT1/cmr/m/n/10 The present study as-sesses the im-pact of leads on the ocean sur-face by di-ag-nos- 
+ []
+
+
+Overfull \hbox (3.46019pt too wide) in paragraph at lines 266--269
+\OT1/cmr/m/n/10 ing the buoy-ancy fluxes us-ing a very high-resolution hind-cast (SEDNA). SEDNA cap- 
+ []
+
+
+Overfull \hbox (5.3489pt too wide) in paragraph at lines 266--269
+\OT1/cmr/m/n/10 tures the in-ter-mit-tency of the leads and the lead prop-er-ties. Leads cover $\OMS/cmsy/m/n/10 ^^X \OT1/cmr/m/n/10 22%$ of the 
+ []
+
+
+Overfull \hbox (15.62671pt too wide) in paragraph at lines 266--269
+\OT1/cmr/m/n/10 sea-ice cov-ered Arc-tic, and in the ice pack leads can con-tribute more buoy-ancy flux com- 
+ []
+
+
+Overfull \hbox (1.5712pt too wide) in paragraph at lines 266--269
+\OT1/cmr/m/n/10 pared to the fluxes out-side the leads. De-spite these larger buoy-ancy fluxes, leads only 
+ []
+
+
+Overfull \hbox (8.84904pt too wide) in paragraph at lines 266--269
+\OT1/cmr/m/n/10 ac-count for ap-prox-i-mately $\OMS/cmsy/m/n/10 ^^X \OT1/cmr/m/n/10 25%$ of the to-tal sur-face wa-ter mass trans-for-ma-tion in the 
+ []
+
+
+Overfull \hbox (11.90448pt too wide) in paragraph at lines 266--269
+\OT1/cmr/m/n/10 ice cov-ered Arc-tic, which is roughly equiv-a-lent to their sur-face cov-er-age. Thus, con-trary 
+ []
+
+
+Overfull \hbox (12.54353pt too wide) in paragraph at lines 266--269
+\OT1/cmr/m/n/10 to pre-vi-ous hy-pothe-ses based largely on lo-cal and in-ter-mit-tent ob-ser-va-tions (e.g. []Hutter 
+ []
+
+
+Overfull \hbox (8.65457pt too wide) in paragraph at lines 266--269
+\OT1/cmr/m/n/10 et al.[] (2019); McPhee et al.[] (2005)), our find-ings sug-gest that leads have a smaller con- 
+ []
+
+
+Overfull \hbox (15.32124pt too wide) in paragraph at lines 266--269
+\OT1/cmr/m/n/10 tri-bu-tion to the trans-for-ma-tion of sur-face wa-ter masses in the Arc-tic Ocean. While their 
+ []
+
+
+Overfull \hbox (2.76552pt too wide) in paragraph at lines 266--269
+\OT1/cmr/m/n/10 pres-ence can in-duce lo-cal-ized changes in the den-sity of sur-face wa-ters due to brine re- 
+ []
+
+
+Overfull \hbox (0.3212pt too wide) in paragraph at lines 266--269
+\OT1/cmr/m/n/10 jec-tion and ice melt-ing, the trans-for-ma-tion of wa-ter masses in the leads has the same 
+ []
+
+
+Overfull \hbox (7.54346pt too wide) in paragraph at lines 266--269
+\OT1/cmr/m/n/10 sign and mag-ni-tude as those un-der-neath the sur-round-ing ice-covered re-gions. Thus, no 
+ []
+
+
+Overfull \hbox (5.79337pt too wide) in paragraph at lines 266--269
+\OT1/cmr/m/n/10 ev-i-dence was found that leads im-pact in a dis-tinct way the Arc-tic Ocean wa-ter masses 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[14 <./Figures/Figure_4_water_mass_transformation_hovmoller_V2_MIZ15_80p.pdf>]
+Overfull \hbox (3.32108pt too wide) in paragraph at lines 270--271
+[]\OT1/cmr/m/n/10 Here we solely fo-cus on the sur-face forced WMT, but we ac-knowl-edge that leads 
+ []
+
+
+Overfull \hbox (22.65463pt too wide) in paragraph at lines 270--271
+\OT1/cmr/m/n/10 could fur-ther im-pact prop-er-ties at the sur-face and in-te-rior of the ocean by en-hanc-ing mix- 
+ []
+
+
+Overfull \hbox (10.04358pt too wide) in paragraph at lines 270--271
+\OT1/cmr/m/n/10 ing within leads, in-duc-ing up-welling of isopy-c-nals through Ek-man pump-ing []McPhee et 
+ []
+
+
+Overfull \hbox (15.34914pt too wide) in paragraph at lines 270--271
+\OT1/cmr/m/n/10 al.[], 2005), mod-i-fy-ing en-train-ment in the mixed layer within the leads, pro-vid-ing a source 
+ []
+
+
+Overfull \hbox (2.5991pt too wide) in paragraph at lines 270--271
+\OT1/cmr/m/n/10 of po-ten-tial en-ergy, and gen-er-at-ing mixed layer in-sta-bil-i-ties due to isopy-c-nal tilt-ing in 
+ []
+
+
+Overfull \hbox (20.82121pt too wide) in paragraph at lines 270--271
+\OT1/cmr/m/n/10 the vicin-ity of leads. The use of a con-tin-u-ous sea ice model that re-sults in leads with high 
+ []
+
+
+Overfull \hbox (10.23782pt too wide) in paragraph at lines 270--271
+\OT1/cmr/m/n/10 ice thick-ness and con-cen-tra-tions likely un-der-es-ti-mates the ex-changes be-tween the ocean 
+ []
+
+
+Overfull \hbox (21.46017pt too wide) in paragraph at lines 270--271
+\OT1/cmr/m/n/10 and the at-mo-sphere. There-fore, fu-ture stud-ies us-ing floe-resolving mod-els that al-low more 
+ []
+
+
+Overfull \hbox (4.07114pt too wide) in paragraph at lines 270--271
+\OT1/cmr/m/n/10 ``re-al-is-tic leads" with di-rect ex-changes be-tween the ocean and the at-mo-sphere may re- 
+ []
+
+
+Overfull \hbox (18.1268pt too wide) in paragraph at lines 270--271
+\OT1/cmr/m/n/10 sult in larger fluxes through the leads in-creas-ing their po-ten-tial im-pact in the wa-ter mass 
+ []
+
+
+Overfull \hbox (23.73785pt too wide) in paragraph at lines 272--274
+[]\OT1/cmr/m/n/10 Leads have an im-por-tant lo-cal ef-fect in the at-mo-sphere and the sea-ice fluxes []Marcq 
+ []
+
+
+Overfull \hbox (15.3213pt too wide) in paragraph at lines 272--274
+\OT1/cmr/m/n/10 & Weiss, 2012; L^^?upkes et al.[], 2008; Wet-t-laufer et al.[], 1997; S. D. Smith et al.[], 1990), but 
+ []
+
+
+Overfull \hbox (9.01569pt too wide) in paragraph at lines 272--274
+\OT1/cmr/m/n/10 a lim-ited im-print on the ocean sur-face and in-te-rior prop-er-ties. Our re-sults sug-gest that 
+ []
+
+
+Overfull \hbox (8.26556pt too wide) in paragraph at lines 272--274
+\OT1/cmr/m/n/10 the pres-ence of leads is not the first or-der mech-a-nism con-trol-ling the wa-ter mass trans- 
+ []
+
+
+Overfull \hbox (14.93242pt too wide) in paragraph at lines 272--274
+\OT1/cmr/m/n/10 for-ma-tion forced at the sur-face, thus leads have a mi-nor im-pact on the strat-i-fi-ca-tion and 
+ []
+
+
+Overfull \hbox (0.54343pt too wide) in paragraph at lines 272--274
+\OT1/cmr/m/n/10 sur-face layer dy-nam-ics of the Arc-tic Ocean. There-fore, re-solv-ing and/or pa-ram-e-ter-iz- 
+ []
+
+
+Overfull \hbox (7.98798pt too wide) in paragraph at lines 272--274
+\OT1/cmr/m/n/10 ing leads in cli-mate mod-els are likely to only marginally im-prove the mis-rep-re-sen-ta-tion 
+ []
+
+
+Overfull \hbox (16.0435pt too wide) in paragraph at lines 272--274
+\OT1/cmr/m/n/10 of the strat-i-fi-ca-tion and wa-ter masses found in Arc-tic cli-mate mod-els []Wang et al.[], 2024; 
+ []
+
+
+Overfull \hbox (3.51573pt too wide) in paragraph at lines 272--274
+\OT1/cmr/m/n/10 Il-i-cak et al.[], 2016). Fi-nally, the prob-a-bil-ity of leads oc-cur-ring in the ice pack has been 
+ []
+
+
+Overfull \hbox (18.73782pt too wide) in paragraph at lines 272--274
+\OT1/cmr/m/n/10 pro-jected to in-crease as the Arc-tic sea ice tran-si-tions to-wards thin-ner, younger, and more 
+ []
+
+
+Overfull \hbox (15.6546pt too wide) in paragraph at lines 272--274
+\OT1/cmr/m/n/10 mo-bile sea ice []Boutin et al.[], 2023; In-ter-gov-ern-men-tal Panel on Cli-mate Change (IPCC), 
+ []
+
+
+Overfull \hbox (18.26578pt too wide) in paragraph at lines 272--274
+\OT1/cmr/m/n/10 2022). Our anal-y-sis is only per-formed over one year and the fu-ture im-pact of more abun- 
+ []
+
+
+Overfull \hbox (9.01561pt too wide) in paragraph at lines 272--274
+\OT1/cmr/m/n/10 dant leads is not rep-re-sented in our sim-u-la-tion. Thus, ded-i-cated stud-ies are re-quired to 
+ []
+
+
+Overfull \hbox (6.48795pt too wide) in paragraph at lines 272--274
+\OT1/cmr/m/n/10 bet-ter es-ti-mate the sur-face buoy-ancy forc-ing within leads in the con-text of an evolv-ing 
+ []
+
+
+Overfull \hbox (13.4875pt too wide) in paragraph at lines 283--285
+[]\OT1/cmr/m/n/10 The SEDNA model con-fig-u-ra-tion are de-scribed and pub-licly avail-able at $\OT1/cmtt/m/n/10 https :// 
+ []
+
+
+Overfull \hbox (3.1531pt too wide) in paragraph at lines 283--285
+\OT1/cmtt/m/n/10 zenodo [] .org / records / 7656924$\OT1/cmr/m/n/10 . All anal-y-ses and fig-ures in this manuscript are re-pro- 
+ []
+
+
+Overfull \hbox (5.11302pt too wide) in paragraph at lines 283--285
+\OT1/cmr/m/n/10 ducible via Jupyter note-books and in-struc-tions can be found in the GitHub repos-i-tory 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[15]
+Overfull \hbox (8.3768pt too wide) in paragraph at lines 286--289
+\OT1/cmr/m/n/10 We ac-knowl-edge fund-ing from the ANR Im-ME-DIAT project (ANR-18-CE01-0010) and 
+ []
+
+
+Overfull \hbox (10.62682pt too wide) in paragraph at lines 286--289
+\OT1/cmr/m/n/10 the MED-LEY project funded by the pro-gram JPI Ocean/JPI Cli-mate (ANR-19-JPOC- 
+ []
+
+
+Overfull \hbox (22.90459pt too wide) in paragraph at lines 286--289
+\OT1/cmr/m/n/10 0001) project. The ide-al-ized sim-u-la-tions and their anal-y-sis were per-formed us-ing the HPC 
+ []
+
+
+Overfull \hbox (15.18228pt too wide) in paragraph at lines 286--289
+\OT1/cmr/m/n/10 fa-cil-i-ties DATAR-MOR of `P^ole de Cal-cul In-ten-sif pour la Mer' at Ifre-mer, Brest, France. 
+ []
+
+
+Overfull \hbox (5.2239pt too wide) in paragraph at lines 286--289
+\OT1/cmr/m/n/10 We also ac-knowl-edge PRACE for award-ing us ac-cess to Joliot-Curie at GENCI@CEA, 
+ []
+
+(./agujournaltemplate.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 14--32
+[]\OT1/cmr/m/n/10 Bouchat, A., Hut-ter, N., Chanut, J., Dupont, F., Dukhovskoy, D., Gar-ric, G., ... 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--32
+\OT1/cmr/m/n/10 Wang, Q.  (2022).  Sea Ice Rhe-ol-ogy Ex-per-i-ment (SIREx): 1. Scal-ing and 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--32
+\OT1/cmr/m/n/10 Sta-tis-ti-cal Prop-er-ties of Sea-Ice De-for-ma-tion Fields.  \OT1/cmr/m/it/10 Jour-nal of Geo-phys-i-cal 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--64
+[]\OT1/cmr/m/n/10 Bourgault, P., Straub, D., Du-quette, K., Nadeau, L.-P., & Trem-blay, B.  (2020). 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--64
+\OT1/cmr/m/n/10 Ver-ti-cal Heat Fluxes be-neath Ide-al-ized Sea Ice Leads in Large-Eddy Sim-u-la- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--94
+[]\OT1/cmr/m/n/10 Boutin, G., []Olason, E., Ram-pal, P., Re-gan, H., Lique, C., Ta-landier, C., ... Ricker, 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--94
+\OT1/cmr/m/n/10 R.  (2023).  Arc-tic sea ice mass bal-ance in a new cou-pled ice-ocean model 
+ []
+
+
+Underfull \hbox (badness 5652) in paragraph at lines 76--94
+\OT1/cmr/m/n/10 us-ing a brit-tle rhe-ol-ogy frame-work.  \OT1/cmr/m/it/10 The Cryosphere\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 17\OT1/cmr/m/n/10 (2), 617--638.  doi: 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--124
+[]\OT1/cmr/m/n/10 Hersbach, H., Bell, B., Berris-ford, P., Hi-ra-hara, S., Hor^^Sanyi, A., Mu~noz-Sabater, 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--124
+\OT1/cmr/m/n/10 J., ... Th^^Sepaut, J.-N.  (2020).  The era5 global re-anal-y-sis.  \OT1/cmr/m/it/10 Quar-terly 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--124
+\OT1/cmr/m/it/10 Jour-nal of the Royal Me-te-o-ro-log-i-cal So-ci-ety\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 146\OT1/cmr/m/n/10 (730), 1999-2049.  doi: 
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 138--150
+[]\OT1/cmr/m/n/10 Hu, X., My-ers, P. G., & Lu, Y.  (2019).  Pa-cific wa-ter path-way in the arc-tic ocean 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--150
+\OT1/cmr/m/n/10 and beau-fort gyre in two sim-u-la-tions with dif-fer-ent hor-i-zon-tal res-o-lu-tions. 
+ []
+
+
+
+[16]
+Underfull \hbox (badness 1117) in paragraph at lines 192--206
+[]\OT1/cmr/m/n/10 Hutter, N., Losch, M., & Men-e-men-lis, D.  (2018).  Scal-ing Prop-er-ties of Arc-tic Sea 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--206
+\OT1/cmr/m/n/10 Ice De-for-ma-tion in a High-Resolution Viscous-Plastic Sea Ice Model and in 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--206
+\OT1/cmr/m/n/10 Satel-lite Ob-ser-va-tions.  \OT1/cmr/m/it/10 Jour-nal of Geo-phys-i-cal Re-search: Oceans\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 123\OT1/cmr/m/n/10 (1), 
+ []
+
+
+Underfull \hbox (badness 3128) in paragraph at lines 220--234
+[]\OT1/cmr/m/n/10 Hutter, N., Zampieri, L., & Losch, M.  (2019).  Leads and ridges in Arc-tic sea ice 
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 220--234
+\OT1/cmr/m/n/10 from RGPS data and a new track-ing al-go-rithm.  \OT1/cmr/m/it/10 The Cryosphere\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 13\OT1/cmr/m/n/10 (2), 627-- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--264
+[]\OT1/cmr/m/n/10 Ilicak, M., Drange, H., Wang, Q., Gerdes, R., Ak-senov, Y., Bai-ley, D., ... Yea-ger, 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--290
+\OT1/cmr/m/it/10 ocean and cryosphere in a chang-ing cli-mate: Spe-cial re-port of the in-ter-gov-ern- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--320
+[]\OT1/cmr/m/n/10 Jean-Michel, L., Eric, G., Ro-main, B.-B., Gilles, G., Ang^^Selique, M., Marie, D., 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--320
+\OT1/cmr/m/n/10 ... Pierre-Yves, L. T.  (2021).  The coper-ni-cus global 1/12\TS1/cmr/m/n/10 ° \OT1/cmr/m/n/10 oceanic and 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--320
+\OT1/cmr/m/n/10 sea ice glo-rys12 re-anal-y-sis.  \OT1/cmr/m/it/10 Fron-tiers in Earth Sci-ence\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 9\OT1/cmr/m/n/10 .  doi: $10 [] .3389 / 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--352
+[]\OT1/cmr/m/n/10 Lansard, B., Mucci, A., Miller, L. A., Mac-don-ald, R. W., & Grat-ton, Y.  (2012). 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--352
+\OT1/cmr/m/n/10 Sea-sonal vari-abil-ity of wa-ter mass dis-tri-bu-tion in the south-east-ern beau-fort 
+ []
+
+
+Underfull \hbox (badness 2096) in paragraph at lines 336--352
+\OT1/cmr/m/n/10 sea de-ter-mined by to-tal al-ka-lin-ity and $\OML/cmm/m/it/10 ^^N[]o$\OT1/cmr/m/n/10 .  \OT1/cmr/m/it/10 Jour-nal of Geo-phys-i-cal Re-search: 
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 366--379
+[]\OT1/cmr/m/n/10 Large, W., & Yea-ger, S.  (2009).  The global cli-ma-tol-ogy of an in-ter-an-nu-ally vary- 
+ []
+
+
+Underfull \hbox (badness 4673) in paragraph at lines 394--411
+[]\OT1/cmr/m/n/10 Lenn, Y.-D., Fer, I., Tim-mer-mans, M.-L., & MacK-in-non, J. A.  (2022).  Chap-ter 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[17{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 450--468
+[]\OT1/cmr/m/n/10 Locarnini, R., Mis-honov, A., Antonov, J., Boyer, T., Gar-cia, H., Bara-nova, O., ... 
+ []
+
+
+Underfull \hbox (badness 2478) in paragraph at lines 450--468
+\OT1/cmr/m/n/10 John-son, D.  (2010, 01).  World ocean at-las 2009, vol. 1: Tem-per-a-ture.  In 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 483--498
+\OT1/cmr/m/n/10 ice on the tem-per-a-ture of the at-mo-spheric bound-ary layer dur-ing po-lar night. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 510--528
+[]\OT1/cmr/m/n/10 Madec, G., Bourdall^^Se-Badie, R., Chanut, J., Clementi, E., Cow-ard, A., Eth^^Se, 
+ []
+
+
+Underfull \hbox (badness 4886) in paragraph at lines 510--528
+\OT1/cmr/m/n/10 C., ... Moulin, A.  (2022, March).  \OT1/cmr/m/it/10 Nemo ocean en-gine.  \OT1/cmr/m/n/10 Zen-odo.  doi: 
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 542--555
+[]\OT1/cmr/m/n/10 Marcq, S., & Weiss, J.  (2012).  In-flu-ence of sea ice lead-width dis-tri-bu-tion on tur- 
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 542--555
+\OT1/cmr/m/n/10 bu-lent heat trans-fer be-tween the ocean and the at-mo-sphere.  \OT1/cmr/m/it/10 The Cryosphere\OT1/cmr/m/n/10 , 
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 623--635
+\OT1/cmr/m/it/10 tive (SI$[]$) -- the nemo sea ice en-gine \OT1/cmr/m/n/10 (No.[] 31).  Zen-odo.  doi: $10 [] .5281 / zenodo [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 737--751
+[]\OT1/cmr/m/n/10 Reiser, F., Willmes, S., & Heine-mann, G.  (2020).  A New Al-go-rithm for 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 737--751
+\OT1/cmr/m/n/10 Daily Sea Ice Lead Iden-ti-fi-ca-tion in the Arc-tic and Antarc-tic Win-ter from 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 737--751
+\OT1/cmr/m/n/10 Thermal-Infrared Satel-lite Im-agery.  \OT1/cmr/m/it/10 Re-mote Sens-ing\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 12\OT1/cmr/m/n/10 (12), 1957.  doi: 
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 766--781
+[]\OT1/cmr/m/n/10 Richter-Menge, J. A., Mc-Nutt, S. L., Over-land, J. E., & Kwok, R.  (2002).  Re-lat- 
+ []
+
+
+Underfull \hbox (badness 4403) in paragraph at lines 795--809
+[]\OT1/cmr/m/n/10 Smith, D. C., Lavelle, J. W., & Fer-nando, H. J. S.  (2002).  Arc-tic Ocean mixed- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 850--864
+[]\OT1/cmr/m/n/10 Smith, S. D., Muench, R. D., & Pease, C. H.  (1990).  Polynyas and leads: An 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 850--864
+\OT1/cmr/m/n/10 overview of phys-i-cal pro-cesses and en-vi-ron-ment.  \OT1/cmr/m/it/10 Jour-nal of Geo-phys-i-cal Re- 
+ []
+
+
+Underfull \hbox (badness 3417) in paragraph at lines 905--919
+[]\OT1/cmr/m/n/10 Tschudi, M., Curry, J., & Maslanik, J.  (1998).  Air-borne ob-ser-va-tions of leads in 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 905--919
+\OT1/cmr/m/it/10 IEEE In-ter-na-tional Geo-science and Re-mote Sens-ing. Sym-po-sium Pro-ceed-ings. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 955--973
+[]\OT1/cmr/m/n/10 von Albedyll, L., Hen-dricks, S., Grod-ofzig, R., Krumpen, T., Arndt, S., Bel- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 955--973
+\OT1/cmr/m/n/10 ter, H. J., ... Haas, C.  (2022).  Ther-mo-dy-namic and dy-namic con-tri-bu- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 955--973
+\OT1/cmr/m/n/10 tions to sea-sonal Arc-tic sea ice thick-ness dis-tri-bu-tions from air-borne ob- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 955--973
+\OT1/cmr/m/n/10 ser-va-tions.  \OT1/cmr/m/it/10 El-e-menta: Sci-ence of the An-thro-pocene\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 10\OT1/cmr/m/n/10 (1).  doi: $10 [] .1525 / 
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 985--997
+[]\OT1/cmr/m/n/10 Walin, G.  (1982).  On the re-la-tion be-tween sea-surface heat flow and ther-mal cir- 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 1013--1029
+\OT1/cmr/m/n/10 in the Arc-tic Ocean: Model as-sess-ment, in-ter-an-nual vari-abil-ity and trends. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1041--1059
+[]\OT1/cmr/m/n/10 Wang, Q., Shu, Q., Bozec, A., Chas-signet, E. P., Fogli, P. G., Fox-Kemper, B., ... 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1041--1059
+\OT1/cmr/m/n/10 ocean model in-ter-com-par-i-son project phase 2 (omip-2).  \OT1/cmr/m/it/10 Geo-sci-en-tific Model 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1073--1086
+[]\OT1/cmr/m/n/10 Wernecke, A., & Kaleschke, L.  (2015).  Lead de-tec-tion in Arc-tic sea ice from 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1073--1086
+\OT1/cmr/m/n/10 CryoSat-2: qual-ity as-sess-ment, lead area frac-tion and width dis-tri-bu-tion. 
+ []
+
+
+Underfull \hbox (badness 4726) in paragraph at lines 1128--1142
+\OT1/cmr/m/n/10 sea ice leads and their re-la-tion to winds and ocean cur-rents.  \OT1/cmr/m/it/10 The Cryosphere 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1156--1169
+\OT1/cmr/m/n/10 en-thalpy dis-tri-bu-tion model in gen-er-al-ized curvi-lin-ear co-or-di-nates.  \OT1/cmr/m/it/10 Monthly 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1156--1169
+\OT1/cmr/m/it/10 Weather Re-view\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 131\OT1/cmr/m/n/10 (5), 845 - 861.  doi: $10 [] .1175 / 1520 [] -0493(2003 ) 131\OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 0845 : 
+ []
+
+)
+
+[20]
+<./Figures/Figure_S1_comparison_LKF_observations_KE_bathy.pdf, id=403, 353.59033pt x 168.84856pt>
+File: ./Figures/Figure_S1_comparison_LKF_observations_KE_bathy.pdf Graphic file (type pdf)
+<use ./Figures/Figure_S1_comparison_LKF_observations_KE_bathy.pdf>
+Package pdftex.def Info: ./Figures/Figure_S1_comparison_LKF_observations_KE_bathy.pdf  used on input line 329.
+(pdftex.def)             Requested size: 397.48499pt x 189.82275pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--330
+[]\OT1/cmr/bx/n/9 Figure  S5. \OT1/cmr/m/n/9 Com-par-i-son of win-ter lead fre-quency be-tween a) Thermal-Infrared Satel-lite Im-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--330
+\OT1/cmr/m/n/9 agery []Willmes et al.[], 2023) and b) SEDNA be-tween 2011 and 2015. Panel c) shows the SEDNA
+ []
+
+<./Figures/Figure_S2_buoyancy_flux_components.pdf, id=404, 634.77153pt x 449.62857pt>
+File: ./Figures/Figure_S2_buoyancy_flux_components.pdf Graphic file (type pdf)
+<use ./Figures/Figure_S2_buoyancy_flux_components.pdf>
+Package pdftex.def Info: ./Figures/Figure_S2_buoyancy_flux_components.pdf  used on input line 336.
+(pdftex.def)             Requested size: 397.48499pt x 281.55916pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--337
+[]\OT1/cmr/bx/n/9 Figure  S6. \OT1/cmr/m/n/9 Time-series dur-ing 2014 of a) the fresh-wa-ter com-po-nent of the buoy-ancy flux and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--337
+\OT1/cmr/m/n/9 b) the heat com-po-nent of the buoy-ancy flux for the ice pack, the MIZ, and the leads in the ice
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--337
+\OT1/cmr/m/n/9 pack and in the MIZ. The MIZ is de-fined be-tween ice con-cen-tra-tion of 15-80%, and the ice pack
+ []
+
+
+
+[21 <./Figures/Figure_S1_comparison_LKF_observations_KE_bathy.pdf>]
+
+[22 <./Figures/Figure_S2_buoyancy_flux_components.pdf>] (./agujournaltemplate.aux)
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-07-20>
+ ***********
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.45pt have occurred.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4510 strings out of 467801
+ 74978 string characters out of 5431911
+ 497565 words of memory out of 5000000
+ 33075 multiletter control sequences out of 15000+600000
+ 633363 words of font info for 62 fonts, out of 8000000 for 9000
+ 1147 hyphenation exceptions out of 8191
+ 72i,10n,79p,1943b,348s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on agujournaltemplate.pdf (22 pages, 27818554 bytes).
+PDF statistics:
+ 610 PDF objects out of 1000 (max. 8388607)
+ 212 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+

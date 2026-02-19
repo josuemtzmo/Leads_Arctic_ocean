@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: sn-article.aux
+The style file: sn-basic.bst
+Database file #1: biblio.bib
+Warning--I didn't find a database entry for "Locarnini_data_2010"
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 41 entries,
+            3545 wiz_defined-function locations,
+            1039 strings with 17672 characters,
+and the built_in function-call counts, 42923 in all, are:
+= -- 4036
+> -- 2183
+< -- 17
++ -- 805
+- -- 675
+* -- 3901
+:= -- 6198
+add.period$ -- 75
+call.type$ -- 41
+change.case$ -- 483
+chr.to.int$ -- 41
+cite$ -- 41
+duplicate$ -- 2919
+empty$ -- 3185
+format.name$ -- 801
+if$ -- 8949
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 308
+newline$ -- 132
+num.names$ -- 166
+pop$ -- 1094
+preamble$ -- 1
+purify$ -- 440
+quote$ -- 0
+skip$ -- 953
+stack$ -- 0
+substring$ -- 3548
+swap$ -- 851
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 363
+warning$ -- 0
+while$ -- 217
+width$ -- 0
+write$ -- 494
+(There was 1 warning)

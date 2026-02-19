@@ -1,0 +1,264 @@
+\begin{thebibliography}{43}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{\url{https://doi.org/#1}}
+\providecommand{\eprint}[2][]{\url{#2}}
+ \bibcommenthead
+
+\bibitem[{von Albedyll et~al(2022)von Albedyll, Hendricks, Grodofzig, Krumpen,
+  Arndt, Belter, Birnbaum, Cheng, Hoppmann, Hutchings, Itkin, Lei, Nicolaus,
+  Ricker, Rohde, Suhrhoff, Timofeeva, Watkins, Webster, and
+  Haas}]{Albedyll_thickness_dis_2022}
+von Albedyll L, Hendricks S, Grodofzig R, et~al (2022) {Thermodynamic and
+  dynamic contributions to seasonal Arctic sea ice thickness distributions from
+  airborne observations}. Elementa: Science of the Anthropocene 10(1).
+  \doi{10.1525/elementa.2021.00074}
+
+\bibitem[{Bouchat et~al(2022)Bouchat, Hutter, Chanut, Dupont, Dukhovskoy,
+  Garric, Lee, Lemieux, Lique, Losch, Maslowski, Myers, Ólason, Rampal,
+  Rasmussen, Talandier, Tremblay, and Wang}]{Bouchat_sea_ice_rheology_2022}
+Bouchat A, Hutter N, Chanut J, et~al (2022) {Sea Ice Rheology Experiment
+  (SIREx): 1. Scaling and Statistical Properties of Sea‐Ice Deformation
+  Fields}. Journal of Geophysical Research: Oceans 127(4).
+  \doi{10.1029/2021jc017667}
+
+\bibitem[{Bourgault et~al(2020)Bourgault, Straub, Duquette, Nadeau, and
+  Tremblay}]{Bourgault_flux_lkf_2020}
+Bourgault P, Straub D, Duquette K, et~al (2020) {Vertical Heat Fluxes beneath
+  Idealized Sea Ice Leads in Large-Eddy Simulations: Comparison with
+  Observations from the SHEBA Experiment}. Journal of Physical Oceanography
+  50(8):2189--2202. \doi{10.1175/jpo-d-19-0298.1}
+
+\bibitem[{Boutin et~al(2023)Boutin, \'Olason, Rampal, Regan, Lique, Talandier,
+  Brodeau, and Ricker}]{Boutin_rheology_2023}
+Boutin G, \'Olason E, Rampal P, et~al (2023) Arctic sea ice mass balance in a
+  new coupled ice-ocean model using a brittle rheology framework. The
+  Cryosphere 17(2):617--638. \doi{10.5194/tc-17-617-2023}
+
+\bibitem[{Hersbach et~al(2020)Hersbach, Bell, Berrisford, Hirahara, Horányi,
+  Muñoz-Sabater, Nicolas, Peubey, Radu, Schepers, Simmons, Soci, Abdalla,
+  Abellan, Balsamo, Bechtold, Biavati, Bidlot, Bonavita, De~Chiara, Dahlgren,
+  Dee, Diamantakis, Dragani, Flemming, Forbes, Fuentes, Geer, Haimberger,
+  Healy, Hogan, Hólm, Janisková, Keeley, Laloyaux, Lopez, Lupu, Radnoti,
+  de~Rosnay, Rozum, Vamborg, Villaume, and Thépaut}]{Hersbach_ERA5_2020}
+Hersbach H, Bell B, Berrisford P, et~al (2020) The era5 global reanalysis.
+  Quarterly Journal of the Royal Meteorological Society 146(730):1999--2049.
+  \doi{https://doi.org/10.1002/qj.3803}
+
+\bibitem[{Hu et~al(2019)Hu, Myers, and Lu}]{HuEA_rivers_2019}
+Hu X, Myers PG, Lu Y (2019) Pacific water pathway in the arctic ocean and
+  beaufort gyre in two simulations with different horizontal resolutions.
+  Journal of Geophysical Research: Oceans 124(8):6414--6432
+
+\bibitem[{Hutchings et~al(2005)Hutchings, Heil, and
+  Hibler}]{Hutchings_model_lkf_2005}
+Hutchings JK, Heil P, Hibler WD (2005) {Modeling Linear Kinematic Features in
+  Sea Ice}. Monthly Weather Review 133(12):3481--3497. \doi{10.1175/mwr3045.1}
+
+\bibitem[{Hutter et~al(2018)Hutter, Losch, and
+  Menemenlis}]{Hutter_scaling_lkf_2018}
+Hutter N, Losch M, Menemenlis D (2018) {Scaling Properties of Arctic Sea Ice
+  Deformation in a High‐Resolution Viscous‐Plastic Sea Ice Model and in
+  Satellite Observations}. Journal of Geophysical Research: Oceans
+  123(1):672--687. \doi{10.1002/2017jc013119}
+
+\bibitem[{Hutter et~al(2019)Hutter, Zampieri, and
+  Losch}]{Hutter_identification_2019}
+Hutter N, Zampieri L, Losch M (2019) {Leads and ridges in Arctic sea ice from
+  RGPS data and a new tracking algorithm}. The Cryosphere 13(2):627--645.
+  \doi{10.5194/tc-13-627-2019}
+
+\bibitem[{{Ilicak} et~al(2016){Ilicak}, Drange, Wang, Gerdes, Aksenov, Bailey,
+  Bentsen, Biastoch, Bozec, B\"oning, Cassou, Chassignet, Coward, Curry,
+  Danabasoglu, Danilov, Fernandez, Fogli, Fujii, Griffies, Iovino, Jahn, Jung,
+  Large, Lee, Lique, Lu, Masina, {George Nurser}, Roth, {Salas y M\'elia},
+  Samuels, Spence, Tsujino, Valcke, Voldoire, Wang, and
+  Yeager}]{Ilicak_core_2016}
+{Ilicak} M, Drange H, Wang Q, et~al (2016) An assessment of the arctic ocean in
+  a suite of interannual core-ii simulations. part iii: Hydrography and fluxes.
+  Ocean Modelling 100:141--161.
+  \doi{https://doi.org/10.1016/j.ocemod.2016.02.004}
+
+\bibitem[{{Intergovernmental Panel on Climate Change
+  (IPCC)}(2022)}]{IPCC_arctic_2022}
+{Intergovernmental Panel on Climate Change (IPCC)} (2022) Polar Regions,
+  Cambridge University Press, p 203–320. \doi{10.1017/9781009157964.005}
+
+\bibitem[{Jean-Michel et~al(2021)Jean-Michel, Eric, Romain, Gilles, Angélique,
+  Marie, Clément, Mathieu, Olivier, Charly, Tony, Charles-Emmanuel, Florent,
+  Giovanni, Mounir, Yann, and Pierre-Yves}]{GLORYS12}
+Jean-Michel L, Eric G, Romain BB, et~al (2021) The copernicus global 1/12°
+  oceanic and sea ice glorys12 reanalysis. Frontiers in Earth Science 9.
+  \doi{10.3389/feart.2021.698876}
+
+\bibitem[{Kwok(2001)}]{kwok_deformation_2001}
+Kwok R (2001) Deformation of the arctic ocean sea ice cover between november
+  1996 and april 1997: a qualitative survey. In: IUTAM Symposium on Scaling
+  Laws in Ice Mechanics and Ice Dynamics: Proceedings of the IUTAM Symposium
+  Held in Fairbanks, Alaska, USA, 13--16 June 2000, Springer, pp 315--322
+
+\bibitem[{Lansard et~al(2012)Lansard, Mucci, Miller, Macdonald, and
+  Gratton}]{Lansard_water_mass_2012}
+Lansard B, Mucci A, Miller LA, et~al (2012) Seasonal variability of water mass
+  distribution in the southeastern beaufort sea determined by total alkalinity
+  and $\delta^{18}o$. Journal of Geophysical Research: Oceans 117(C3).
+  \doi{https://doi.org/10.1029/2011JC007299},
+  {\href{https://arxiv.org/abs/https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2011JC007299}{{https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2011JC007299}}}
+
+\bibitem[{Large and Yeager(2009)}]{Large_global_2009}
+Large W, Yeager S (2009) {The global climatology of an interannually varying
+  air–sea flux data set}. Climate Dynamics 33(2-3):341--364.
+  \doi{10.1007/s00382-008-0441-3}
+
+\bibitem[{Lenn et~al(2022)Lenn, Fer, Timmermans, and
+  MacKinnon}]{Lenn_mixing_2022}
+Lenn YD, Fer I, Timmermans ML, et~al (2022) Chapter 11 - mixing in the arctic
+  ocean. In: Meredith M, {Naveira Garabato} A (eds) Ocean Mixing. Elsevier, p
+  275--299, \doi{https://doi.org/10.1016/B978-0-12-821512-8.00018-9}
+
+\bibitem[{Linow and Dierking(2017)}]{Linow_lkf_2017}
+Linow S, Dierking W (2017) {Object-Based Detection of Linear Kinematic Features
+  in Sea Ice}. Remote Sensing 9(5):493. \doi{10.3390/rs9050493}
+
+\bibitem[{Locarnini et~al(2010)Locarnini, Mishonov, Antonov, Boyer, Garcia,
+  Baranova, Zweng, and Johnson}]{Locarnini_data_2010}
+Locarnini R, Mishonov A, Antonov J, et~al (2010) World Ocean Atlas 2009, Vol.
+  1: Temperature, vol~68, p 184
+
+\bibitem[{Lüpkes et~al(2008)Lüpkes, Vihma, Birnbaum, and
+  Wacker}]{Lupkes_leads_2008}
+Lüpkes C, Vihma T, Birnbaum G, et~al (2008) {Influence of leads in sea ice on
+  the temperature of the atmospheric boundary layer during polar night}.
+  Geophysical Research Letters 35(3). \doi{10.1029/2007gl032461}
+
+\bibitem[{Madec et~al(2022)Madec, Bourdallé-Badie, Chanut, Clementi, Coward,
+  Ethé, Iovino, Lea, Lévy, Lovato, Martin, Masson, Mocavero, Rousset,
+  Storkey, Müeller, Nurser, Bell, Samson, Mathiot, Mele, and
+  Moulin}]{NEMO_man}
+Madec G, Bourdallé-Badie R, Chanut J, et~al (2022) Nemo ocean engine.
+  \doi{10.5281/zenodo.6334656}
+
+\bibitem[{Marcq and Weiss(2012)}]{Marcq_flux_lead_2012}
+Marcq S, Weiss J (2012) {Influence of sea ice lead-width distribution on
+  turbulent heat transfer between the ocean and the atmosphere}. The Cryosphere
+  6(1):143--156. \doi{10.5194/tc-6-143-2012}
+
+\bibitem[{Maykut(1986)}]{Maykut_heat_1986}
+Maykut GA (1986) The Surface Heat and Mass Balance, Springer US, Boston, MA, pp
+  395--463. \doi{10.1007/978-1-4899-5352-0_6}
+
+\bibitem[{McPhee et~al(2005)McPhee, Kwok, Robins, and Coon}]{McPhee_LKF_2005}
+McPhee MG, Kwok R, Robins R, et~al (2005) Upwelling of arctic pycnocline
+  associated with shear motion of sea ice. Geophysical Research Letters 32(10).
+  \doi{10.1029/2004GL021819}
+
+\bibitem[{{NEMO Sea Ice Working Group}(2022)}]{SI3_man}
+{NEMO Sea Ice Working Group} (2022) Sea ice modelling integrated initiative
+  ({SI}$^3$) -- the nemo sea ice engine. \doi{10.5281/zenodo.1471689}
+
+\bibitem[{Nurser et~al(1999)Nurser, Marsh, and Williams}]{Nurser_WMT_1999}
+Nurser AJG, Marsh R, Williams RG (1999) Diagnosing water mass formation from
+  air–sea fluxes and surface mixing. Journal of Physical Oceanography
+  29(7):1468 -- 1487. \doi{10.1175/1520-0485(1999)029<1468:DWMFFA>2.0.CO;2}
+
+\bibitem[{Pemberton et~al(2015)Pemberton, Nilsson, Hieronymus, and
+  Meier}]{Pemberton_WMT_2015}
+Pemberton P, Nilsson J, Hieronymus M, et~al (2015) {Arctic Ocean Water Mass
+  Transformation in S–T Coordinates}. Journal of Physical Oceanography
+  45(4):1025--1050. \doi{10.1175/jpo-d-14-0197.1}
+
+\bibitem[{Rampal et~al(2016)Rampal, Bouillon, Ólason, and
+  Morlighem}]{Rampal_nextsim_2016}
+Rampal P, Bouillon S, Ólason E, et~al (2016) {neXtSIM: a new Lagrangian sea
+  ice model}. The Cryosphere 10(3):1055--1073. \doi{10.5194/tc-10-1055-2016}
+
+\bibitem[{Reiser et~al(2020)Reiser, Willmes, and Heinemann}]{Reiser_LKF_2020}
+Reiser F, Willmes S, Heinemann G (2020) {A New Algorithm for Daily Sea Ice Lead
+  Identification in the Arctic and Antarctic Winter from Thermal-Infrared
+  Satellite Imagery}. Remote Sensing 12(12):1957. \doi{10.3390/rs12121957}
+
+\bibitem[{Richter‐Menge et~al(2002)Richter‐Menge, McNutt, Overland, and
+  Kwok}]{Richter_pack_stress_2002}
+Richter‐Menge JA, McNutt SL, Overland JE, et~al (2002) {Relating arctic pack
+  ice stress and deformation under winter conditions}. Journal of Geophysical
+  Research: Oceans 107(C10):SHE 15--1--SHE 15--13. \doi{10.1029/2000jc000477}
+
+\bibitem[{Ruffieux et~al(1995)Ruffieux, Persson, Fairall, and
+  Wolfe}]{Ruffieux_pack_lead_1995}
+Ruffieux D, Persson POG, Fairall CW, et~al (1995) Ice pack and lead surface
+  energy budgets during leadex 1992. Journal of Geophysical Research: Oceans
+  100(C3):4593--4612. \doi{10.1029/94JC02485}
+
+\bibitem[{Smith and Morison(1998)}]{Smith_convection_1998}
+Smith DC, Morison JH (1998) {Nonhydrostatic haline convection under leads in
+  sea ice}. Journal of Geophysical Research: Oceans 103(C2):3233--3247.
+  \doi{10.1029/97jc02262}
+
+\bibitem[{Smith et~al(2002)Smith, Lavelle, and
+  Fernando}]{Smith_generation_2002}
+Smith DC, Lavelle JW, Fernando HJS (2002) {Arctic Ocean mixed‐layer eddy
+  generation under leads in sea ice}. Journal of Geophysical Research: Oceans
+  107(C8):17--1--17--17. \doi{10.1029/2001jc000822}
+
+\bibitem[{Smith et~al(1990)Smith, Muench, and Pease}]{Smith_polynyas_1990}
+Smith SD, Muench RD, Pease CH (1990) {Polynyas and leads: An overview of
+  physical processes and environment}. Journal of Geophysical Research: Oceans
+  95(C6):9461--9479. \doi{10.1029/jc095ic06p09461}
+
+\bibitem[{Talandier and Lique(2023)}]{SEDNA_2023}
+Talandier C, Lique C (2023) Sedna-delta. \doi{10.5281/zenodo.7656924}
+
+\bibitem[{Tschudi et~al(1998)Tschudi, Curry, and
+  Maslanik}]{Tschudi_obs_leads_1998}
+Tschudi M, Curry J, Maslanik J (1998) {Airborne observations of leads in the
+  Beaufort Sea}. IGARSS '98 Sensing and Managing the Environment 1998 IEEE
+  International Geoscience and Remote Sensing Symposium Proceedings (Cat
+  No98CH36174) 2:986--988 vol.2. \doi{10.1109/igarss.1998.699648}
+
+\bibitem[{Untersteiner(1961)}]{Untersteiner_ice_insulator_1961}
+Untersteiner N (1961) {On the mass and heat budget of arctic sea ice}. Archiv
+  für Meteorologie, Geophysik und Bioklimatologie, Serie A 12(2):151--182.
+  \doi{10.1007/bf02247491}
+
+\bibitem[{Walin(1982)}]{Walin_WMT_1982}
+Walin G (1982) {On the relation between sea‐surface heat flow and thermal
+  circulation in the ocean}. Tellus 34(2):187--195.
+  \doi{10.1111/j.2153-3490.1982.tb01806.x}
+
+\bibitem[{Wang et~al(2016)Wang, Danilov, Jung, Kaleschke, and
+  Wernecke}]{Wang_leads_2016}
+Wang Q, Danilov S, Jung T, et~al (2016) {Sea ice leads in the Arctic Ocean:
+  Model assessment, interannual variability and trends}. Geophysical Research
+  Letters 43(13):7019--7027. \doi{10.1002/2016gl068696}
+
+\bibitem[{Wang et~al(2024)Wang, Shu, Bozec, Chassignet, Fogli, Fox-Kemper,
+  Hogg, Iovino, Kiss, Koldunov, Le~Sommer, Li, Lin, Liu, Polyakov, Scholz,
+  Sidorenko, Wang, and Xu}]{Wang_ompi_2024}
+Wang Q, Shu Q, Bozec A, et~al (2024) Impact of increased resolution on arctic
+  ocean simulations in ocean model intercomparison project phase 2 (omip-2).
+  Geoscientific Model Development 17(1):347--379. \doi{10.5194/gmd-17-347-2024}
+
+\bibitem[{Wernecke and Kaleschke(2015)}]{Wernecke_Lead_2015}
+Wernecke A, Kaleschke L (2015) {Lead detection in Arctic sea ice from
+  CryoSat-2: quality assessment, lead area fraction and width distribution}.
+  The Cryosphere 9(5):1955--1968. \doi{10.5194/tc-9-1955-2015}
+
+\bibitem[{Wettlaufer et~al(1997)Wettlaufer, Worster, and
+  Huppert}]{Wettlaufer_insulator_1997}
+Wettlaufer JS, Worster MG, Huppert HE (1997) {The phase evolution of Young Sea
+  Ice}. Geophysical Research Letters 24(10):1251--1254. \doi{10.1029/97gl00877}
+
+\bibitem[{Willmes et~al(2023)Willmes, Heinemann, and
+  Schnaase}]{Willmes_leads_currents_2023}
+Willmes S, Heinemann G, Schnaase F (2023) {Patterns of wintertime Arctic sea
+  ice leads and their relation to winds and ocean currents}. The Cryosphere
+  Discussions 2023:1--23. \doi{10.5194/tc-2023-22}
+
+\bibitem[{Zhang and Rothrock(2003)}]{PIOMAS}
+Zhang J, Rothrock DA (2003) Modeling global sea ice with a thickness and
+  enthalpy distribution model in generalized curvilinear coordinates. Monthly
+  Weather Review 131(5):845 -- 861.
+  \doi{10.1175/1520-0493(2003)131<0845:MGSIWA>2.0.CO;2}
+
+\end{thebibliography}

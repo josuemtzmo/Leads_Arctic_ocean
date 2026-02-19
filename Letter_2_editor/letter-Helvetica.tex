@@ -1,0 +1,109 @@
+% !Mode:: "TeX:UTF-8"
+
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+
+
+%basic cover letter template
+\documentclass[12pt]{article}
+\usepackage[a4paper]{geometry}
+\usepackage{fancyhdr}
+\usepackage{amssymb,amsmath,graphicx}
+
+\usepackage{helvet}
+
+\usepackage[usenames,dvipsnames]{xcolor}
+\definecolor{jhublue}{RGB}{0,105,175}
+\usepackage[bookmarks, colorlinks, breaklinks, pdftitle={LOPS letter}]{hyperref}
+\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=jhublue}
+
+% \oddsidemargin=0in
+% \evensidemargin=0in
+% \textwidth 6.5in
+% \topmargin=-1in
+% \textheight=9in
+\textheight 8.5in \textwidth 6.5in
+\oddsidemargin 0in \topmargin -1in
+
+\textheight 8.5in \textwidth 6.5in
+\oddsidemargin 0in \topmargin -1in
+
+%Margins and Header/Footer
+\geometry{a4paper,
+  top=0.75in,
+  bottom=1.25in,
+  left=1in,
+  right=1in,
+  headheight=14.5pt, % the default is too short
+  heightrounded, % avoids the need of a flexible baselineskip
+} 
+
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhf{} % clear all fields
+\fancyhead[R]{}
+\fancypagestyle{fancy}{%
+  \renewcommand{\headrulewidth}{0.4pt}%
+  \renewcommand{\footrulewidth}{0.4pt}%
+  \fancyhf{}% clear all fields
+  \fancyhead[R]{}%
+  \fancyfoot{}
+}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[C]{\footnotesize\color{Gray} Laboratoire d'Oc\'eanographie Physique et Spatiale (LOPS) | IUEM, F29280, Plouzan\'e, France }
+
+\usepackage{lipsum}
+
+
+\setlength\parindent{0pt}
+\addtolength{\parskip}{\baselineskip}
+\begin{document}
+
+\parbox{.5\linewidth}
+{
+\begin{flushleft}
+\includegraphics[height=0.6in]{LOPS_logo}\\
+\vspace{3em}
+\end{flushleft}
+}
+\parbox{.5\linewidth}
+{
+\begin{flushright}
+{\bf Josu\'e Mart\'inez-Moreno}\\
+{\small \bf Laboratoire d'Oc\'eanographie Physique et Spatiale (LOPS)}\\
+Univ Brest, CNRS, Ifremer, IRD,\\
+IUEM, F29280, Plouzan\'e, France\\
+\href{mailto:josue.martinez.moreno@ifremer.fr}{josue.martinez.moreno@ifremer.fr}
+\end{flushright}
+}
+
+The Editor, \textit{Nature Geoscience}\\
+\today
+
+\begin{center}\textbf{Nature Geoscience submission}\end{center}
+\vspace{-0.5em}
+
+Dear Editor,
+
+On behalf of my coauthors, I am pleased to submit our manuscript ``{\bf Is the surface forcing through sea ice leads transferred to the Arctic ocean interior?}" for consideration as an article in \textit{Nature Geoscience}. 
+
+The sea-ice acts as a natural insulator between the atmosphere and the ocean. Leads are ubiquitous across the Arctic sea ice and they can allow large flux exchanges at the ocean-atmosphere interface. From very punctual and intermittent observations of heat fluxes within leads taken in the 1990s (amounting to up to several hundreds of W/m2; McPhee et al. (2005)), it has been hypothesized that leads significantly impact surface buoyancy forcing and water mass transformation in the Arctic (e.g., Hutter et al. (2019)). Furthermore, numerical models are struggling to fully resolve fluxes across leads due to model resolution limitations and the kilometer-scale spatial extent of leads, and large uncertainty on the sea ice rheology. Consequently, the overall impact of leads on buoyancy forcing and water mass transformation remains unclear.
+\textbf{Here, we present the first estimate of the contribution of the buoyancy forcing and water mass transformation within leads in the Arctic Ocean.} To achieve this, we use a high-resolution hindcast model (SEDNA) with an average horizontal resolution of approximately 800 meters across the Arctic Ocean. Our results show that leads have larger buoyancy fluxes in the ice pack and the MIZ compared to the same regions excluding the leads. 
+Despite these larger fluxes, we show that leads account for around 25\% of the total surface water mass transformation of the Arctic, while their extent covers about 22\% of the sea-ice-covered Arctic -- in other words, a contribution proportional to their area extent.
+This finding challenges previous hypotheses that leads have a large impact on Arctic Ocean dynamics, as leads appear to have a limited imprint on ocean surface and interior properties.
+
+A well-known issue within the climate modeling community is the misrepresentation of stratification and water masses in the Arctic by current climate models compared to observations (ref). It was previously thought that resolving better the sea ice dynamics, including the distribution of sea ice leads and the resulting heterogeneity of the surface forcing, would improve the representation of the Arctic ocean conditions. However, our results indicate that leads are not the primary mechanism controlling Arctic stratification and water masses. Thus, resolving these features in climate models will likely have a minor impact on improving the vertical structure of Arctic ocean models. Furthermore, our results may be a consequence of the continuous nature of the sea ice model used in this study, thus we urge the community to investigate this kind of questions using discrete sea ice models. Overall, we believe this research contributes to advancing our understanding of Arctic Ocean dynamics and informs the community about the role of leads in shaping the Arctic ocean.
+
+This manuscript is not currently under consideration for publication elsewhere and it has been read and approved by all named authors. Thank you for considering this manuscript; please do not hesitate to contact me if you need any further information.
+
+\bigskip
+
+With Regards,\\
+\includegraphics[width=4cm]{signature}\\[.15cm]
+Josu\'e Mart\'inez-Moreno\\
+On behalf of the co-authors:\\
+Camille Lique and Claude Talandier
+\end{document}

@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: diff_V1.aux
+The style file: sn-basic.bst
+Database file #1: biblio.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--can't use both author and editor fields in Locarnini_data_2010
+Warning--missing publisher in Locarnini_data_2010
+You've used 43 entries,
+            3545 wiz_defined-function locations,
+            1054 strings with 18335 characters,
+and the built_in function-call counts, 44826 in all, are:
+= -- 4200
+> -- 2295
+< -- 19
++ -- 847
+- -- 709
+* -- 4078
+:= -- 6475
+add.period$ -- 77
+call.type$ -- 43
+change.case$ -- 505
+chr.to.int$ -- 43
+cite$ -- 45
+duplicate$ -- 3051
+empty$ -- 3316
+format.name$ -- 841
+if$ -- 9343
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 324
+newline$ -- 138
+num.names$ -- 174
+pop$ -- 1153
+preamble$ -- 1
+purify$ -- 461
+quote$ -- 0
+skip$ -- 1009
+stack$ -- 0
+substring$ -- 3654
+swap$ -- 894
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 378
+warning$ -- 2
+while$ -- 225
+width$ -- 0
+write$ -- 518
+(There were 2 warnings)

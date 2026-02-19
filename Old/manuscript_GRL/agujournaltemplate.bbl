@@ -1,0 +1,964 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Bourgault%
+, Straub%
+, Duquette%
+, Nadeau%
+\BCBL {}\ \BBA {} Tremblay%
+}{%
+Bourgault%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+Bourgault_flux_lkf_2020}
+\APACinsertmetastar {%
+Bourgault_flux_lkf_2020}%
+\begin{APACrefauthors}%
+Bourgault, P.%
+, Straub, D.%
+, Duquette, K.%
+, Nadeau, L\BHBI P.%
+\BCBL {}\ \BBA {} Tremblay, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Vertical Heat Fluxes beneath Idealized Sea Ice Leads in
+  Large-Eddy Simulations: Comparison with Observations from the SHEBA
+  Experiment}} {{Vertical Heat Fluxes beneath Idealized Sea Ice Leads in
+  Large-Eddy Simulations: Comparison with Observations from the SHEBA
+  Experiment}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Physical Oceanography}{50}{8}{2189--2202}.
+\newblock
+\begin{APACrefDOI} \doi{10.1175/jpo-d-19-0298.1} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hutchings%
+, Heil%
+\BCBL {}\ \BBA {} Hibler%
+}{%
+Hutchings%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2005}}%
+}]{%
+Hutchings_model_lkf_2005}
+\APACinsertmetastar {%
+Hutchings_model_lkf_2005}%
+\begin{APACrefauthors}%
+Hutchings, J\BPBI K.%
+, Heil, P.%
+\BCBL {}\ \BBA {} Hibler, W\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Modeling Linear Kinematic Features in Sea Ice}}
+  {{Modeling Linear Kinematic Features in Sea Ice}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Monthly Weather Review}{133}{12}{3481--3497}.
+\newblock
+\begin{APACrefDOI} \doi{10.1175/mwr3045.1} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hutter%
+, Losch%
+\BCBL {}\ \BBA {} Menemenlis%
+}{%
+Hutter%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+Hutter_scaling_lkf_2018}
+\APACinsertmetastar {%
+Hutter_scaling_lkf_2018}%
+\begin{APACrefauthors}%
+Hutter, N.%
+, Losch, M.%
+\BCBL {}\ \BBA {} Menemenlis, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Scaling Properties of Arctic Sea Ice Deformation in a
+  High‐Resolution Viscous‐Plastic Sea Ice Model and in Satellite
+  Observations}} {{Scaling Properties of Arctic Sea Ice Deformation in a
+  High‐Resolution Viscous‐Plastic Sea Ice Model and in Satellite
+  Observations}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research:
+  Oceans}{123}{1}{672--687}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/2017jc013119} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hutter%
+, Zampieri%
+\BCBL {}\ \BBA {} Losch%
+}{%
+Hutter%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+Hutter_identification_2019}
+\APACinsertmetastar {%
+Hutter_identification_2019}%
+\begin{APACrefauthors}%
+Hutter, N.%
+, Zampieri, L.%
+\BCBL {}\ \BBA {} Losch, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Leads and ridges in Arctic sea ice from RGPS data and a
+  new tracking algorithm}} {{Leads and ridges in Arctic sea ice from RGPS data
+  and a new tracking algorithm}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The Cryosphere}{13}{2}{627--645}.
+\newblock
+\begin{APACrefDOI} \doi{10.5194/tc-13-627-2019} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Ilicak}%
+\ \protect \BOthers {.}}{%
+{Ilicak}%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+Ilicak_core_2016}
+\APACinsertmetastar {%
+Ilicak_core_2016}%
+\begin{APACrefauthors}%
+{Ilicak}, M.%
+, Drange, H.%
+, Wang, Q.%
+, Gerdes, R.%
+, Aksenov, Y.%
+, Bailey, D.%
+\BDBL {}Yeager, S\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {An assessment of the Arctic Ocean in a suite of
+  interannual CORE-II simulations. Part III: Hydrography and fluxes} {An
+  assessment of the arctic ocean in a suite of interannual core-ii simulations.
+  part iii: Hydrography and fluxes}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Ocean Modelling}{100}{}{141-161}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.sciencedirect.com/science/article/pii/S1463500316000238}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/j.ocemod.2016.02.004}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Linow%
+\ \BBA {} Dierking%
+}{%
+Linow%
+\ \BBA {} Dierking%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+Linow_lkf_2017}
+\APACinsertmetastar {%
+Linow_lkf_2017}%
+\begin{APACrefauthors}%
+Linow, S.%
+\BCBT {}\ \BBA {} Dierking, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Object-Based Detection of Linear Kinematic Features in
+  Sea Ice}} {{Object-Based Detection of Linear Kinematic Features in Sea
+  Ice}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Remote Sensing}{9}{5}{493}.
+\newblock
+\begin{APACrefDOI} \doi{10.3390/rs9050493} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lüpkes%
+, Vihma%
+, Birnbaum%
+\BCBL {}\ \BBA {} Wacker%
+}{%
+Lüpkes%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+Lupkes_leads_2008}
+\APACinsertmetastar {%
+Lupkes_leads_2008}%
+\begin{APACrefauthors}%
+Lüpkes, C.%
+, Vihma, T.%
+, Birnbaum, G.%
+\BCBL {}\ \BBA {} Wacker, U.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Influence of leads in sea ice on the temperature of the
+  atmospheric boundary layer during polar night}} {{Influence of leads in sea
+  ice on the temperature of the atmospheric boundary layer during polar
+  night}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Geophysical Research Letters}{35}{3}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/2007gl032461} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Marcq%
+\ \BBA {} Weiss%
+}{%
+Marcq%
+\ \BBA {} Weiss%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+Marcq_flux_lead_2012}
+\APACinsertmetastar {%
+Marcq_flux_lead_2012}%
+\begin{APACrefauthors}%
+Marcq, S.%
+\BCBT {}\ \BBA {} Weiss, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Influence of sea ice lead-width distribution on
+  turbulent heat transfer between the ocean and the atmosphere}} {{Influence of
+  sea ice lead-width distribution on turbulent heat transfer between the ocean
+  and the atmosphere}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The Cryosphere}{6}{1}{143--156}.
+\newblock
+\begin{APACrefDOI} \doi{10.5194/tc-6-143-2012} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Maykut%
+}{%
+Maykut%
+}{%
+{\protect \APACyear {1986}}%
+}]{%
+Maykut_heat_1986}
+\APACinsertmetastar {%
+Maykut_heat_1986}%
+\begin{APACrefauthors}%
+Maykut, G\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1986}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Surface Heat and Mass Balance} {The surface heat and
+  mass balance}.{\BBCQ}
+\newblock
+\BIn{} N.~Untersteiner\ (\BED), \APACrefbtitle {The Geophysics of Sea Ice} {The
+  geophysics of sea ice}\ (\BPGS\ 395--463).
+\newblock
+\APACaddressPublisher{Boston, MA}{Springer US}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/978-1-4899-5352-0_6} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Maykut%
+\ \BBA {} McPhee%
+}{%
+Maykut%
+\ \BBA {} McPhee%
+}{%
+{\protect \APACyear {1995}}%
+}]{%
+Maykut_solar_1995}
+\APACinsertmetastar {%
+Maykut_solar_1995}%
+\begin{APACrefauthors}%
+Maykut, G\BPBI A.%
+\BCBT {}\ \BBA {} McPhee, M\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1995}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Solar heating of the Arctic mixed layer}} {{Solar
+  heating of the Arctic mixed layer}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research:
+  Oceans}{100}{C12}{24691--24703}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/95jc02554} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+McPhee%
+, Kwok%
+, Robins%
+\BCBL {}\ \BBA {} Coon%
+}{%
+McPhee%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2005}}%
+}]{%
+McPhee_LKF_2005}
+\APACinsertmetastar {%
+McPhee_LKF_2005}%
+\begin{APACrefauthors}%
+McPhee, M\BPBI G.%
+, Kwok, R.%
+, Robins, R.%
+\BCBL {}\ \BBA {} Coon, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Upwelling of Arctic pycnocline associated with shear
+  motion of sea ice} {Upwelling of arctic pycnocline associated with shear
+  motion of sea ice}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Geophysical Research Letters}{32}{10}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/2004GL021819} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Pemberton%
+, Nilsson%
+, Hieronymus%
+\BCBL {}\ \BBA {} Meier%
+}{%
+Pemberton%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+Pemberton_WMT_2015}
+\APACinsertmetastar {%
+Pemberton_WMT_2015}%
+\begin{APACrefauthors}%
+Pemberton, P.%
+, Nilsson, J.%
+, Hieronymus, M.%
+\BCBL {}\ \BBA {} Meier, H\BPBI E\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Arctic Ocean Water Mass Transformation in S–T
+  Coordinates}} {{Arctic Ocean Water Mass Transformation in S–T
+  Coordinates}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Physical Oceanography}{45}{4}{1025--1050}.
+\newblock
+\begin{APACrefDOI} \doi{10.1175/jpo-d-14-0197.1} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rampal%
+, Bouillon%
+, Ólason%
+\BCBL {}\ \BBA {} Morlighem%
+}{%
+Rampal%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+Rampal_nextsim_2016}
+\APACinsertmetastar {%
+Rampal_nextsim_2016}%
+\begin{APACrefauthors}%
+Rampal, P.%
+, Bouillon, S.%
+, Ólason, E.%
+\BCBL {}\ \BBA {} Morlighem, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{neXtSIM: a new Lagrangian sea ice model}} {{neXtSIM: a
+  new Lagrangian sea ice model}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The Cryosphere}{10}{3}{1055--1073}.
+\newblock
+\begin{APACrefDOI} \doi{10.5194/tc-10-1055-2016} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Reiser%
+, Willmes%
+\BCBL {}\ \BBA {} Heinemann%
+}{%
+Reiser%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+Reiser_LKF_2020}
+\APACinsertmetastar {%
+Reiser_LKF_2020}%
+\begin{APACrefauthors}%
+Reiser, F.%
+, Willmes, S.%
+\BCBL {}\ \BBA {} Heinemann, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{A New Algorithm for Daily Sea Ice Lead Identification
+  in the Arctic and Antarctic Winter from Thermal-Infrared Satellite Imagery}}
+  {{A New Algorithm for Daily Sea Ice Lead Identification in the Arctic and
+  Antarctic Winter from Thermal-Infrared Satellite Imagery}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Remote Sensing}{12}{12}{1957}.
+\newblock
+\begin{APACrefDOI} \doi{10.3390/rs12121957} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Richter‐Menge%
+, McNutt%
+, Overland%
+\BCBL {}\ \BBA {} Kwok%
+}{%
+Richter‐Menge%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2002}}%
+}]{%
+Richter_pack_stress_2002}
+\APACinsertmetastar {%
+Richter_pack_stress_2002}%
+\begin{APACrefauthors}%
+Richter‐Menge, J\BPBI A.%
+, McNutt, S\BPBI L.%
+, Overland, J\BPBI E.%
+\BCBL {}\ \BBA {} Kwok, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Relating arctic pack ice stress and deformation under
+  winter conditions}} {{Relating arctic pack ice stress and deformation under
+  winter conditions}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research: Oceans}{107}{C10}{SHE
+  15--1-SHE 15-13}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/2000jc000477} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ruffieux%
+, Persson%
+, Fairall%
+\BCBL {}\ \BBA {} Wolfe%
+}{%
+Ruffieux%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1995}}%
+}]{%
+Ruffieux_pack_lead_1995}
+\APACinsertmetastar {%
+Ruffieux_pack_lead_1995}%
+\begin{APACrefauthors}%
+Ruffieux, D.%
+, Persson, P\BPBI O\BPBI G.%
+, Fairall, C\BPBI W.%
+\BCBL {}\ \BBA {} Wolfe, D\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1995}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Ice pack and lead surface energy budgets during LEADEX
+  1992} {Ice pack and lead surface energy budgets during leadex 1992}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research:
+  Oceans}{100}{C3}{4593-4612}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/94JC02485} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+D\BPBI C.~Smith%
+, Lavelle%
+\BCBL {}\ \BBA {} Fernando%
+}{%
+D\BPBI C.~Smith%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2002}}%
+}]{%
+Smith_generation_2002}
+\APACinsertmetastar {%
+Smith_generation_2002}%
+\begin{APACrefauthors}%
+Smith, D\BPBI C.%
+, Lavelle, J\BPBI W.%
+\BCBL {}\ \BBA {} Fernando, H\BPBI J\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Arctic Ocean mixed‐layer eddy generation under leads
+  in sea ice}} {{Arctic Ocean mixed‐layer eddy generation under leads in sea
+  ice}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research:
+  Oceans}{107}{C8}{17--1-17-17}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/2001jc000822} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+D\BPBI C.~Smith%
+\ \BBA {} Morison%
+}{%
+D\BPBI C.~Smith%
+\ \BBA {} Morison%
+}{%
+{\protect \APACyear {1998}}%
+}]{%
+Smith_convection_1998}
+\APACinsertmetastar {%
+Smith_convection_1998}%
+\begin{APACrefauthors}%
+Smith, D\BPBI C.%
+\BCBT {}\ \BBA {} Morison, J\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1998}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Nonhydrostatic haline convection under leads in sea
+  ice}} {{Nonhydrostatic haline convection under leads in sea ice}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research:
+  Oceans}{103}{C2}{3233--3247}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/97jc02262} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+S\BPBI D.~Smith%
+, Muench%
+\BCBL {}\ \BBA {} Pease%
+}{%
+S\BPBI D.~Smith%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1990}}%
+}]{%
+Smith_polynyas_1990}
+\APACinsertmetastar {%
+Smith_polynyas_1990}%
+\begin{APACrefauthors}%
+Smith, S\BPBI D.%
+, Muench, R\BPBI D.%
+\BCBL {}\ \BBA {} Pease, C\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1990}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Polynyas and leads: An overview of physical processes
+  and environment}} {{Polynyas and leads: An overview of physical processes and
+  environment}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research:
+  Oceans}{95}{C6}{9461--9479}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/jc095ic06p09461} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Talandier%
+\ \BBA {} Lique%
+}{%
+Talandier%
+\ \BBA {} Lique%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+SEDNA_2023}
+\APACinsertmetastar {%
+SEDNA_2023}%
+\begin{APACrefauthors}%
+Talandier, C.%
+\BCBT {}\ \BBA {} Lique, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{{\APACmonth{02}}}{}.
+\newblock
+\APACrefbtitle {SEDNA-DELTA.} {Sedna-delta.}
+\newblock
+\APACaddressPublisher{}{Zenodo}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.5281/zenodo.7656924}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.5281/zenodo.7656924} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tschudi%
+, Curry%
+\BCBL {}\ \BBA {} Maslanik%
+}{%
+Tschudi%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1998}}%
+}]{%
+Tschudi_obs_leads_1998}
+\APACinsertmetastar {%
+Tschudi_obs_leads_1998}%
+\begin{APACrefauthors}%
+Tschudi, M.%
+, Curry, J.%
+\BCBL {}\ \BBA {} Maslanik, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1998}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Airborne observations of leads in the Beaufort Sea}}
+  {{Airborne observations of leads in the Beaufort Sea}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IGARSS '98. Sensing and Managing the Environment. 1998
+  IEEE International Geoscience and Remote Sensing. Symposium Proceedings.
+  (Cat. No.98CH36174)}{2}{}{986--988 vol.2}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/igarss.1998.699648} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Untersteiner%
+}{%
+Untersteiner%
+}{%
+{\protect \APACyear {1961}}%
+}]{%
+Untersteiner_ice_insulator_1961}
+\APACinsertmetastar {%
+Untersteiner_ice_insulator_1961}%
+\begin{APACrefauthors}%
+Untersteiner, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1961}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{On the mass and heat budget of arctic sea ice}} {{On
+  the mass and heat budget of arctic sea ice}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Archiv für Meteorologie, Geophysik und
+  Bioklimatologie, Serie A}{12}{2}{151--182}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/bf02247491} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+von Albedyll%
+\ \protect \BOthers {.}}{%
+von Albedyll%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+Albedyll_thickness_dis_2022}
+\APACinsertmetastar {%
+Albedyll_thickness_dis_2022}%
+\begin{APACrefauthors}%
+von Albedyll, L.%
+, Hendricks, S.%
+, Grodofzig, R.%
+, Krumpen, T.%
+, Arndt, S.%
+, Belter, H\BPBI J.%
+\BDBL {}Haas, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Thermodynamic and dynamic contributions to seasonal
+  Arctic sea ice thickness distributions from airborne observations}}
+  {{Thermodynamic and dynamic contributions to seasonal Arctic sea ice
+  thickness distributions from airborne observations}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Elementa: Science of the Anthropocene}{10}{1}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1525/elementa.2021.00074} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Walin%
+}{%
+Walin%
+}{%
+{\protect \APACyear {1982}}%
+}]{%
+Walin_WMT_1982}
+\APACinsertmetastar {%
+Walin_WMT_1982}%
+\begin{APACrefauthors}%
+Walin, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1982}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{On the relation between sea‐surface heat flow and
+  thermal circulation in the ocean}} {{On the relation between sea‐surface
+  heat flow and thermal circulation in the ocean}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Tellus}{34}{2}{187--195}.
+\newblock
+\begin{APACrefDOI} \doi{10.1111/j.2153-3490.1982.tb01806.x} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wang%
+, Danilov%
+, Jung%
+, Kaleschke%
+\BCBL {}\ \BBA {} Wernecke%
+}{%
+Wang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+Wang_leads_2016}
+\APACinsertmetastar {%
+Wang_leads_2016}%
+\begin{APACrefauthors}%
+Wang, Q.%
+, Danilov, S.%
+, Jung, T.%
+, Kaleschke, L.%
+\BCBL {}\ \BBA {} Wernecke, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Sea ice leads in the Arctic Ocean: Model assessment,
+  interannual variability and trends}} {{Sea ice leads in the Arctic Ocean:
+  Model assessment, interannual variability and trends}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Geophysical Research Letters}{43}{13}{7019--7027}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/2016gl068696} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wang%
+\ \protect \BOthers {.}}{%
+Wang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+Wang_ompi_2024}
+\APACinsertmetastar {%
+Wang_ompi_2024}%
+\begin{APACrefauthors}%
+Wang, Q.%
+, Shu, Q.%
+, Bozec, A.%
+, Chassignet, E\BPBI P.%
+, Fogli, P\BPBI G.%
+, Fox-Kemper, B.%
+\BDBL {}Xu, X.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Impact of increased resolution on Arctic Ocean
+  simulations in Ocean Model Intercomparison Project phase 2 (OMIP-2)} {Impact
+  of increased resolution on arctic ocean simulations in ocean model
+  intercomparison project phase 2 (omip-2)}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Geoscientific Model Development}{17}{1}{347-379}.
+\newblock
+\begin{APACrefURL} \url{https://gmd.copernicus.org/articles/17/347/2024/}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.5194/gmd-17-347-2024} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Weiss%
+\ \BBA {} Marsan%
+}{%
+Weiss%
+\ \BBA {} Marsan%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+Weiss_scale_2004}
+\APACinsertmetastar {%
+Weiss_scale_2004}%
+\begin{APACrefauthors}%
+Weiss, J.%
+\BCBT {}\ \BBA {} Marsan, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Scale properties of sea ice deformation and
+  fracturing}} {{Scale properties of sea ice deformation and
+  fracturing}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Comptes Rendus Physique}{5}{7}{735--751}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.crhy.2004.09.005} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wernecke%
+\ \BBA {} Kaleschke%
+}{%
+Wernecke%
+\ \BBA {} Kaleschke%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+Wernecke_Lead_2015}
+\APACinsertmetastar {%
+Wernecke_Lead_2015}%
+\begin{APACrefauthors}%
+Wernecke, A.%
+\BCBT {}\ \BBA {} Kaleschke, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Lead detection in Arctic sea ice from CryoSat-2:
+  quality assessment, lead area fraction and width distribution}} {{Lead
+  detection in Arctic sea ice from CryoSat-2: quality assessment, lead area
+  fraction and width distribution}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The Cryosphere}{9}{5}{1955--1968}.
+\newblock
+\begin{APACrefDOI} \doi{10.5194/tc-9-1955-2015} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wettlaufer%
+, Worster%
+\BCBL {}\ \BBA {} Huppert%
+}{%
+Wettlaufer%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1997}}%
+}]{%
+Wettlaufer_insulator_1997}
+\APACinsertmetastar {%
+Wettlaufer_insulator_1997}%
+\begin{APACrefauthors}%
+Wettlaufer, J\BPBI S.%
+, Worster, M\BPBI G.%
+\BCBL {}\ \BBA {} Huppert, H\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1997}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{The phase evolution of Young Sea Ice}} {{The phase
+  evolution of Young Sea Ice}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Geophysical Research Letters}{24}{10}{1251--1254}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/97gl00877} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Willmes%
+, Heinemann%
+\BCBL {}\ \BBA {} Schnaase%
+}{%
+Willmes%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+Willmes_leads_currents_2023}
+\APACinsertmetastar {%
+Willmes_leads_currents_2023}%
+\begin{APACrefauthors}%
+Willmes, S.%
+, Heinemann, G.%
+\BCBL {}\ \BBA {} Schnaase, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Patterns of wintertime Arctic sea ice leads and their
+  relation to winds and ocean currents}} {{Patterns of wintertime Arctic sea
+  ice leads and their relation to winds and ocean currents}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The Cryosphere Discussions}{2023}{}{1--23}.
+\newblock
+\begin{APACrefDOI} \doi{10.5194/tc-2023-22} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ólason%
+, Rampal%
+\BCBL {}\ \BBA {} Dansereau%
+}{%
+Ólason%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+Olason_lead_2021}
+\APACinsertmetastar {%
+Olason_lead_2021}%
+\begin{APACrefauthors}%
+Ólason, E.%
+, Rampal, P.%
+\BCBL {}\ \BBA {} Dansereau, V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{On the statistical properties of sea-ice lead fraction
+  and heat fluxes in the Arctic}} {{On the statistical properties of sea-ice
+  lead fraction and heat fluxes in the Arctic}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The Cryosphere}{15}{2}{1053--1064}.
+\newblock
+\begin{APACrefDOI} \doi{10.5194/tc-15-1053-2021} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
