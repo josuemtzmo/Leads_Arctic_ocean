@@ -311,7 +311,7 @@ Jean-Michel, L.%
 \newblock
 \APACrefYearMonthDay{2021}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {The Copernicus Global 1/12° Oceanic and Sea Ice GLORYS12 Reanalysis} {The copernicus global 1/12° oceanic and sea ice glorys12 reanalysis}.{\BBCQ}
+{\BBOQ}\APACrefatitle {The Copernicus Global 1/12$^\circ$ Oceanic and Sea Ice GLORYS12 Reanalysis} {The copernicus global 1/12$^\circ$ oceanic and sea ice glorys12 reanalysis}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Frontiers in Earth Science}{9}{}{}.
 \newblock
@@ -554,6 +554,36 @@ Marcq, S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Mart\'inez-Moreno%
+, Talandier%
+\BCBL {}\ \BBA {} Lique%
+}{%
+Mart\'inez-Moreno%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+JOSUE_2024}
+\APACinsertmetastar {%
+JOSUE_2024}%
+\begin{APACrefauthors}%
+Mart\'inez-Moreno, J.%
+, Talandier, C.%
+\BCBL {}\ \BBA {} Lique, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{{\APACmonth{08}}}{}.
+\newblock
+\APACrefbtitle {josuemtzmo/Leads\_Arctic\_ocean: 0.01.} {josuemtzmo/leads\_arctic\_ocean: 0.01.}
+\newblock
+\APAChowpublished {https://doi.org/10.5281/zenodo.13358635}.
+\newblock
+\APACaddressPublisher{}{Zenodo}.
+\newblock
+\begin{APACrefDOI} \doi{10.5281/zenodo.13358635} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Maykut%
 }{%
 Maykut%
@@ -607,6 +637,35 @@ McPhee, M\BPBI G.%
 \APACjournalVolNumPages{Geophysical Research Letters}{32}{10}{}.
 \newblock
 \begin{APACrefDOI} \doi{10.1029/2004GL021819} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Morison%
+\ \BBA {} McPhee%
+}{%
+Morison%
+\ \BBA {} McPhee%
+}{%
+{\protect \APACyear {1998}}%
+}]{%
+Morison_leads_1998}
+\APACinsertmetastar {%
+Morison_leads_1998}%
+\begin{APACrefauthors}%
+Morison, J\BPBI H.%
+\BCBT {}\ \BBA {} McPhee, M\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1998}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Lead convection measured with an autonomous underwater vehicle} {Lead convection measured with an autonomous underwater vehicle}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research: Oceans}{103}{C2}{3257-3281}.
+\newblock
+\begin{APACrefURL} \url{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/97JC02264} \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1029/97JC02264} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -883,6 +942,8 @@ Talandier, C.%
 \APACrefYearMonthDay{2023}{{\APACmonth{02}}}{}.
 \newblock
 \APACrefbtitle {SEDNA-DELTA.} {Sedna-delta.}
+\newblock
+\APAChowpublished {https://zenodo.org/records/7656924}.
 \newblock
 \APACaddressPublisher{}{Zenodo}.
 \newblock
